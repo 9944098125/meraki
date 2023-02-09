@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 
-/* font-family:"Quicksand", sans-serif */
+@font-face {
+  font-family: "Calibri";
+  src: local("Calibri") url("./Assets/Font/Calibri Bold/Calibri Bold.TTF")
+    format(truetype);
+}
 
+.headings {
+  font-family: "Calibri", sans-serif !important;
+}
 
 * {
   margin: 0;
@@ -50,4 +57,29 @@ div.sticky {
   .desktopLogo {
     display: none;
   }
+}
+
+.servicesImage {
+  height:50vh;
+  width: 50%;
+}
+
+@media screen and (max-width:768px) {
+  .servicesImage {
+    width: 100%;
+  }
+}
+
+.primaryBtn {
+  background-color: rgb(138, 1, 230);
+  padding: 5px 20px;
+  border-radius: 9px;
+  color: white;
+  border: none;
+  height: 45px;
+  width: 50%;
+}
+
+.primaryBtn:hover {
+  background-color: rgb(127, 6, 154);
 }

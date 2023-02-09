@@ -250,64 +250,99 @@ function Navbar() {
             }}
           >
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Home
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               About Us
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Why Choose Us
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Clients
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Our services
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Careers
             </Typography>
             <Typography
+              className="headings"
               sx={{
-                color: "grey",
+                color: "#778899",
                 fontWeight: "600",
                 fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                cursor: "pointer",
+                "&:hover": {
+                  borderBottom: "4px solid cyan",
+                },
               }}
             >
               Contact Us
