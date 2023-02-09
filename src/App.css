@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+/* font-family:"Quicksand", sans-serif */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 5px 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width:768px) {
+  div.sticky {
+    padding: 5px 15px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-icons {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width:800px) {
+  .mobileLogo {
+     display: none;
   }
-  to {
-    transform: rotate(360deg);
+  .desktopLogo {
+    height: 100px;
+    width: 180px;
+    object-fit: cover;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .mobileLogo {
+    height: 30px;
+    width: 40px;
+    object-fit: cover;
+  }
+  .desktopLogo {
+    display: none;
   }
 }
