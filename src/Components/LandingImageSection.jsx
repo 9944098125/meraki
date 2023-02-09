@@ -3,8 +3,18 @@ import { Box } from "@mui/system";
 import React, { Fragment } from "react";
 import landingImage from "../Assets/Images/landingImage.jpg";
 import { Link } from "react-router-dom";
+import { Typewriter } from "react-simple-typewriter";
 
 function LandingImageSection() {
+  const handleType = (count) => {
+    // access word count number
+    console.log(count);
+  };
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`);
+  };
+
   return (
     <Fragment>
       <Box
@@ -43,12 +53,29 @@ function LandingImageSection() {
         </Box>
         <Typography
           sx={{
-            fontSize: { xs: "15px", sm: "17px", md: "20px" },
+            fontSize: { xs: "19px", sm: "23px", md: "30px" },
             color: "white",
             mb: 3,
           }}
         >
-          96% of the clients are satisfied
+          <span style={{ color: "white", fontWeight: "bold" }}>
+            {/* Style will be inherited from the parent element */}
+            <Typewriter
+              words={[
+                "96% Client Satisfaction",
+                "250+ Business we work",
+                "9000+ People Involved",
+              ]}
+              loop={5}
+              cursor
+              cursorStyle="|"
+              typeSpeed={120}
+              deleteSpeed={100}
+              delaySpeed={1000}
+              onLoopDone={handleDone}
+              onType={handleType}
+            />
+          </span>
         </Typography>
         <Box
           sx={{

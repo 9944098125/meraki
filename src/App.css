@@ -83,3 +83,8 @@ div.sticky {
 .primaryBtn:hover {
   background-color: rgb(127, 6, 154);
 }
+
+.visionAndMissionImage {
+  height:60px;
+  width: 60px;
+}
