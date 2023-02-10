@@ -10,6 +10,7 @@ function VisionAndMission() {
       <Box
         sx={{
           width: "100%",
+          height: { xs: "100%", sm: "90vh", md: "80vh" },
           backgroundColor: "#E2DFD2",
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
@@ -20,14 +21,14 @@ function VisionAndMission() {
       >
         <Box
           sx={{
-            width: "50%",
+            width: { xs: "95%", sm: "50%" },
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
-            height: { xs: "100%", md: "400px" },
+            height: { xs: "100%", md: "90%" },
             "&:hover": { backgroundColor: "white" },
           }}
         >
@@ -64,14 +65,14 @@ function VisionAndMission() {
         </Box>
         <Box
           sx={{
-            width: "50%",
+            width: { xs: "95%", sm: "50%" },
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
-            height: { xs: "100%", md: "400px" },
+            height: { xs: "100%", md: "90%" },
             "&:hover": { backgroundColor: "white" },
           }}
         >

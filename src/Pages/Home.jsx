@@ -4,6 +4,7 @@ import LandingImageSection from "../Components/LandingImageSection";
 import ServicesInHome from "../Components/ServicesInHome";
 import VisionAndMission from "../Components/VisionAndMission";
 import AboutUs from "./AboutUs";
+import GetInTouch from "../Components/GetInTouch";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <AboutUs />
       <VisionAndMission />
       <Clients />
+      <GetInTouch />
     </Fragment>
   );
 }

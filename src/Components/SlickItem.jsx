@@ -60,7 +60,7 @@ function SlickItem() {
                 alignItems: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                boxShadow: "0 10px 5px 0 grey",
+                boxShadow: "0 5px 5px 0 rgb(172, 172, 188)",
                 p: 3,
               }}
             >

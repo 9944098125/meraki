@@ -12,6 +12,7 @@ function Clients() {
           alignItems: "center",
           justifyContent: "center",
           p: 3,
+          mb: { xs: 3, sm: 4, md: 5 },
         }}
       >
         <Typography
