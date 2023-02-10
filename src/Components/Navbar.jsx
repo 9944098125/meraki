@@ -223,7 +223,7 @@ function Navbar() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", sm: "row" },
+            flexDirection: "row",
             alignItems: { xs: "center", sm: "center" },
             pt: { xs: 1, sm: 3, md: 0 },
           }}
@@ -243,7 +243,7 @@ function Navbar() {
               display: "flex",
               flexWrap: "wrap",
               alignItems: "center",
-              gap: 3,
+              gap: { xs: 1, sm: 1.5, md: 2.5, lg: 3 },
               justifyContent: { xs: "center", sm: "none" },
               pb: { xs: 1, sm: 2, md: 5 },
               px: 0,
@@ -254,7 +254,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -268,7 +268,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -282,7 +282,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -296,7 +296,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -310,7 +310,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -324,7 +324,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
@@ -338,7 +338,7 @@ function Navbar() {
               sx={{
                 color: "#778899",
                 fontWeight: "600",
-                fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                fontSize: { xs: "12px", sm: "17px", md: "20px" },
                 cursor: "pointer",
                 "&:hover": {
                   borderBottom: "4px solid cyan",
