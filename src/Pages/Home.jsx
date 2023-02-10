@@ -5,6 +5,8 @@ import ServicesInHome from "../Components/ServicesInHome";
 import VisionAndMission from "../Components/VisionAndMission";
 import AboutUs from "./AboutUs";
 import GetInTouch from "../Components/GetInTouch";
+import MileStones from "../Components/MileStones";
+import ContactUs from "../Components/ContactUs";
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <VisionAndMission />
       <Clients />
       <GetInTouch />
+      <MileStones />
+      <ContactUs />
     </Fragment>
   );
 }

@@ -62,9 +62,10 @@ function LandingImageSection() {
             {/* Style will be inherited from the parent element */}
             <Typewriter
               words={[
-                "96% Client Satisfaction",
-                "250+ Business we work",
-                "9000+ People Involved",
+                "97.3% Client Satisfaction",
+                "70+ Courses to Choose from",
+                "5000+ Trainees Lives changed",
+                "10,000+ Training Hours",
               ]}
               loop={5}
               cursor

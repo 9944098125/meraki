@@ -12,7 +12,7 @@ function Clients() {
           alignItems: "center",
           justifyContent: "center",
           p: 3,
-          mb: { xs: 3, sm: 4, md: 5 },
+          pb: 0,
         }}
       >
         <Typography
@@ -27,8 +27,8 @@ function Clients() {
         <Box
           sx={{
             width: "100%",
-            height: "60vh",
             p: 2,
+            pb: 0,
           }}
         >
           <SlickItem />

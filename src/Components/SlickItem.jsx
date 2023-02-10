@@ -14,7 +14,7 @@ function SlickItem() {
     // slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1440,
+        breakpoint: 1450,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -60,8 +60,10 @@ function SlickItem() {
                 alignItems: "center",
                 backgroundColor: "white",
                 borderRadius: "15px",
-                boxShadow: "0 5px 5px 0 rgb(172, 172, 188)",
                 p: 3,
+                "&:hover": {
+                  boxShadow: "0 5px 5px 0 rgb(172, 172, 188)",
+                },
               }}
             >
               <img src={img} alt="" className="client-logo" />

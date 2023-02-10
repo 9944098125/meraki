@@ -13,6 +13,7 @@ import email from "../Assets/Images/email.png";
 import usaLogo from "../Assets/Images/usa-logo.png";
 import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
+import india from "../Assets/Images/india.jpg";
 import { Badge, Typography } from "@mui/material";
 
 function Navbar() {
@@ -183,7 +184,7 @@ function Navbar() {
             >
               <img
                 alt="flag1"
-                src={canadaLogo}
+                src={india}
                 style={{ height: "25px", width: "25px", borderRadius: "50%" }}
               />
             </Badge>

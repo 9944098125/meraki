@@ -1,7 +1,8 @@
-import React from "react";
+import { Box } from "@mui/material";
+import React, { Fragment } from "react";
 
 function GetInTouch() {
-  return <div>Get In Touch</div>;
+  return <Fragment></Fragment>;
 }
 
 export default GetInTouch;
