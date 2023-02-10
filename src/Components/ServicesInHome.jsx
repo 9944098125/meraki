@@ -26,6 +26,14 @@ function ServicesInHome() {
         >
           Our Services
         </Typography>
+        <Typography
+          sx={{
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
+            textAlign: "center",
+          }}
+        >
+          Bridging the Gap Between Business And Technology
+        </Typography>
         <Box
           sx={{
             display: "flex",

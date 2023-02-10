@@ -13,8 +13,9 @@ function VisionAndMission() {
           backgroundColor: "#E2DFD2",
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
+          alignItems: { xs: "center", sm: "none" },
           mb: 5,
-          p: 3,
+          p: { xs: 1, sm: 2, md: 3 },
         }}
       >
         <Box
@@ -23,7 +24,7 @@ function VisionAndMission() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            p: 2,
+            p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
             height: { xs: "100%", md: "400px" },
@@ -32,7 +33,7 @@ function VisionAndMission() {
         >
           <Box
             sx={{
-              p: 3,
+              p: { xs: 1, sm: 1.5, md: 2 },
               borderRadius: "50%",
               mt: 5,
               mb: 2,
@@ -67,7 +68,7 @@ function VisionAndMission() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            p: 2,
+            p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
             height: { xs: "100%", md: "400px" },
@@ -76,7 +77,7 @@ function VisionAndMission() {
         >
           <Box
             sx={{
-              p: 3,
+              p: { xs: 1, sm: 1.5, md: 2 },
               borderRadius: "50%",
               mt: 5,
               mb: 2,

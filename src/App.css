@@ -27,7 +27,7 @@ div.sticky {
 
 @media screen and (max-width:768px) {
   div.sticky {
-    padding: 5px 15px;
+    padding: 0px 15px;
   }
 }
 
@@ -87,4 +87,13 @@ div.sticky {
 .visionAndMissionImage {
   height:60px;
   width: 60px;
+}
+
+.client-logo {
+  height: 100%;
+  width: 100%;
+}
+
+.slick-dots {
+  display:none !important
 }
