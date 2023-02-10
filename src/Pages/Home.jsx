@@ -3,7 +3,7 @@ import Clients from "../Components/Clients";
 import LandingImageSection from "../Components/LandingImageSection";
 import ServicesInHome from "../Components/ServicesInHome";
 import VisionAndMission from "../Components/VisionAndMission";
-import AboutUs from "./AboutUs";
+import AboutUsComponent from "../Components/AboutUs";
 import GetInTouch from "../Components/GetInTouch";
 import MileStones from "../Components/MileStones";
 import ContactUs from "../Components/ContactUs";
@@ -13,7 +13,7 @@ function Home() {
     <Fragment>
       <LandingImageSection />
       <ServicesInHome />
-      <AboutUs />
+      <AboutUsComponent />
       <VisionAndMission />
       <Clients />
       <GetInTouch />

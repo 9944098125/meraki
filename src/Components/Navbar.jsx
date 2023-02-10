@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import facebookLogo from "../Assets/Images/fb-logo.png";
 import twitterLogo from "../Assets/Images/twitter-logo.png";
 import linkedInLogo from "../Assets/Images/linkedIn-logo.png";
@@ -250,104 +250,136 @@ function Navbar() {
               px: 0,
             }}
           >
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Home
+              </Typography>
+            </Link>
+            <Link
+              to="/about"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              Home
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                About Us
+              </Typography>
+            </Link>
+            <Link
+              to="/why-choose-us"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              About Us
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Why Choose Us
+              </Typography>
+            </Link>
+            <Link
+              to="/clients"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              Why Choose Us
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Clients
+              </Typography>
+            </Link>
+            <Link
+              to="/services"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              Clients
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Our services
+              </Typography>
+            </Link>
+            <Link
+              to="/careers"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              Our services
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Careers
+              </Typography>
+            </Link>
+            <Link
+              to="/contact-us"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              Careers
-            </Typography>
-            <Typography
-              className="headings"
-              sx={{
-                color: "#778899",
-                fontWeight: "600",
-                fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                cursor: "pointer",
-                "&:hover": {
-                  borderBottom: "4px solid cyan",
-                },
-              }}
-            >
-              Contact Us
-            </Typography>
+              <Typography
+                className="headings"
+                sx={{
+                  color: "#778899",
+                  fontWeight: "600",
+                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                  cursor: "pointer",
+                  "&:hover": {
+                    borderBottom: "4px solid cyan",
+                  },
+                }}
+              >
+                Contact Us
+              </Typography>
+            </Link>
           </Box>
         </Box>
       </Box>
