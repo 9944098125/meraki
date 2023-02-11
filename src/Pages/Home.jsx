@@ -17,7 +17,7 @@ function Home() {
       <VisionAndMission />
       <Clients />
       <GetInTouch />
-      <MileStones />
+      <MileStones title="Milestones" />
       <ContactUs />
     </Fragment>
   );

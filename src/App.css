@@ -21,7 +21,7 @@ div.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #e8f5f3;
+  background-color: #ffffff;
   padding: 5px 80px;
   z-index: 100;
 }
@@ -106,4 +106,26 @@ div.sticky {
   left: 0;
   right: 0;
   margin-bottom: 5%;
+}
+
+.whyUsImage {
+  min-height: 280px;
+  min-width: 350px;
+  border-radius: 9px;
+}
+
+@media screen and (max-width:500px) {
+  .whyUsImage {
+   min-height: 120px;
+    min-width: 150px;
+  }
+}
+
+#child {
+  display: none;
+}
+
+#parent:hover #child {
+  display:block;
+  padding-left: 0;
 }

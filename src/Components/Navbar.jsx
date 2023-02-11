@@ -15,6 +15,7 @@ import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
 import india from "../Assets/Images/india.jpg";
 import { Badge, Typography } from "@mui/material";
+import OurServices from "../Pages/OurServices";
 
 function Navbar() {
   return (
@@ -227,6 +228,7 @@ function Navbar() {
             flexDirection: "row",
             alignItems: { xs: "center", sm: "center" },
             pt: { xs: 1, sm: 3, md: 0 },
+            position: "relative",
           }}
         >
           <Box
@@ -323,10 +325,8 @@ function Navbar() {
                 Clients
               </Typography>
             </Link>
-            <Link
-              to="/services"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
+
+            <Box sx={{}} id="parent">
               <Typography
                 className="headings"
                 sx={{
@@ -341,7 +341,16 @@ function Navbar() {
               >
                 Our services
               </Typography>
-            </Link>
+              <Box
+                sx={{
+                  position: "absolute",
+                  marginLeft: { xs: "-27%", sm: "-53%", md: "-63%" },
+                }}
+                id="child"
+              >
+                <OurServices />
+              </Box>
+            </Box>
             <Link
               to="/careers"
               style={{ textDecoration: "none", color: "inherit" }}

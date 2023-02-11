@@ -5,7 +5,7 @@ import hours from "../Assets/Images/hours.webp";
 import courses from "../Assets/Images/courses.avif";
 import trainees from "../Assets/Images/trainees.jfif";
 
-function MileStones() {
+function MileStones({ title }) {
   return (
     <Fragment>
       <Box
@@ -19,12 +19,12 @@ function MileStones() {
       >
         <Typography
           sx={{
-            fontSize: { xs: "50px", sm: "65px", md: "70px" },
+            fontSize: { xs: "30px", sm: "45px", md: "50px" },
             fontWeight: "700",
             color: "primary.dark",
           }}
         >
-          Milestones
+          {title}
         </Typography>
         <Box
           sx={{

@@ -31,10 +31,6 @@ const routes = createBrowserRouter([
         element: <OurClients />,
       },
       {
-        path: "/services",
-        element: <OurServices />,
-      },
-      {
         path: "/careers",
         element: <Careers />,
       },

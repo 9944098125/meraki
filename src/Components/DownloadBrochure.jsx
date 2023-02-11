@@ -5,7 +5,12 @@ function DownloadBrochure() {
   return (
     <Fragment>
       <Box
-        sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          p: 5,
+        }}
       >
         <button style={{ height: "100%" }} className="primaryBtn">
           Download Brochure
