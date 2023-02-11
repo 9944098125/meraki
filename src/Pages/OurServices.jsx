@@ -1,14 +1,23 @@
 import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
+import CollegePartnerships from "../Components/CollegePartnerships";
+import ItTraining from "../Components/ItTraining";
+import PowerSkills from "../Components/PowerSkills";
+import SoftSkills from "../Components/SoftSkills";
+import StaffingServices from "../Components/StaffingServices";
+import ItSolutions from "../Components/ItSolutions";
 
 function OurServices() {
   return (
     <Fragment>
       <Box
+        id="our-services"
         sx={{
           backgroundColor: "white",
-          minHeight: { xs: "100%", sm: "100%", md: "50vh" },
-          width: "90vw",
+          minHeight: { xs: "90vh", md: "50vh" },
+          maxHeight: { xs: "90vh", md: "80vh" },
+          overflowY: "scroll",
+          width: "80vw",
           borderRadius: "12px",
         }}
       >
@@ -21,72 +30,12 @@ function OurServices() {
           }}
         >
           {/* technical / it training */}
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              Technical/IT Training
-            </Typography>
-          </Box>
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              Power Skills For Leadership & Management
-            </Typography>
-          </Box>
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              Soft Skills & Business Communication
-            </Typography>
-          </Box>
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              College Partnerships
-            </Typography>
-          </Box>
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              Staffing services
-            </Typography>
-          </Box>
-          <Box sx={{}}>
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                fontWeight: "800",
-              }}
-            >
-              IT Solutions
-            </Typography>
-          </Box>
+          <ItTraining />
+          <PowerSkills />
+          <SoftSkills />
+          <CollegePartnerships />
+          <ItSolutions />
+          <StaffingServices />
         </Box>
       </Box>
     </Fragment>

@@ -121,11 +121,33 @@ div.sticky {
   }
 }
 
+@media screen and (min-width:1024px) {
+  #child {
+    margin-left: -58% !important;
+  }
+}
+
+@media screen and (max-width:768px) {
+  #child {
+    margin-left: -47% !important;
+  }
+}
+
+@media screen and (max-width:320px) {
+  #child {
+    margin-left: -23.5% !important;
+  }
+}
+
 #child {
   display: none;
 }
 
 #parent:hover #child {
   display:block;
-  padding-left: 0;
 }
+
+#our-services::-webkit-scrollbar {
+  display:none;
+}
+

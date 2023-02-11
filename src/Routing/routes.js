@@ -5,9 +5,14 @@ import Home from "../Pages/Home";
 import AboutUs from "../Pages/AboutUs";
 import WhyChooseUs from "../Pages/WhyChooseUs";
 import OurClients from "../Pages/OurClients";
-import OurServices from "../Pages/OurServices";
 import Careers from "../Pages/Careers";
 import ContactUs from "../Pages/ContactUs";
+import ItTraining from "../Services/ItTraining";
+import PowerSkills from "../Services/PowerSkills";
+import SoftSkills from "../Services/SoftSkills";
+import CollegePartnerships from "../Services/CollegePartnerships";
+import ItSolutions from "../Services/ItSolutions";
+import StaffingServices from "../Services/StaffingServices";
 
 const routes = createBrowserRouter([
   {
@@ -37,6 +42,35 @@ const routes = createBrowserRouter([
       {
         path: "/contact-us",
         element: <ContactUs />,
+      },
+      {
+        path: "/services",
+        children: [
+          {
+            path: "/services/it-training",
+            element: <ItTraining />,
+          },
+          {
+            path: "/services/power-skills",
+            element: <PowerSkills />,
+          },
+          {
+            path: "/services/soft-skills",
+            element: <SoftSkills />,
+          },
+          {
+            path: "/services/college-partnerships",
+            element: <CollegePartnerships />,
+          },
+          {
+            path: "/services/it-solutions",
+            element: <ItSolutions />,
+          },
+          {
+            path: "/services/staffing-services",
+            element: <StaffingServices />,
+          },
+        ],
       },
     ],
   },
