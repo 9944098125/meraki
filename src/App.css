@@ -121,21 +121,15 @@ div.sticky {
   }
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:400px) and (max-width:426px) {
   #child {
-    margin-left: -58% !important;
+    margin-left: -250px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:350px) and (max-width:380px) {
   #child {
-    margin-left: -47% !important;
-  }
-}
-
-@media screen and (max-width:320px) {
-  #child {
-    margin-left: -23.5% !important;
+    margin-left: -250px;
   }
 }
 
