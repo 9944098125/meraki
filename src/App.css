@@ -121,7 +121,7 @@ div.sticky {
   }
 }
 
-@media screen and (min-width:1000px) and (max-width:1450px) {
+/* @media screen and (min-width:1000px) and (max-width:1450px) {
   #child {
     margin-left: -620px;
   }
@@ -155,7 +155,7 @@ div.sticky {
   #child {
     margin-left: -90px;
   }
-}
+} */
 
 #child {
   display: none;
