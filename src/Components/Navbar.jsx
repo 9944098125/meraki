@@ -344,7 +344,6 @@ function Navbar() {
               <Box
                 sx={{
                   position: "absolute",
-                  ml: { xs: "-70px", sm: "-350px", md: "-620px" },
                 }}
                 id="child"
               >
