@@ -7,156 +7,230 @@ function PowerSkills() {
   return (
     <Fragment>
       <Box sx={{}}>
-        <Typography
-          sx={{
-            color: "primary.dark",
-            fontSize: { xs: "16px", sm: "18px", md: "20px" },
-            fontWeight: "800",
-          }}
+        <HashLink
+          style={{ textDecoration: "none", color: "inherit" }}
+          to="/services/power-skills#leadership-skills"
         >
-          Power Skills For Leadership & Management
-        </Typography>
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "16px", sm: "18px", md: "20px" },
+              fontWeight: "800",
+            }}
+          >
+            Power Skills For Leadership & Management
+          </Typography>
+        </HashLink>
         <Box sx={{}}>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Campus to Corporate training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Business English skills
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Voice & Accent Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Email & Telephone Etiquette
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Cross Cultural Sensitivity
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Corporate Etiquette
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              HR Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              BFSI Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Logistics & Aviation
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Digital Marketing
-            </Typography>
-          </Box>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#leadership-skills"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Leadership Skills
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#sales-techniques"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Sales Techniques - 10X
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#pro-presentation"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Pro Presentation Skills
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#team-building"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Team Building & Goal Setting
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#business-communication"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Business Communication
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#negotiation"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Negotiation & Conflict Management
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#time-management"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Time Management
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#decision-making"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Decision Making Skills
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#interpersonal-skills"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Interpersonal Skills
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#critical-thinking"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Critical/Analytical & Lateral Thinking Skills
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/power-skills#experiential-learning"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Experiential Learning
+              </Typography>
+            </Box>
+          </HashLink>
         </Box>
       </Box>
     </Fragment>

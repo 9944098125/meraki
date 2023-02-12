@@ -169,3 +169,48 @@ div.sticky {
   display:none;
 }
 
+HashLink:target #child {
+   display:none;
+}
+
+@media screen and (min-width:1000px) and (max-width:1450px) {
+ .services-img {
+  height: 100%;
+  width: 50%;
+ }
+}
+
+@media screen and (min-width:650px) and (max-width:770px) {
+ .services-img {
+  height: 100%;
+  width: 50%;
+ }
+}
+
+@media screen and (min-width:300px) and (max-width:350px) {
+ .services-img {
+  height: 60%;
+  width: 100%;
+ }
+}
+
+@media screen and (min-width:400px) and (max-width:426px) {
+ .services-img {
+  height: 100%;
+  width: 100%;
+ }
+}
+
+@media screen and (min-width:370px) and (max-width:395px) {
+ .services-img {
+  height: 100%;
+  width:100% ;
+ }
+}
+
+@media screen and (min-width:300px) and (max-width:325px) {
+ .services-img {
+  height: 75%;
+  width: 100%;
+ }
+}

@@ -7,156 +7,97 @@ function StaffingServices() {
   return (
     <Fragment>
       <Box sx={{}}>
-        <Typography
-          sx={{
-            color: "primary.dark",
-            fontSize: { xs: "16px", sm: "18px", md: "20px" },
-            fontWeight: "800",
-          }}
+        <HashLink
+          style={{ textDecoration: "none", color: "inherit" }}
+          to="/services/staffing-services#header"
         >
-          Staffing services
-        </Typography>
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "16px", sm: "18px", md: "20px" },
+              fontWeight: "800",
+            }}
+          >
+            Staffing services
+          </Typography>
+        </HashLink>
         <Box sx={{}}>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Campus to Corporate training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Business English skills
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Voice & Accent Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Email & Telephone Etiquette
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Cross Cultural Sensitivity
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Corporate Etiquette
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              HR Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              BFSI Training
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Logistics & Aviation
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-            <LinkIcon
-              sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-            />
-            <Typography
-              sx={{
-                color: "grey",
-                fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                "&:hover": { color: "primary.dark" },
-              }}
-            >
-              Digital Marketing
-            </Typography>
-          </Box>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/staffing-services#talent-acquisition"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Talent Acquisition
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/staffing-services#rpo"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Recruitment Process Outsourcing (RPO)
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/staffing-services#contingency-recruitment"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Contingency Recruitment
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/staffing-services#hire-train-deploy"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Hire - Train - Deploy Service
+              </Typography>
+            </Box>
+          </HashLink>
         </Box>
       </Box>
     </Fragment>
