@@ -22,8 +22,8 @@ function StaffingServices() {
           sx={{
             display: "flex",
             flexDirection: { xs: "column", sm: "row" },
+            justifyContent: { xs: "none", sm: "space-around" },
             alignItems: "center",
-            gap: { xs: 2, sm: 3, md: 5 },
             px: { xs: 2, sm: 3 },
             width: "100%",
             height: { xs: "30vh", sm: "40vh", md: "50vh" },

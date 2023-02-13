@@ -29,13 +29,13 @@ function PowerSkills() {
           sx={{
             display: "flex",
             flexDirection: { xs: "column", sm: "row" },
+            justifyContent: { xs: "none", sm: "space-around" },
             alignItems: "center",
             px: { xs: 2, sm: 3 },
             width: "100%",
             height: { xs: "30vh", sm: "40vh", md: "50vh" },
             mt: { xs: 3, sm: 5 },
             mb: { xs: 15, sm: 2, md: 0 },
-            gap: { xs: 2, sm: 3, md: 5 },
           }}
         >
           <img src={powerSkillsHeader} alt="" className="header-image" />
