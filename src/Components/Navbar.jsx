@@ -19,6 +19,7 @@ import OurServices from "../Pages/OurServices";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
+
   return (
     <Fragment>
       <Box
@@ -257,12 +258,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -276,12 +277,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -295,12 +296,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -314,12 +315,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -336,12 +337,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -365,12 +366,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >
@@ -384,12 +385,12 @@ function Navbar() {
               <Typography
                 className="headings"
                 sx={{
-                  color: "#778899",
+                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid cyan",
+                    borderBottom: "4px solid #1a237e",
                   },
                 }}
               >

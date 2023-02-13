@@ -4,6 +4,7 @@ import { HashLink } from "react-router-hash-link";
 import LinkIcon from "@mui/icons-material/Link";
 
 function StaffingServices() {
+  const [style, setStyle] = React.useState({ display: "none" });
   return (
     <Fragment>
       <Box sx={{}}>
@@ -12,6 +13,8 @@ function StaffingServices() {
           to="/services/staffing-services#header"
         >
           <Typography
+            onMouseEnter={() => setStyle({ display: "block" })}
+            onMouseLeave={() => setStyle({ display: "none" })}
             sx={{
               color: "primary.dark",
               fontSize: { xs: "16px", sm: "18px", md: "20px" },
@@ -21,7 +24,7 @@ function StaffingServices() {
             Staffing services
           </Typography>
         </HashLink>
-        <Box sx={{}}>
+        <Box style={style} sx={{}}>
           <HashLink
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/staffing-services#talent-acquisition"

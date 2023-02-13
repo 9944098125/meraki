@@ -4,6 +4,8 @@ import { HashLink } from "react-router-hash-link";
 import LinkIcon from "@mui/icons-material/Link";
 
 function CollegePartnerships() {
+  const [style, setStyle] = React.useState({ display: "none" });
+
   return (
     <Fragment>
       <Box sx={{}}>
@@ -12,6 +14,8 @@ function CollegePartnerships() {
           to="/services/college-partnerships#header"
         >
           <Typography
+            onMouseEnter={() => setStyle({ display: "block" })}
+            onMouseLeave={() => setStyle({ display: "none" })}
             sx={{
               color: "primary.dark",
               fontSize: { xs: "16px", sm: "18px", md: "20px" },
@@ -21,7 +25,7 @@ function CollegePartnerships() {
             College Partnerships
           </Typography>
         </HashLink>
-        <Box sx={{}}>
+        <Box style={style} sx={{}}>
           <HashLink
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#industry-awareness"

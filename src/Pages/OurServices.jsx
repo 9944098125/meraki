@@ -15,9 +15,9 @@ function OurServices() {
         sx={{
           backgroundColor: "white",
           minHeight: { xs: "30vh", md: "30vh" },
-          maxHeight: { xs: "60vh", md: "65vh" },
+          maxHeight: { xs: "60vh", md: "68vh" },
           overflowY: "scroll",
-          width: "70vw",
+          width: { xs: "60vw", sm: "65vw", md: "80vw" },
           borderRadius: "12px",
           boxShadow: "5px 5px 0px 0px grey",
         }}
@@ -35,8 +35,8 @@ function OurServices() {
           <PowerSkills />
           <SoftSkills />
           <CollegePartnerships />
-          <ItSolutions />
           <StaffingServices />
+          <ItSolutions />
         </Box>
       </Box>
     </Fragment>
