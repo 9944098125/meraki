@@ -18,6 +18,7 @@ import { Badge, Typography } from "@mui/material";
 import OurServices from "../Pages/OurServices";
 
 function Navbar() {
+  const [style, setStyle] = React.useState({ display: "none" });
   return (
     <Fragment>
       <Box
@@ -326,7 +327,12 @@ function Navbar() {
               </Typography>
             </Link>
 
-            <Box sx={{}} id="parent">
+            <Box
+              onMouseEnter={() => setStyle({ display: "block" })}
+              onMouseLeave={() => setStyle({ display: "none" })}
+              sx={{}}
+              id="parent"
+            >
               <Typography
                 className="headings"
                 sx={{
@@ -342,6 +348,7 @@ function Navbar() {
                 Our services
               </Typography>
               <Box
+                style={style}
                 sx={{
                   position: "absolute",
                   right: "5%",

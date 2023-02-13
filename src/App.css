@@ -157,20 +157,16 @@ div.sticky {
   }
 } */
 
-#child {
+/* #child {
   display: none;
 }
 
 #parent:hover #child {
   display:block;
-}
+} */
 
 #our-services::-webkit-scrollbar {
   display:none;
-}
-
-HashLink:target #child {
-   display:none;
 }
 
 @media screen and (min-width:1000px) and (max-width:1450px) {
