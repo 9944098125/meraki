@@ -14,13 +14,44 @@ import java from "../Assets/ServicesImages/java.jpg";
 import python from "../Assets/ServicesImages/python.png";
 import dotNet from "../Assets/ServicesImages/dotNet.png";
 import devops from "../Assets/ServicesImages/devops.jpg";
+import itTrainingHeader from "../Assets/ServicesImages/itTrainingHeader.avif";
 
 function ItTraining() {
   return (
     <Fragment>
       <Box
-        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 4,
+        }}
       >
+        <Box
+          id="header"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            px: { xs: 2, sm: 3 },
+            width: "100%",
+            height: { xs: "30vh", sm: "40vh", md: "50vh" },
+            mt: { xs: 3, sm: 5 },
+            mb: { xs: 5, sm: 2, md: 0 },
+            gap: { xs: 2, sm: 3, md: 5 },
+          }}
+        >
+          <img src={itTrainingHeader} alt="" className="header-image" />
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "30px", sm: "40px", md: "50px" },
+              fontWeight: "800",
+            }}
+          >
+            TECHNICAL / IT TRAINING
+          </Typography>
+        </Box>
         <Box
           id="cloud-computing"
           sx={{

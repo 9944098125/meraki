@@ -4,13 +4,44 @@ import talentAcquisition from "../Assets/ServicesImages/talentAcquisition.avif";
 import rpo from "../Assets/ServicesImages/rpo.avif";
 import contingency from "../Assets/ServicesImages/contingency.avif";
 import htd from "../Assets/ServicesImages/htd.avif";
+import staffingServicesHeader from "../Assets/ServicesImages/staffingServicesHeader.avif";
 
 function StaffingServices() {
   return (
     <Fragment>
       <Box
-        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 4,
+        }}
       >
+        <Box
+          id="header"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            gap: { xs: 2, sm: 3, md: 5 },
+            px: { xs: 2, sm: 3 },
+            width: "100%",
+            height: { xs: "30vh", sm: "40vh", md: "50vh" },
+            mt: { xs: 3, sm: 5 },
+            mb: { xs: 5, sm: 2, md: 0 },
+          }}
+        >
+          <img src={staffingServicesHeader} alt="" className="header-image" />
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "30px", sm: "40px", md: "50px" },
+              fontWeight: "800",
+            }}
+          >
+            STAFFING SERVICES
+          </Typography>
+        </Box>
         <Box
           id="talent-acquisition"
           sx={{

@@ -11,13 +11,44 @@ import proPresentation from "../Assets/ServicesImages/proPresentation.avif";
 import salesTechniques from "../Assets/ServicesImages/salesTechniques.jfif";
 import teamBuilding from "../Assets/ServicesImages/teamBuilding.webp";
 import timeManagement from "../Assets/ServicesImages/timeManagement.webp";
+import powerSkillsHeader from "../Assets/ServicesImages/powerSkillsHeader.avif";
 
 function PowerSkills() {
   return (
     <Fragment>
       <Box
-        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 4,
+        }}
       >
+        <Box
+          id="header"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            px: { xs: 2, sm: 3 },
+            width: "100%",
+            height: { xs: "30vh", sm: "40vh", md: "50vh" },
+            mt: { xs: 3, sm: 5 },
+            mb: { xs: 15, sm: 2, md: 0 },
+            gap: { xs: 2, sm: 3, md: 5 },
+          }}
+        >
+          <img src={powerSkillsHeader} alt="" className="header-image" />
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "30px", sm: "40px", md: "50px" },
+              fontWeight: "800",
+            }}
+          >
+            POWER SKILLS - LEADERSHIP & MANAGEMENT
+          </Typography>
+        </Box>
         <Box
           id="leadership-skills"
           sx={{

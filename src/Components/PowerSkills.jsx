@@ -9,7 +9,7 @@ function PowerSkills() {
       <Box sx={{}}>
         <HashLink
           style={{ textDecoration: "none", color: "inherit" }}
-          to="/services/power-skills#leadership-skills"
+          to="/services/power-skills#header"
         >
           <Typography
             sx={{

@@ -8,7 +8,7 @@ function ItTraining() {
     <Fragment>
       <Box sx={{}}>
         <HashLink
-          to="/services/it-training#cloud-computing"
+          to="/services/it-training#header"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Typography

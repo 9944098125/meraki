@@ -178,10 +178,18 @@ HashLink:target #child {
   height: 100%;
   width: 50%;
  }
+ .header-image {
+  height: 100%;
+  width: 50%;
+ }
 }
 
 @media screen and (min-width:650px) and (max-width:820px) {
  .services-img {
+  height: 100%;
+  width: 50%;
+ }
+ .header-image {
   height: 100%;
   width: 50%;
  }
@@ -192,10 +200,18 @@ HashLink:target #child {
   height: 60%;
   width: 100%;
  }
+ .header-image {
+  height: 100%;
+  width: 100%;
+ }
 }
 
 @media screen and (min-width:400px) and (max-width:426px) {
  .services-img {
+  height: 100%;
+  width: 100%;
+ }
+ .header-image {
   height: 100%;
   width: 100%;
  }
@@ -206,11 +222,19 @@ HashLink:target #child {
   height: 100%;
   width:100% ;
  }
+ .header-image {
+  height: 100%;
+  width: 100%;
+ }
 }
 
 @media screen and (min-width:280px) and (max-width:325px) {
  .services-img {
   height: 75%;
+  width: 100%;
+ }
+ .header-image {
+  height: 100%;
   width: 100%;
  }
 }

@@ -6,13 +6,48 @@ import technicalTraining from "../Assets/ServicesImages/technicalTraining.avif";
 import careerPath from "../Assets/ServicesImages/careerPath.avif";
 import collaborativeResearch from "../Assets/ServicesImages/collaborativeResearch.avif";
 import internshipPrograms from "../Assets/ServicesImages/internshipPrograms.avif";
+import collegePartnershipsHeader from "../Assets/ServicesImages/collegePartnershipsHeader.avif";
 
 function CollegePartnerships() {
   return (
     <Fragment>
       <Box
-        sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: 4,
+        }}
       >
+        <Box
+          id="header"
+          sx={{
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            px: { xs: 2, sm: 3 },
+            width: "100%",
+            height: { xs: "30vh", sm: "40vh", md: "50vh" },
+            mt: { xs: 3, sm: 5 },
+            mb: { xs: 5, sm: 2, md: 0 },
+            gap: { xs: 2, sm: 3, md: 5 },
+          }}
+        >
+          <img
+            src={collegePartnershipsHeader}
+            alt=""
+            className="header-image"
+          />
+          <Typography
+            sx={{
+              color: "primary.dark",
+              fontSize: { xs: "30px", sm: "40px", md: "50px" },
+              fontWeight: "800",
+            }}
+          >
+            COLLEGE PARTNERSHIP
+          </Typography>
+        </Box>
         <Box
           id="industry-awareness"
           sx={{

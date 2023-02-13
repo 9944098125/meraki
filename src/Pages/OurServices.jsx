@@ -19,7 +19,7 @@ function OurServices() {
           overflowY: "scroll",
           width: "70vw",
           borderRadius: "12px",
-          boxShadow: "5px 5px 5px 5px grey",
+          boxShadow: "5px 5px 0px 0px grey",
         }}
       >
         <Box
