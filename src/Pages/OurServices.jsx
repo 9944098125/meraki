@@ -14,11 +14,12 @@ function OurServices() {
         id="our-services"
         sx={{
           backgroundColor: "white",
-          minHeight: { xs: "50vh", md: "50vh" },
-          maxHeight: { xs: "80vh", md: "75vh" },
+          minHeight: { xs: "30vh", md: "30vh" },
+          maxHeight: { xs: "60vh", md: "65vh" },
           overflowY: "scroll",
-          width: "80vw",
+          width: "70vw",
           borderRadius: "12px",
+          boxShadow: "5px 5px 5px 5px grey",
         }}
       >
         <Box

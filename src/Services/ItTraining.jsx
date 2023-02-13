@@ -4,7 +4,7 @@ import cloudComputing from "../Assets/ServicesImages/cloudComputing.png";
 import cyberSecurity from "../Assets/ServicesImages/cyberSecurity.png";
 import cisco from "../Assets/ServicesImages/cisco.jfif";
 import dataScience from "../Assets/ServicesImages/dataScience.png";
-import machineLearning from "../Assets/ServicesImages/machineLearning.jpg";
+import machineLearning from "../Assets/ServicesImages/machineLearning.avif";
 import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.png";
 import webDevelopment from "../Assets/ServicesImages/webDevelopment.jpg";
 import robotics from "../Assets/ServicesImages/robotics.jpg";
@@ -1007,6 +1007,7 @@ function ItTraining() {
               flexDirection: { xs: "column", sm: "row" },
               alignItems: "center",
               justifyContent: { xs: "none", sm: "space-evenly" },
+              gap: 2,
               px: { xs: 1, sm: 2, md: 3 },
               py: { xs: 1.5, sm: 2, md: 3 },
             }}
