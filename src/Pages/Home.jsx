@@ -18,6 +18,7 @@ function Home() {
       <Clients />
       <GetInTouch />
       <MileStones title="Milestones" />
+      <GetInTouch />
       <ContactUs />
     </Fragment>
   );

@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import industryAwareness from "../Assets/ServicesImages/industryAwareness.avif";
-import interviewPreparations from "../Assets/ServicesImages/interviewPreparations.avif";
+import industryAwareness from "../Assets/ServicesImages/industryAwareness.jpg";
+import interviewPreparations from "../Assets/ServicesImages/interviewPreparations.jpg";
 import technicalTraining from "../Assets/ServicesImages/technicalTraining.avif";
 import careerPath from "../Assets/ServicesImages/careerPath.avif";
 import collaborativeResearch from "../Assets/ServicesImages/collaborativeResearch.avif";

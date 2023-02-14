@@ -1,7 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
+import GetInTouch from "../Components/GetInTouch";
 
 function ContactUs() {
-  return <div>Contact Us</div>;
+  return (
+    <Fragment>
+      <GetInTouch />
+    </Fragment>
+  );
 }
 
 export default ContactUs;

@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
 import leadershipSkills from "../Assets/ServicesImages/leadershipSkills.jpg";
-import businessCommunication from "../Assets/ServicesImages/businessCommunication.avif";
-import decisionMaking from "../Assets/ServicesImages/decisionMaking.png";
-import experientialLearning from "../Assets/ServicesImages/experientialLearning.png";
+import businessCommunication from "../Assets/ServicesImages/businessCommunication.jpg";
+import decisionMaking from "../Assets/ServicesImages/decisionMaking.jpg";
+import experientialLearning from "../Assets/ServicesImages/experientialLearning.jpg";
 import interpersonalSkills from "../Assets/ServicesImages/interpersonalSkills.jpg";
 import lateralThinking from "../Assets/ServicesImages/lateralThinking.jpg";
 import negotiation from "../Assets/ServicesImages/negotiation.jpg";
-import proPresentation from "../Assets/ServicesImages/proPresentation.avif";
-import salesTechniques from "../Assets/ServicesImages/salesTechniques.jfif";
-import teamBuilding from "../Assets/ServicesImages/teamBuilding.webp";
-import timeManagement from "../Assets/ServicesImages/timeManagement.webp";
+import proPresentation from "../Assets/ServicesImages/proPresentation.jpg";
+import salesTechniques from "../Assets/ServicesImages/salesTechniques.jpg";
+import teamBuilding from "../Assets/ServicesImages/teamBuilding.jpg";
+import timeManagement from "../Assets/ServicesImages/timeManagement.jpg";
 import powerSkillsHeader from "../Assets/ServicesImages/powerSkillsHeader.avif";
 
 function PowerSkills() {
@@ -2220,11 +2220,10 @@ function PowerSkills() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              The primary objective of experiential learning is to enhance the
-              learning experience and provide students with a more meaningful
-              and relevant education. It aims to encourage students to take an
-              active role in their learning and to develop their critical
-              thinking and problem-solving skills.
+              The objective of experiential learning at the corporate level is
+              to provide employees with hands-on, real-world experiences that
+              will help them develop new skills, improve their performance, and
+              become more effective and engaged in their work.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -2243,12 +2242,10 @@ function PowerSkills() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              There are no specific prerequisites for experiential learning.
-              However, some prior knowledge or understanding of the topic being
-              studied can be beneficial to fully engage in the experience.
-              Additionally, a willingness to actively participate and a positive
-              attitude towards learning can greatly enhance the effectiveness of
-              experiential learning.
+              The prerequisites for experiential learning in a corporate setting
+              include a supportive organizational culture, resources to support
+              the learning activities, and a commitment from both management and
+              employees to invest time and effort into the learning process.
             </Typography>
           </Box>
           {/* content-outline */}
@@ -2291,17 +2288,8 @@ function PowerSkills() {
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
                   >
-                    {"=>"} Definition of Experiential Learning
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Benefits of Experiential Learning
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Types of Experiential Learning
+                    {"=>"} A brief overview of the learning program, its goals
+                    and objectives, and how it will be structured.
                   </Typography>
                 </Box>
               </Box>
@@ -2319,28 +2307,15 @@ function PowerSkills() {
                     color: "primary.dark",
                   }}
                 >
-                  The Experiential Learning Cycle
+                  Assessment of Learning needs
                 </Typography>
                 <Box sx={{ p: { xs: 0.3, sm: 0.5, md: 1 } }}>
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
                   >
-                    {"=>"} Experience
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Reflection
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Generalization
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Application
+                    {"=>"} An evaluation of the skills and knowledge that
+                    employees need to improve in order to be more effective and
+                    engaged in their work.
                   </Typography>
                 </Box>
               </Box>
@@ -2358,28 +2333,16 @@ function PowerSkills() {
                     color: "primary.dark",
                   }}
                 >
-                  Techniques For Facilitating Experiential Learning
+                  Design of learning activities
                 </Typography>
                 <Box sx={{ p: { xs: 0.3, sm: 0.5, md: 1 } }}>
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
                   >
-                    {"=>"} Simulations
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Role-Playing
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Field Trips
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Service Learning and Outdoor and Adventure Education
+                    {"=>"} A plan for the hands-on, interactive learning
+                    experiences that will be offered, such as on-the-job
+                    training, team-building activities, cross-functional
+                    projects, workshops, and mentorship programs.
                   </Typography>
                 </Box>
               </Box>
@@ -2397,86 +2360,15 @@ function PowerSkills() {
                     color: "primary.dark",
                   }}
                 >
-                  Assessment & Evaluation
+                  Evaluation & Follow Up
                 </Typography>
                 <Box sx={{ p: { xs: 0.3, sm: 0.5, md: 1 } }}>
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
                   >
-                    {"=>"} Self-Assessment
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Peer Assessment
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Expert Evaluation & Rubrics and Criteria
-                  </Typography>
-                </Box>
-              </Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  width: { xs: "100%", sm: "50%" },
-                }}
-              >
-                <Typography
-                  sx={{
-                    fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                    color: "primary.dark",
-                  }}
-                >
-                  Ethics & Cultural Considerations
-                </Typography>
-                <Box sx={{ p: { xs: 0.3, sm: 0.5, md: 1 } }}>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Cultural Sensitivity
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Safety and Risk Management
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Inclusivity and Diversity
-                  </Typography>
-                </Box>
-              </Box>
-              <Box
-                sx={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "flex-start",
-                  width: { xs: "100%", sm: "50%" },
-                }}
-              >
-                <Typography
-                  sx={{
-                    fontSize: { xs: "16px", sm: "18px", md: "20px" },
-                    color: "primary.dark",
-                  }}
-                >
-                  Conclusion
-                </Typography>
-                <Box sx={{ p: { xs: 0.3, sm: 0.5, md: 1 } }}>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Recap of Key Points
-                  </Typography>
-                  <Typography
-                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-                  >
-                    {"=>"} Final Thoughts on Experiential Learning.
+                    {"=>"} Assessment of the impact of the learning program on
+                    employee performance and engagement, and identification of
+                    areas for improvement and follow-up.
                   </Typography>
                 </Box>
               </Box>

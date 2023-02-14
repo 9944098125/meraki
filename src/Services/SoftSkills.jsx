@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
-import digitalMarketing from "../Assets/ServicesImages/digitalMarketing.avif";
-import aviation from "../Assets/ServicesImages/aviation.png";
-import bfsi from "../Assets/ServicesImages/bfsi.svg";
-import hrTraining from "../Assets/ServicesImages/hrTraining.avif";
-import corporateEtiquette from "../Assets/ServicesImages/corporateEtiquette.avif";
-import crossCulture from "../Assets/ServicesImages/crossCulture.jfif";
+import digitalMarketing from "../Assets/ServicesImages/digitalMarketing.jpg";
+import aviation from "../Assets/ServicesImages/aviation.jpg";
+import bfsi from "../Assets/ServicesImages/bfsi.jpg";
+import hrTraining from "../Assets/ServicesImages/hrTraining.jpg";
+import corporateEtiquette from "../Assets/ServicesImages/corporateEtiquette.jpg";
+import crossCulture from "../Assets/ServicesImages/crossCulture.jpg";
 import emailEtiquette from "../Assets/ServicesImages/emailAndTelephone.jpg";
-import vaTraining from "../Assets/ServicesImages/vaTraining.png";
+import vaTraining from "../Assets/ServicesImages/vaTraining.jpg";
 import businessEnglish from "../Assets/ServicesImages/businessEnglish.jpg";
-import corporateTraining from "../Assets/ServicesImages/campusToCorporateTraining.jfif";
+import corporateTraining from "../Assets/ServicesImages/campusToCorporateTraining.jpg";
 import softSkillsHeader from "../Assets/ServicesImages/softSkillsHeader.avif";
 
 function SoftSkills() {

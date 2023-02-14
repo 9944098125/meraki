@@ -14,11 +14,11 @@ function OurServices() {
         id="our-services"
         sx={{
           backgroundColor: "white",
-          minHeight: { xs: "40vh", md: "45.5vh", lg: "30vh" },
-          maxHeight: { xs: "60vh", md: "68vh" },
+          minHeight: { xs: "40vh", md: "47.5vh", lg: "50vh" },
+          maxHeight: { xs: "60vh", md: "75vh" },
           overflowY: "scroll",
           overflowX: "hidden",
-          width: { xs: "60vw", sm: "65vw", md: "80vw" },
+          width: { xs: "70vw", sm: "50vw", md: "35vw" },
           borderRadius: "12px",
           boxShadow: "5px 5px 0px 0px grey",
         }}
@@ -26,9 +26,10 @@ function OurServices() {
         <Box
           sx={{
             display: "flex",
-            flexWrap: "wrap",
-            gap: { xs: 3, sm: 4, md: 5 },
-            p: { xs: 2, md: 5 },
+            flexDirection: "column",
+            alignItems: "flex-start",
+            gap: { xs: 3, sm: 4, md: 2 },
+            p: { xs: 2, md: 7 },
           }}
         >
           {/* technical / it training */}

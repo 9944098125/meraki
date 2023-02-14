@@ -1,18 +1,18 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import cloudComputing from "../Assets/ServicesImages/cloudComputing.png";
-import cyberSecurity from "../Assets/ServicesImages/cyberSecurity.png";
-import cisco from "../Assets/ServicesImages/cisco.jfif";
-import dataScience from "../Assets/ServicesImages/dataScience.png";
-import machineLearning from "../Assets/ServicesImages/machineLearning.avif";
-import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.png";
+import cloudComputing from "../Assets/ServicesImages/cloudComputing.jpg";
+import cyberSecurity from "../Assets/ServicesImages/cyberSecurity.jpg";
+import cisco from "../Assets/ServicesImages/cisco.jpg";
+import dataScience from "../Assets/ServicesImages/dataScience.jpg";
+import machineLearning from "../Assets/ServicesImages/machineLearning.jpg";
+import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.jpg";
 import webDevelopment from "../Assets/ServicesImages/webDevelopment.jpg";
 import robotics from "../Assets/ServicesImages/robotics.jpg";
 import bigData from "../Assets/ServicesImages/bigData.jpg";
-import c from "../Assets/ServicesImages/c#.png";
+import c from "../Assets/ServicesImages/c#.jpg";
 import java from "../Assets/ServicesImages/java.jpg";
-import python from "../Assets/ServicesImages/python.png";
-import dotNet from "../Assets/ServicesImages/dotNet.png";
+import python from "../Assets/ServicesImages/python.jpg";
+import dotNet from "../Assets/ServicesImages/dotNet.jpg";
 import devops from "../Assets/ServicesImages/devops.jpg";
 import itTrainingHeader from "../Assets/ServicesImages/itTrainingHeader.avif";
 

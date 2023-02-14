@@ -10,7 +10,7 @@ function SoftSkills() {
       <Box
         onMouseEnter={() => setStyle({ display: "block" })}
         onMouseLeave={() => setStyle({ display: "none" })}
-        sx={{ position: "relative" }}
+        sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
           style={{ textDecoration: "none", color: "inherit" }}
@@ -36,6 +36,7 @@ function SoftSkills() {
             borderRadius: "9px",
             zIndex: "3",
             width: { xs: "200px", sm: "2500px", md: "300px" },
+            ml: { xs: 0, md: 10 },
           }}
         >
           <HashLink
