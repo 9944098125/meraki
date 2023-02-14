@@ -10,7 +10,7 @@ function PowerSkills() {
       <Box
         onMouseEnter={() => setStyle({ display: "block" })}
         onMouseLeave={() => setStyle({ display: "none" })}
-        sx={{}}
+        sx={{ position: "relative" }}
       >
         <HashLink
           style={{ textDecoration: "none", color: "inherit" }}
@@ -26,7 +26,18 @@ function PowerSkills() {
             Power Skills For Leadership & Management
           </Typography>
         </HashLink>
-        <Box style={style} sx={{}}>
+        <Box
+          style={style}
+          sx={{
+            position: "absolute",
+            backgroundColor: "white",
+            boxShadow: "2px 2px 2px 2px grey",
+            p: 2,
+            borderRadius: "9px",
+            zIndex: "3",
+            width: { xs: "200px", sm: "2500px", md: "300px" },
+          }}
+        >
           <HashLink
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#leadership-skills"

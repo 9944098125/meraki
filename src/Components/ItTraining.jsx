@@ -11,7 +11,7 @@ function ItTraining() {
       <Box
         onMouseEnter={() => setStyle({ display: "block" })}
         onMouseLeave={() => setStyle({ display: "none" })}
-        sx={{}}
+        sx={{ position: "relative" }}
       >
         <HashLink
           to="/services/it-training#header"
@@ -27,7 +27,18 @@ function ItTraining() {
             Technical/IT Training
           </Typography>
         </HashLink>
-        <Box style={style} sx={{}}>
+        <Box
+          style={style}
+          sx={{
+            position: "absolute",
+            backgroundColor: "white",
+            boxShadow: "2px 2px 2px 2px grey",
+            p: 2,
+            borderRadius: "9px",
+            zIndex: "3",
+            width: { xs: "200px", sm: "2500px", md: "300px" },
+          }}
+        >
           <HashLink
             to="/services/it-training#cloud-computing"
             style={{ textDecoration: "none", color: "inherit" }}
