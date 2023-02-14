@@ -92,11 +92,8 @@ function ItSolutions() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              The objective of application development is to design, create, and
-              deploy software applications that meet specific needs and
-              requirements of end-users. The goal of application development is
-              to provide solutions to real-world problems and improve the
-              productivity and efficiency of organizations and individuals.
+              To develop a functional and user-friendly mobile application that
+              addresses a specific need or provides a useful service.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -115,15 +112,27 @@ function ItSolutions() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              The prerequisites of application development vary depending on the
-              type of application being developed and the programming languages
-              and tools being used. However, a basic understanding of
-              programming concepts, data structures, algorithms, and software
-              development methodologies is typically required. Familiarity with
-              a specific programming language or platform, as well as experience
-              with development tools such as integrated development environments
-              (IDEs), version control systems, and project management tools, can
-              also be useful.
+              Understanding of programming languages such as Java, Swift, or
+              Kotlin, Familiarity with mobile development tools and frameworks
+              like Android Studio or Xcode.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Knowledge of user interface (UI) and user experience (UX) design
+              principles.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Knowledge of software development lifecycle (SDLC) and project
+              management methodologies.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Access to a development environment, including hardware and
+              software tools.
             </Typography>
           </Box>
           {/* content-outline */}
@@ -147,43 +156,39 @@ function ItSolutions() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to software development and application
-                development
+                1. Identifying the problem or need the app will address and
+                Conducting market research to understand user needs, competitor
+                landscape and target audience.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Requirements gathering and analysis
+                2. Creating a functional requirement document, which outlines
+                the app's features and specifications.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Design and architecture of software applications
+                5. Creating wireframes and mockups to visualize the app's
+                interface and design and Developing the app's front-end and
+                back-end components.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Implementation and coding of software applications
+                6. Testing the app to ensure it is functional and user-friendly.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5.Testing and debugging of software applications
+                7. Deploying the app to the app stores or other distribution
+                channels.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Deployment and maintenance of software applications
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                7. User interface design and user experience (UX)
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                8. Database design and management
+                8. Maintaining the app by fixing bugs, updating features, and
+                providing customer support.
               </Typography>
             </Box>
           </Box>
@@ -240,12 +245,8 @@ function ItSolutions() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              The objective of website development is to design, create, and
-              deploy functional and visually appealing websites that meet the
-              needs and goals of clients or organizations. Website development
-              includes a wide range of activities, from designing the user
-              interface and creating content to writing code and setting up
-              servers.
+              To develop a functional and user-friendly website that provides
+              information, services, or products to its intended audience.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -264,13 +265,32 @@ function ItSolutions() {
             <Typography
               sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
             >
-              The prerequisites for website development can vary depending on
-              the type of website being developed, but a general understanding
-              of HTML, CSS, and JavaScript is essential. Familiarity with a
-              specific web development framework or content management system
-              (CMS), as well as experience with development tools such as
-              integrated development environments (IDEs), version control
-              systems, and project management tools, can also be beneficial.
+              Familiarity with web development languages such as HTML, CSS, and
+              JavaScript.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Knowledge of server-side scripting languages such as PHP, Python,
+              or Ruby on Rails and Understanding of web development frameworks
+              such as React, Angular, or Vue.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Knowledge of web design principles, including UI/UX design, color
+              theory, and typography.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Understanding of website hosting and domain management.
+            </Typography>
+            <Typography
+              sx={{ fontSize: { xs: "14px", sm: "16px", md: "18px" } }}
+            >
+              Access to a development environment, including hardware and
+              software tools.
             </Typography>
           </Box>
           {/* content-outline */}
@@ -294,33 +314,35 @@ function ItSolutions() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to web development and website development,
-                Requirements gathering and analysis
+                1. Defining the website's purpose, target audience, and content
+                requirements and Conducting market research and competitor
+                analysis to understand the industry trends and user needs.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Design and user interface (UI) of websites, HTML and CSS
-                basics, Advanced HTML and CSS techniques and JavaScript and
-                front-end development
+                2. Designing the website's visual elements, such as logo, color
+                scheme, and typography.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Content Management Systems (CMS) and Server-side scripting
-                and databases
+                3. Developing the website's front-end and back-end components,
+                including database design and server-side scripting.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Deployment and hosting of websites, Search Engine
-                Optimization (SEO) and website marketing
+                4. Testing the website to ensure it is functional and
+                user-friendly across different devices and browsers.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Web accessibility and usability considerations and Emerging
-                trends and technologies in web development
+                5. Launching the website by publishing it on a web server and
+                registering a domain name & Maintaining the website by updating
+                the content, fixing bugs, and improving performance based on
+                user feedback.
               </Typography>
             </Box>
           </Box>

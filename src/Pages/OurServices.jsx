@@ -14,7 +14,7 @@ function OurServices() {
         id="our-services"
         sx={{
           backgroundColor: "white",
-          minHeight: { xs: "40vh", md: "45.5vh" },
+          minHeight: { xs: "40vh", md: "45.5vh", lg: "30vh" },
           maxHeight: { xs: "60vh", md: "68vh" },
           overflowY: "scroll",
           overflowX: "hidden",
