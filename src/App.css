@@ -169,6 +169,10 @@ div.sticky {
   display:none;
 }
 
+/* .services-img {
+  opacity: 0.5;
+} */
+
 @media screen and (min-width:1000px) and (max-width:1450px) {
  .services-img {
   height: 100%;

@@ -34,6 +34,7 @@ function ItTraining() {
             flexDirection: { xs: "column", sm: "row" },
             justifyContent: { xs: "none", sm: "space-around" },
             alignItems: "center",
+            gap: 2,
             px: { xs: 2, sm: 3 },
             width: "100%",
             height: { xs: "30vh", sm: "40vh", md: "50vh" },

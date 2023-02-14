@@ -7,14 +7,16 @@ function SoftSkills() {
   const [style, setStyle] = React.useState({ display: "none" });
   return (
     <Fragment>
-      <Box sx={{}}>
+      <Box
+        onMouseEnter={() => setStyle({ display: "block" })}
+        onMouseLeave={() => setStyle({ display: "none" })}
+        sx={{}}
+      >
         <HashLink
           style={{ textDecoration: "none", color: "inherit" }}
           to="/services/soft-skills#header"
         >
           <Typography
-            onMouseEnter={() => setStyle({ display: "block" })}
-            onMouseLeave={() => setStyle({ display: "none" })}
             sx={{
               color: "primary.dark",
               fontSize: { xs: "16px", sm: "18px", md: "20px" },

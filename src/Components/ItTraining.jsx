@@ -8,14 +8,16 @@ function ItTraining() {
 
   return (
     <Fragment>
-      <Box sx={{}}>
+      <Box
+        onMouseEnter={() => setStyle({ display: "block" })}
+        onMouseLeave={() => setStyle({ display: "none" })}
+        sx={{}}
+      >
         <HashLink
           to="/services/it-training#header"
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Typography
-            onMouseEnter={() => setStyle({ display: "block" })}
-            onMouseLeave={() => setStyle({ display: "none" })}
             sx={{
               color: "primary.dark",
               fontSize: { xs: "16px", sm: "18px", md: "20px" },
