@@ -337,7 +337,7 @@ div.sticky {
   to {transform: translateY(20px);}
 }
 
-/* [data-aos^=zoom][data-aos^=zoom].aos-animate {
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
   opacity: 1;
   transform: translateZ(0) scale(1);
 }
@@ -352,4 +352,4 @@ div.sticky {
 
 [data-aos^=zoom][data-aos^=zoom] {
   transition-property: opacity, transform;
-} */
+}

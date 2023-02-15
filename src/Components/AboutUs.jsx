@@ -15,7 +15,7 @@ function AboutUsComponent() {
       >
         <Typography
           sx={{
-            fontSize: { xs: "50px", sm: "65px", md: "70px" },
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
             fontWeight: "700",
             color: "primary.dark",
             position: "relative",

@@ -2,10 +2,10 @@ import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import industryAwareness from "../Assets/ServicesImages/industryAwareness.jpg";
 import interviewPreparations from "../Assets/ServicesImages/interviewPreparations.jpg";
-import technicalTraining from "../Assets/ServicesImages/technicalTraining.avif";
-import careerPath from "../Assets/ServicesImages/careerPath.avif";
-import collaborativeResearch from "../Assets/ServicesImages/collaborativeResearch.avif";
-import internshipPrograms from "../Assets/ServicesImages/internshipPrograms.avif";
+import technicalTraining from "../Assets/Images/technicalTraining.jpg";
+import careerPath from "../Assets/Images/careerPath.jpg";
+import collaborativeResearch from "../Assets/ServicesImages/collaborativeResearch.jpg";
+import internshipPrograms from "../Assets/ServicesImages/internshipPrograms.jpg";
 import collegePartnershipsHeader from "../Assets/ServicesImages/collegePartnershipsHeader.avif";
 
 function CollegePartnerships() {

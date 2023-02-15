@@ -17,7 +17,7 @@ function TrainingMethodology() {
           sx={{
             color: "primary.dark",
             fontWeight: "800",
-            fontSize: { xs: "30px", sm: "45px", md: "50px" },
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
           }}
         >
           Our Training Methodology
@@ -30,7 +30,6 @@ function TrainingMethodology() {
             gap: 1,
             mt: 3,
             mr: { xs: -2, sm: -3, md: -25 },
-            mt: 3,
           }}
         >
           <Typography
@@ -46,7 +45,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "100px", sm: "120px", md: "140px" },
               width: { xs: "100px", sm: "120px", md: "140px" },
-              border: "4px solid pink",
+              border: "4px solid #6496e6",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -104,7 +103,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "120px", sm: "150px", md: "170px" },
               width: { xs: "120px", sm: "150px", md: "170px" },
-              border: "4px solid #1a237e",
+              border: "4px solid #a688d2",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -156,7 +155,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "130px", sm: "150px", md: "210px" },
               width: { xs: "130px", sm: "150px", md: "210px" },
-              border: "4px solid green",
+              border: "4px solid #75cad8",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -216,7 +215,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "150px", sm: "180px", md: "240px" },
               width: { xs: "150px", sm: "180px", md: "240px" },
-              border: "4px solid red",
+              border: "4px solid #7ee4c1",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -268,7 +267,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "190px", sm: "210px", md: "270px" },
               width: { xs: "190px", sm: "210px", md: "270px" },
-              border: "4px solid yellow",
+              border: "4px solid #7d63c0",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",

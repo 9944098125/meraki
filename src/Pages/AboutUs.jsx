@@ -6,8 +6,14 @@ import passion from "../Assets/Images/passion.jpg";
 import diligence from "../Assets/Images/diligence.gif";
 import integrity from "../Assets/Images/integrity.png";
 import DownloadBrochure from "../Components/DownloadBrochure";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function AboutUs() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <AboutUsComponent />
@@ -25,7 +31,7 @@ function AboutUs() {
       >
         <Typography
           sx={{
-            fontSize: { xs: "50px", sm: "65px", md: "70px" },
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
             fontWeight: "700",
             color: "primary.dark",
           }}
@@ -42,6 +48,7 @@ function AboutUs() {
           }}
         >
           <Box
+            data-aos="fade-down"
             sx={{
               backgroundImage: `url(${passion})`,
               height: { xs: "120px", md: "170px" },
@@ -63,6 +70,7 @@ function AboutUs() {
             </Typography>
           </Box>
           <Box
+            data-aos="fade-up"
             sx={{
               backgroundImage: `url(${diligence})`,
               height: { xs: "120px", md: "170px" },
@@ -84,6 +92,7 @@ function AboutUs() {
             </Typography>
           </Box>
           <Box
+            data-aos="fade-down"
             sx={{
               backgroundImage: `url(${integrity})`,
               height: { xs: "120px", md: "170px" },

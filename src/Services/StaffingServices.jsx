@@ -1,9 +1,9 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
-import talentAcquisition from "../Assets/ServicesImages/talentAcquisition.avif";
-import rpo from "../Assets/ServicesImages/rpo.avif";
-import contingency from "../Assets/ServicesImages/contingency.avif";
-import htd from "../Assets/ServicesImages/htd.avif";
+import talentAcquisition from "../Assets/ServicesImages/talentAcquisition.jpg";
+import rpo from "../Assets/ServicesImages/rpo.jpg";
+import contingency from "../Assets/ServicesImages/contingency.jpg";
+import htd from "../Assets/ServicesImages/htd.jpg";
 import staffingServicesHeader from "../Assets/ServicesImages/staffingServicesHeader.avif";
 
 function StaffingServices() {

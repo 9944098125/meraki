@@ -4,8 +4,19 @@ import clients from "../Assets/Images/clients.jpg";
 import hours from "../Assets/Images/hours.jpg";
 import courses from "../Assets/Images/courses.jpg";
 import trainees from "../Assets/Images/trainees.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import AnimatedNumbers from "react-animated-numbers";
 
 function MileStones({ title }) {
+  const [num] = React.useState(5000);
+  const [num2] = React.useState(10000);
+  const [num3] = React.useState(97.3);
+  const [num4] = React.useState(7000);
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <Box
@@ -19,7 +30,7 @@ function MileStones({ title }) {
       >
         <Typography
           sx={{
-            fontSize: { xs: "30px", sm: "45px", md: "50px" },
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
             fontWeight: "700",
             color: "primary.dark",
           }}
@@ -36,7 +47,7 @@ function MileStones({ title }) {
           }}
         >
           <Box
-            className="getInTouchImg"
+            data-aos="fade-up"
             sx={{
               display: "flex",
               flexDirection: "column",
@@ -47,6 +58,7 @@ function MileStones({ title }) {
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
+              cursor: "pointer",
             }}
           >
             <img
@@ -58,15 +70,29 @@ function MileStones({ title }) {
                 borderTopLeftRadius: "8px",
               }}
             />
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "14px", sm: "16px", md: "19px" },
-                fontWeight: "600",
-              }}
-            >
-              5000+
-            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <AnimatedNumbers
+                includeComma
+                animateToNumber={num}
+                fontStyle={{ fontSize: 25 }}
+                configs={[
+                  { mass: 1, tension: 220, friction: 100 },
+                  { mass: 1, tension: 180, friction: 130 },
+                  { mass: 1, tension: 280, friction: 90 },
+                  { mass: 1, tension: 180, friction: 135 },
+                  { mass: 1, tension: 260, friction: 100 },
+                  { mass: 1, tension: 210, friction: 180 },
+                ]}
+              ></AnimatedNumbers>
+              <Typography
+                sx={{
+                  fontSize: { xs: "14px", sm: "16px", md: "19px" },
+                  fontWeight: "600",
+                }}
+              >
+                +
+              </Typography>
+            </Box>
             <Typography
               sx={{
                 color: "grey",
@@ -79,7 +105,7 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
-            className="getInTouchImg"
+            data-aos="fade-down"
             sx={{
               display: "flex",
               flexDirection: "column",
@@ -90,6 +116,7 @@ function MileStones({ title }) {
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
+              cursor: "pointer",
             }}
           >
             <img
@@ -101,15 +128,29 @@ function MileStones({ title }) {
                 borderTopLeftRadius: "8px",
               }}
             />
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "14px", sm: "16px", md: "19px" },
-                fontWeight: "600",
-              }}
-            >
-              10,000+
-            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <AnimatedNumbers
+                includeComma
+                animateToNumber={num2}
+                fontStyle={{ fontSize: 25 }}
+                configs={[
+                  { mass: 1, tension: 220, friction: 100 },
+                  { mass: 1, tension: 180, friction: 130 },
+                  { mass: 1, tension: 280, friction: 90 },
+                  { mass: 1, tension: 180, friction: 135 },
+                  { mass: 1, tension: 260, friction: 100 },
+                  { mass: 1, tension: 210, friction: 180 },
+                ]}
+              ></AnimatedNumbers>
+              <Typography
+                sx={{
+                  fontSize: { xs: "14px", sm: "16px", md: "19px" },
+                  fontWeight: "600",
+                }}
+              >
+                +
+              </Typography>
+            </Box>
             <Typography
               sx={{
                 color: "grey",
@@ -122,7 +163,7 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
-            className="getInTouchImg"
+            data-aos="fade-up"
             sx={{
               display: "flex",
               flexDirection: "column",
@@ -133,6 +174,7 @@ function MileStones({ title }) {
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
+              cursor: "pointer",
             }}
           >
             <img
@@ -144,15 +186,29 @@ function MileStones({ title }) {
                 borderTopLeftRadius: "8px",
               }}
             />
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "14px", sm: "16px", md: "19px" },
-                fontWeight: "600",
-              }}
-            >
-              97.3%
-            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <AnimatedNumbers
+                includeComma
+                animateToNumber={num3}
+                fontStyle={{ fontSize: 25 }}
+                configs={[
+                  { mass: 1, tension: 220, friction: 100 },
+                  { mass: 1, tension: 180, friction: 130 },
+                  { mass: 1, tension: 280, friction: 90 },
+                  { mass: 1, tension: 180, friction: 135 },
+                  { mass: 1, tension: 260, friction: 100 },
+                  { mass: 1, tension: 210, friction: 180 },
+                ]}
+              ></AnimatedNumbers>
+              <Typography
+                sx={{
+                  fontSize: { xs: "14px", sm: "16px", md: "19px" },
+                  fontWeight: "600",
+                }}
+              >
+                %
+              </Typography>
+            </Box>
             <Typography
               sx={{
                 color: "grey",
@@ -165,7 +221,7 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
-            className="getInTouchImg"
+            data-aos="fade-down"
             sx={{
               display: "flex",
               flexDirection: "column",
@@ -176,6 +232,7 @@ function MileStones({ title }) {
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
+              cursor: "pointer",
             }}
           >
             <img
@@ -187,15 +244,29 @@ function MileStones({ title }) {
                 borderTopLeftRadius: "8px",
               }}
             />
-            <Typography
-              sx={{
-                color: "primary.dark",
-                fontSize: { xs: "14px", sm: "16px", md: "19px" },
-                fontWeight: "600",
-              }}
-            >
-              7000+
-            </Typography>
+            <Box sx={{ display: "flex", alignItems: "center" }}>
+              <AnimatedNumbers
+                includeComma
+                animateToNumber={num4}
+                fontStyle={{ fontSize: 25 }}
+                configs={[
+                  { mass: 1, tension: 220, friction: 100 },
+                  { mass: 1, tension: 180, friction: 130 },
+                  { mass: 1, tension: 280, friction: 90 },
+                  { mass: 1, tension: 180, friction: 135 },
+                  { mass: 1, tension: 260, friction: 100 },
+                  { mass: 1, tension: 210, friction: 180 },
+                ]}
+              ></AnimatedNumbers>
+              <Typography
+                sx={{
+                  fontSize: { xs: "14px", sm: "16px", md: "19px" },
+                  fontWeight: "600",
+                }}
+              >
+                +
+              </Typography>
+            </Box>
             <Typography
               sx={{
                 color: "grey",

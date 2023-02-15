@@ -1,20 +1,14 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import MailIcon from "@mui/icons-material/Mail";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import facebookLogo from "../Assets/Images/fb-logo.png";
 import twitterLogo from "../Assets/Images/twitter-logo.png";
 import linkedInLogo from "../Assets/Images/linkedIn-logo.png";
 import pintrestLogo from "../Assets/Images/pintrest-logo.png";
 import instagramLogo from "../Assets/Images/instagram-logo.png";
 import youtubeLogo from "../Assets/Images/youtube-logo.png";
-import whatsappLogo from "../Assets/Images/whatsapp-icon.png";
-import canadaLogo from "../Assets/Images/canada-logo.webp";
-import usaLogo from "../Assets/Images/usa-logo.png";
-import india from "../Assets/Images/india.jpg";
-import { Badge } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
+import email from "../Assets/Images/email.png";
 
 function Footer() {
   return (
@@ -315,112 +309,32 @@ function Footer() {
             style={{ width: "28px", height: "22px" }}
             className="header-icons"
           />
+
           <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <Badge
-              overlap="circular"
-              badgeContent={
-                <img
-                  src={whatsappLogo}
-                  alt="whatsapp"
-                  style={{ height: "12px", width: "12px" }}
-                />
-              }
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-            >
-              <img
-                alt="flag1"
-                src={canadaLogo}
-                style={{ height: "25px", width: "25px", borderRadius: "50%" }}
-              />
-            </Badge>
+            <LocalPhoneIcon />
             <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "black" }}
+              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
             >
-              + 123 654323 234234
+              +91 74119 78909
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <Badge
-              overlap="circular"
-              badgeContent={
-                <img
-                  src={whatsappLogo}
-                  alt="whatsapp"
-                  style={{ height: "12px", width: "12px" }}
-                />
-              }
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-            >
-              <img
-                alt="flag1"
-                src={usaLogo}
-                style={{ height: "25px", width: "25px", borderRadius: "50%" }}
-              />
-            </Badge>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              gap: 0.3,
+              ml: { xs: -3, sm: 0 },
+            }}
+          >
+            <img
+              alt="flag1"
+              src={email}
+              style={{ height: "20px", width: "25px", borderRadius: "2px" }}
+            />
             <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "black" }}
+              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
             >
-              + 123 654323 234234
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <Badge
-              overlap="circular"
-              badgeContent={
-                <img
-                  src={whatsappLogo}
-                  alt="whatsapp"
-                  style={{ height: "12px", width: "12px" }}
-                />
-              }
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-            >
-              <img
-                alt="flag1"
-                src="https://e7.pngegg.com/pngimages/1012/988/png-clipart-flag-of-turkey-computer-icons-national-flag-flag-miscellaneous-flag.png"
-                style={{ height: "25px", width: "25px", borderRadius: "50%" }}
-              />
-            </Badge>
-            <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "black" }}
-            >
-              + 123 654323 234234
-            </Typography>
-          </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <Badge
-              overlap="circular"
-              badgeContent={
-                <img
-                  src={whatsappLogo}
-                  alt="whatsapp"
-                  style={{ height: "12px", width: "12px" }}
-                />
-              }
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
-            >
-              <img
-                alt="flag1"
-                src={india}
-                style={{ height: "25px", width: "25px", borderRadius: "50%" }}
-              />
-            </Badge>
-            <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "black" }}
-            >
-              + 123 654323 234234
+              hr@merakitrainings.in
             </Typography>
           </Box>
         </Box>

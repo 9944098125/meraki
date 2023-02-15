@@ -24,7 +24,7 @@ function IRTCOTS() {
           sx={{
             color: "primary.dark",
             fontWeight: "800",
-            fontSize: { xs: "30px", sm: "45px", md: "50px" },
+            fontSize: { xs: "20px", sm: "35px", md: "40px" },
             width: "70%",
             textAlign: "center",
           }}

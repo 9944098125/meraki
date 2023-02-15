@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
-import applicationDevelopment from "../Assets/ServicesImages/applicationDevelopment.avif";
-import websiteDevelopment from "../Assets/ServicesImages/websiteDevelopment.avif";
 import itSolutionsHeader from "../Assets/ServicesImages/itSolutionsHeader.avif";
+import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.jpg";
+import webDevelopment from "../Assets/ServicesImages/webDevelopment.jpg";
 
 function ItSolutions() {
   return (
@@ -65,7 +65,7 @@ function ItSolutions() {
               py: { xs: 1.5, sm: 2, md: 3 },
             }}
           >
-            <img src={applicationDevelopment} alt="" className="services-img" />
+            <img src={mobileAppDevelopment} alt="" className="services-img" />
             <Typography
               sx={{
                 color: "primary.main",
@@ -218,7 +218,7 @@ function ItSolutions() {
               py: { xs: 1.5, sm: 2, md: 3 },
             }}
           >
-            <img src={websiteDevelopment} alt="" className="services-img" />
+            <img src={webDevelopment} alt="" className="services-img" />
             <Typography
               sx={{
                 color: "primary.main",
