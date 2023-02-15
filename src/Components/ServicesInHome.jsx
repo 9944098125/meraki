@@ -1,7 +1,7 @@
 import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
 import trainingServices from "../Assets/ServicesImages/trainingServices.jpg";
-import staffingServices from "../Assets/Images/staffingServices.jpg";
+import staffingServices from "../Assets/ServicesImages/staffingServices.jpg";
 
 function ServicesInHome() {
   return (
@@ -57,6 +57,7 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              gap: 2,
               width: { xs: "100%", md: "50%" },
             }}
           >
@@ -90,6 +91,7 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              gap: 2,
               width: { xs: "100%", md: "50%" },
             }}
           >

@@ -1,9 +1,9 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import clients from "../Assets/Images/clients.webp";
-import hours from "../Assets/Images/hours.webp";
-import courses from "../Assets/Images/courses.avif";
-import trainees from "../Assets/Images/trainees.jfif";
+import clients from "../Assets/Images/clients.jpg";
+import hours from "../Assets/Images/hours.jpg";
+import courses from "../Assets/Images/courses.jpg";
+import trainees from "../Assets/Images/trainees.jpg";
 
 function MileStones({ title }) {
   return (

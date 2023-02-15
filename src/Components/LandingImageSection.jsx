@@ -2,17 +2,18 @@ import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
 import landingImage from "../Assets/Images/landingImage.jpg";
+import alternateLandingImage from "../Assets/Images/landingImageAlternative.jpg";
 import { Link } from "react-router-dom";
 import { Typewriter } from "react-simple-typewriter";
 
 function LandingImageSection() {
   const handleType = (count) => {
     // access word count number
-    console.log(count);
+    // console.log(count);
   };
 
   const handleDone = () => {
-    console.log(`Done after 5 loops!`);
+    // console.log(`Done after 5 loops!`);
   };
 
   return (
@@ -21,7 +22,7 @@ function LandingImageSection() {
         sx={{
           width: "100%",
           height: { xs: "100vh", sm: "80vh", md: "70vh" },
-          backgroundImage: `url(${landingImage})`,
+          backgroundImage: `url(${alternateLandingImage})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "flex",

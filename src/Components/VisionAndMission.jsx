@@ -11,7 +11,7 @@ function VisionAndMission() {
         sx={{
           width: "100%",
           height: { xs: "100%", sm: "90vh", md: "80vh" },
-          backgroundColor: "#E2DFD2",
+          backgroundColor: "#F5F5F5",
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
           alignItems: { xs: "center", sm: "none" },
@@ -38,7 +38,7 @@ function VisionAndMission() {
               borderRadius: "50%",
               mt: 5,
               mb: 2,
-              backgroundColor: "rgb(228, 248, 250)",
+              backgroundColor: "white",
             }}
           >
             <img src={vision} alt="vision" className="visionAndMissionImage" />
@@ -82,7 +82,7 @@ function VisionAndMission() {
               borderRadius: "50%",
               mt: 5,
               mb: 2,
-              backgroundColor: "rgb(235, 227, 253)",
+              backgroundColor: "white",
             }}
           >
             <img src={mission} alt="vision" className="visionAndMissionImage" />

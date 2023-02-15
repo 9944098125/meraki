@@ -16,7 +16,7 @@ function SlickItem() {
       {
         breakpoint: 1450,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 2,
           infinite: true,
           dots: true,
@@ -53,8 +53,8 @@ function SlickItem() {
           >
             <Box
               sx={{
-                width: { xs: "250px", sm: "350px", md: "450px" },
-                height: { xs: "180px", sm: "250px", md: "350px" },
+                width: { xs: "150px", sm: "300px", md: "350px" },
+                height: { xs: "80px", sm: "200px", md: "250px" },
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",

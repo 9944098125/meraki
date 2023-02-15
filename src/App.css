@@ -256,6 +256,9 @@ div.sticky {
   height: 100%;
   width: 100%;
  }
+ .getInTouchFields {
+  width:250px
+ }
 }
 
 .hero {
