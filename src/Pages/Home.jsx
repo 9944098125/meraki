@@ -16,7 +16,6 @@ function Home() {
       <AboutUsComponent />
       <VisionAndMission />
       <Clients />
-      <GetInTouch />
       <MileStones title="Milestones" />
       <GetInTouch />
       <ContactUs />
