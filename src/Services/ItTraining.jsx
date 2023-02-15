@@ -9,7 +9,7 @@ import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.
 import webDevelopment from "../Assets/ServicesImages/webDevelopment.jpg";
 import robotics from "../Assets/ServicesImages/robotics.jpg";
 import bigData from "../Assets/ServicesImages/bigData.jpg";
-import c from "../Assets/ServicesImages/c#.jpg";
+import c from "../Assets/ServicesImages/c.jpg";
 import java from "../Assets/ServicesImages/java.jpg";
 import python from "../Assets/ServicesImages/python.jpg";
 import dotNet from "../Assets/ServicesImages/dotNet.jpg";

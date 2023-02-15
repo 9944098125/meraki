@@ -1,8 +1,8 @@
 import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
-import vision from "../Assets/Images/vision.png";
-import mission from "../Assets/Images/mission.png";
+import vision from "../Assets/Images/vision.jpg";
+import mission from "../Assets/Images/mission.jpg";
 
 function VisionAndMission() {
   return (

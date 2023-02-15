@@ -45,20 +45,21 @@ function LandingImageSection() {
             sx={{
               fontSize: { xs: "17px", sm: "19px", md: "22px" },
               fontWeight: "700",
-              color: "white",
+              color: "#1a237e",
+              textAlign: "center",
             }}
           >
-            The Ultimate Destination For Your Staffing And Training Needs
+            Scaling Up Businesses through Pragmatic Training Solutions
           </Typography>
         </Box>
         <Typography
           sx={{
             fontSize: { xs: "19px", sm: "23px", md: "30px" },
-            color: "white",
+            color: "#1a237e",
             mb: 3,
           }}
         >
-          <span style={{ color: "white", fontWeight: "bold" }}>
+          <span style={{ color: "#1a237e", fontWeight: "bold" }}>
             {/* Style will be inherited from the parent element */}
             <Typewriter
               words={[
@@ -88,7 +89,7 @@ function LandingImageSection() {
           }}
         >
           <Link
-            to="/staffing-services"
+            to="/services/staffing-services"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <Typography
@@ -99,18 +100,14 @@ function LandingImageSection() {
                 p: 1,
                 border: "2px solid white",
                 borderRadius: "15px",
-                "&:hover": {
-                  backgroundColor: "white",
-                  color: "primary.dark",
-                  fontWeight: "800",
-                },
+                backgroundColor: "#1a237e",
               }}
             >
               Staffing Services
             </Typography>
           </Link>
           <Link
-            to="/training-services"
+            to="services/it-training"
             style={{ textDecoration: "none", color: "inherit" }}
           >
             <Typography
@@ -121,11 +118,7 @@ function LandingImageSection() {
                 p: 1,
                 border: "2px solid white",
                 borderRadius: "15px",
-                "&:hover": {
-                  backgroundColor: "white",
-                  color: "primary.dark",
-                  fontWeight: "800",
-                },
+                backgroundColor: "#1a237e",
               }}
             >
               Training Services

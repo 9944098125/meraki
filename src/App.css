@@ -72,7 +72,7 @@ div.sticky {
 }
 
 .primaryBtn {
-  background-color: rgb(138, 1, 230);
+  background-color: #1a237e;
   padding: 5px 20px;
   border-radius: 9px;
   color: white;
@@ -82,7 +82,7 @@ div.sticky {
 }
 
 .primaryBtn:hover {
-  background-color: rgb(127, 6, 154);
+  background-color: rgb(25, 2, 158);
 }
 
 .visionAndMissionImage {
@@ -169,9 +169,13 @@ div.sticky {
   display:none;
 }
 
-/* .services-img {
-  opacity: 0.5;
-} */
+.getInTouchFields {
+  height: 45px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  background-color: rgb(227, 221, 221);
+}
 
 @media screen and (min-width:1000px) and (max-width:1450px) {
  .services-img {
@@ -181,6 +185,9 @@ div.sticky {
  .header-image {
   height: 100%;
   width: 50%;
+ }
+ .getInTouchFields {
+  width: 500px;
  }
 }
 
@@ -193,6 +200,9 @@ div.sticky {
   height: 100%;
   width: 50%;
  }
+ .getInTouchFields {
+  width: 300px;
+ }
 }
 
 @media screen and (min-width:300px) and (max-width:360px) {
@@ -203,6 +213,9 @@ div.sticky {
  .header-image {
   height: 100%;
   width: 100%;
+ }
+ .getInTouchFields {
+  width: 300px;
  }
 }
 
@@ -215,6 +228,9 @@ div.sticky {
   height: 100%;
   width: 100%;
  }
+ .getInTouchFields {
+  width: 350px;
+ }
 }
 
 @media screen and (min-width:370px) and (max-width:395px) {
@@ -225,6 +241,9 @@ div.sticky {
  .header-image {
   height: 100%;
   width: 100%;
+ }
+ .getInTouchFields {
+  width: 320px;
  }
 }
 
@@ -237,4 +256,55 @@ div.sticky {
   height: 100%;
   width: 100%;
  }
+}
+
+.hero {
+  position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero::before {    
+  content: "";
+  background-image: url('./Assets/Images/aboutUsBackground.jpg');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+
+.getInTouchColumns {
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  margin-bottom: 15px;
+}
+
+.getInTouchLabels {
+  color: #1a237e;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.getInTouchImg {
+  width: 50%;
+  height: 100%;
+}
+
+.getInTouchImg {
+  animation-name : mymove;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 1s;
+}
+
+@keyframes mymove {
+  from {transform: translateY(0px);}
+  to {transform: translateY(20px);}
 }

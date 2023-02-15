@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
-import trainingServices from "../Assets/Images/trainingServices.jpg";
+import trainingServices from "../Assets/ServicesImages/trainingServices.jpg";
 import staffingServices from "../Assets/Images/staffingServices.jpg";
 
 function ServicesInHome() {
@@ -32,7 +32,7 @@ function ServicesInHome() {
             textAlign: "center",
           }}
         >
-          Bridging the Gap Between Business And Technology
+          Bridging the Gap Between Business And Talent
         </Typography>
         <Box
           sx={{
@@ -57,25 +57,17 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              width: "50%",
             }}
           >
             <Typography
               sx={{
                 fontSize: { xs: "25px", sm: "30px", md: "35px" },
                 fontWeight: "700",
-                color: "secondary.dark",
+                color: "primary.dark",
               }}
             >
               Training Services
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: { xs: "12px", sm: "15px", md: "18px" },
-                fontStyle: "italic",
-                textAlign: "center",
-              }}
-            >
-              PRAGMATIC TRAINING SOLUTIONS THROUGH EXPERIENTIAL LEARNING.
             </Typography>
             <button className="primaryBtn">Explore</button>
           </Box>
@@ -98,25 +90,17 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
+              width: "50%",
             }}
           >
             <Typography
               sx={{
                 fontSize: { xs: "25px", sm: "30px", md: "35px" },
                 fontWeight: "700",
-                color: "secondary.dark",
+                color: "primary.dark",
               }}
             >
               Staffing Services
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: { xs: "12px", sm: "15px", md: "18px" },
-                fontStyle: "italic",
-                textAlign: "center",
-              }}
-            >
-              CONNECTING TALENT WITH RIGHT OPPORTUNITIES.
             </Typography>
             <button className="primaryBtn">Explore</button>
           </Box>
