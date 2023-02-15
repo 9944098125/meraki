@@ -1,7 +1,13 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function TrainingMethodology() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <Box
@@ -23,6 +29,7 @@ function TrainingMethodology() {
           Our Training Methodology
         </Typography>
         <Box
+          data-aos="fade-down"
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -78,6 +85,7 @@ function TrainingMethodology() {
         </Box>
 
         <Box
+          data-aos="fade-up"
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -133,6 +141,7 @@ function TrainingMethodology() {
         </Box>
 
         <Box
+          data-aos="fade-down"
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -188,6 +197,7 @@ function TrainingMethodology() {
         </Box>
 
         <Box
+          data-aos="fade-up"
           sx={{
             display: "flex",
             justifyContent: "center",
@@ -245,6 +255,7 @@ function TrainingMethodology() {
         </Box>
 
         <Box
+          data-aos="fade-down"
           sx={{
             display: "flex",
             justifyContent: "center",
