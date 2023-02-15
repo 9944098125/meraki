@@ -1,5 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
+import { useNavigate } from "react-router-dom";
 import getInTouch from "../Assets/ServicesImages/getInTouch.png";
 
 function GetInTouch() {
