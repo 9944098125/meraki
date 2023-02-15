@@ -16,6 +16,7 @@ import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
 import india from "../Assets/Images/india.jpg";
 import { Badge, Typography } from "@mui/material";
 import OurServices from "../Pages/OurServices";
+import Footer from "./Footer";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
@@ -403,6 +404,7 @@ function Navbar() {
       <Box sx={{}}>
         <Outlet />
       </Box>
+      <Footer />
     </Fragment>
   );
 }

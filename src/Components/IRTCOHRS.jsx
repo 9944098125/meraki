@@ -4,7 +4,7 @@ import React, { Fragment } from "react";
 function IRTCOHRS() {
   return (
     <Fragment>
-      <Box sx={{ p: 3 }}>
+      <Box id="irtcohr" sx={{ p: 3 }}>
         <Typography
           sx={{
             color: "primary.dark",

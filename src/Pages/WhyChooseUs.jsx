@@ -11,8 +11,8 @@ function WhyChooseUs() {
     <Fragment>
       <IRTCOTS />
       <TrainingMethodology />
-      <IRTCOHRS />
-      <Box sx={{ p: { xs: 2, sm: 3, md: 3 } }}>
+      {/* <IRTCOHRS /> */}
+      <Box id="achievements" sx={{ p: { xs: 2, sm: 3, md: 3 } }}>
         <MileStones title="A Sneak Peek into Our Achievements" />
       </Box>
       <DownloadBrochure />

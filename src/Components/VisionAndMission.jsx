@@ -8,6 +8,7 @@ function VisionAndMission() {
   return (
     <Fragment>
       <Box
+        id="vm"
         sx={{
           width: "100%",
           height: { xs: "100%", sm: "90vh", md: "80vh" },

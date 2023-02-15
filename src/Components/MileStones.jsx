@@ -19,7 +19,7 @@ function MileStones({ title }) {
       >
         <Typography
           sx={{
-            fontSize: { xs: "50px", sm: "65px", md: "70px" },
+            fontSize: { xs: "30px", sm: "45px", md: "50px" },
             fontWeight: "700",
             color: "primary.dark",
           }}
@@ -36,19 +36,28 @@ function MileStones({ title }) {
           }}
         >
           <Box
+            className="getInTouchImg"
             sx={{
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               width: { xs: "45%", sm: "20%" },
-              p: { xs: 1, sm: 2, md: 3 },
+              pb: { xs: 1, sm: 2, md: 3 },
               boxShadow: "0px 5px 5px 0px grey",
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
             }}
           >
-            <img src={trainees} className="milestonesImage" alt="" />
+            <img
+              src={trainees}
+              className="milestonesImage"
+              alt=""
+              style={{
+                borderTopRightRadius: "8px",
+                borderTopLeftRadius: "8px",
+              }}
+            />
             <Typography
               sx={{
                 color: "primary.dark",
@@ -70,19 +79,28 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
+            className="getInTouchImg"
             sx={{
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               width: { xs: "45%", sm: "20%" },
-              p: { xs: 1, sm: 2, md: 3 },
+              pb: { xs: 1, sm: 2, md: 3 },
               boxShadow: "0px 5px 5px 0px grey",
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
             }}
           >
-            <img src={hours} className="milestonesImage" alt="" />
+            <img
+              src={hours}
+              className="milestonesImage"
+              alt=""
+              style={{
+                borderTopRightRadius: "8px",
+                borderTopLeftRadius: "8px",
+              }}
+            />
             <Typography
               sx={{
                 color: "primary.dark",
@@ -104,19 +122,28 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
+            className="getInTouchImg"
             sx={{
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               width: { xs: "45%", sm: "20%" },
-              p: { xs: 1, sm: 2, md: 3 },
+              pb: { xs: 1, sm: 2, md: 3 },
               boxShadow: "0px 5px 5px 0px grey",
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
             }}
           >
-            <img src={clients} className="milestonesImage" alt="" />
+            <img
+              src={clients}
+              className="milestonesImage"
+              alt=""
+              style={{
+                borderTopRightRadius: "8px",
+                borderTopLeftRadius: "8px",
+              }}
+            />
             <Typography
               sx={{
                 color: "primary.dark",
@@ -138,19 +165,28 @@ function MileStones({ title }) {
             </Typography>
           </Box>
           <Box
+            className="getInTouchImg"
             sx={{
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
               width: { xs: "45%", sm: "20%" },
-              p: { xs: 1, sm: 2, md: 3 },
+              pb: { xs: 1, sm: 2, md: 3 },
               boxShadow: "0px 5px 5px 0px grey",
               borderRadius: "12px",
               height: { xs: "200px", sm: "250px", md: "300px" },
               backgroundColor: "white",
             }}
           >
-            <img src={courses} className="milestonesImage" alt="" />
+            <img
+              src={courses}
+              className="milestonesImage"
+              alt=""
+              style={{
+                borderTopRightRadius: "8px",
+                borderTopLeftRadius: "8px",
+              }}
+            />
             <Typography
               sx={{
                 color: "primary.dark",

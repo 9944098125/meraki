@@ -5,6 +5,7 @@ function AboutUsComponent() {
   return (
     <Fragment>
       <Box
+        id="header"
         className="hero"
         sx={{
           p: { xs: 6, sm: 7, md: 10 },

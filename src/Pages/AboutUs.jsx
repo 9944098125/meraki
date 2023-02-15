@@ -13,6 +13,7 @@ function AboutUs() {
       <AboutUsComponent />
       <VisionAndMission />
       <Box
+        id="values"
         sx={{
           p: 2,
           mt: 2,

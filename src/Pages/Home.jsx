@@ -6,7 +6,6 @@ import VisionAndMission from "../Components/VisionAndMission";
 import AboutUsComponent from "../Components/AboutUs";
 import GetInTouch from "../Components/GetInTouch";
 import MileStones from "../Components/MileStones";
-import ContactUs from "../Components/ContactUs";
 
 function Home() {
   return (
@@ -18,7 +17,6 @@ function Home() {
       <Clients />
       <MileStones title="Milestones" />
       <GetInTouch />
-      <ContactUs />
     </Fragment>
   );
 }
