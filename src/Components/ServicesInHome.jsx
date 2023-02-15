@@ -57,7 +57,7 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              width: "50%",
+              width: { xs: "100%", md: "50%" },
             }}
           >
             <Typography
@@ -90,7 +90,7 @@ function ServicesInHome() {
               flexDirection: "column",
               alignItems: "center",
               justifyContent: "center",
-              width: "50%",
+              width: { xs: "100%", md: "50%" },
             }}
           >
             <Typography

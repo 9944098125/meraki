@@ -18,7 +18,7 @@ import { Badge } from "@mui/material";
 function ContactUs() {
   return (
     <Fragment>
-      <Box sx={{ backgroundColor: "#234e8e", p: 5 }}>
+      <Box sx={{ backgroundColor: "#1a237e", p: 5 }}>
         <Typography
           sx={{
             fontSize: { xs: "50px", sm: "65px", md: "70px" },
@@ -48,7 +48,7 @@ function ContactUs() {
               alignItems: "center",
               width: { xs: "90%", md: "25%" },
               mb: { xs: 3, sm: 2, md: 1 },
-              boxShadow: "0px 5px 5px 0px grey",
+              boxShadow: "0px 5px 5px 0px black",
               borderRadius: "12px",
               px: 1,
               minHeight: "80px",
@@ -72,7 +72,7 @@ function ContactUs() {
               alignItems: "center",
               width: { xs: "90%", md: "25%" },
               mb: { xs: 3, sm: 2, md: 1 },
-              boxShadow: "0px 5px 5px 0px grey",
+              boxShadow: "0px 5px 5px 0px black",
               borderRadius: "12px",
               px: 1,
               minHeight: "80px",
@@ -93,7 +93,7 @@ function ContactUs() {
               alignItems: "center",
               width: { xs: "90%", md: "25%" },
               mb: { xs: 3, sm: 2, md: 1 },
-              boxShadow: "0px 5px 5px 0px grey",
+              boxShadow: "0px 5px 5px 0px black",
               borderRadius: "12px",
               px: 1,
               minHeight: "80px",

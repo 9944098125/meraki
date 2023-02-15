@@ -69,7 +69,7 @@ function GetInTouch() {
               </label> */}
               <input
                 id="phone"
-                type="number"
+                type="text"
                 className="getInTouchFields"
                 name="phone"
                 placeholder="Please Enter Your Phone Number"
