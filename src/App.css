@@ -308,3 +308,20 @@ div.sticky {
   from {transform: translateY(0px);}
   to {transform: translateY(20px);}
 }
+
+/* [data-aos^=zoom][data-aos^=zoom].aos-animate {
+  opacity: 1;
+  transform: translateZ(0) scale(1);
+}
+
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+  transition-timing-function: ease;
+}
+
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+  transition-duration: .4s;
+}
+
+[data-aos^=zoom][data-aos^=zoom] {
+  transition-property: opacity, transform;
+} */
