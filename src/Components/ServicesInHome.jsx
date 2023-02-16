@@ -2,8 +2,15 @@ import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
 import trainingServices from "../Assets/ServicesImages/trainingServices.jpg";
 import staffingServices from "../Assets/ServicesImages/staffingServices.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 function ServicesInHome() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <Box
@@ -35,6 +42,7 @@ function ServicesInHome() {
           Bridging the Gap Between Business And Talent
         </Typography>
         <Box
+          data-aos="fade-up"
           sx={{
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
@@ -70,10 +78,16 @@ function ServicesInHome() {
             >
               Training Services
             </Typography>
-            <button className="primaryBtn">Explore</button>
+            <Link
+              to="/services/it-training"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <button className="primaryBtn">Explore</button>
+            </Link>
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           sx={{
             display: "flex",
             flexDirection: { xs: "column", md: "row" },
@@ -104,7 +118,12 @@ function ServicesInHome() {
             >
               Staffing Services
             </Typography>
-            <button className="primaryBtn">Explore</button>
+            <Link
+              to="/services/staffing-services"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
+              <button className="primaryBtn">Explore</button>
+            </Link>
           </Box>
           <img
             src={staffingServices}
