@@ -35,7 +35,7 @@ function GetInTouch() {
           >
             Get In Touch With Us
           </Typography>
-          <form action="https://formspree.io/f/xdovejdb" method="POST">
+          <form action="https://formspree.io/f/mqkoprjw" method="POST">
             <div className="getInTouchColumns">
               {/* <label htmlFor="name" className="getInTouchLabel">
                 Name

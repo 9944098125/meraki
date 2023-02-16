@@ -24,6 +24,7 @@ function TrainingMethodology() {
             color: "primary.dark",
             fontWeight: "800",
             fontSize: { xs: "20px", sm: "35px", md: "40px" },
+            mb: { xs: 2, md: 4 },
           }}
         >
           Our Training Methodology

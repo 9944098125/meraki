@@ -322,10 +322,13 @@ function Navbar() {
             bottom: "10px",
             right: "10px",
             cursor: "pointer",
+            backgroundColor: "white",
+            padding: 2,
+            borderRadius: "50%",
           }}
         >
           <img
-            src="https://png.pngtree.com/png-clipart/20221019/original/pngtree-whatsapp-phone-icon-png-image_8704826.png"
+            src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-mobile-software-icon-png-image_6315991.png"
             alt=""
             className="whatsapp-icon"
             onClick={displayWhatsappModal}

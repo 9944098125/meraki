@@ -4,6 +4,7 @@ import { Box, Typography } from "@mui/material";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
 import ReactWhatsapp from "react-whatsapp";
 import ArrowLeftIcon from "@mui/icons-material/ArrowLeft";
+import whatsapp from "../Assets/Images/whatsappIcon.svg";
 
 const style = {
   position: "absolute",
@@ -105,7 +106,7 @@ function WhatsappModal({ showWhatsappModal, close }) {
                   sx={{ fontSize: { xs: "10px", sm: "12px", md: "14px" } }}
                 >
                   Do you want to know more about our training and staffing
-                  services ? Then Please message to +91 74119 78909 in whatsapp
+                  services ?
                 </Typography>
               </Box>
             </Box>
@@ -130,7 +131,13 @@ function WhatsappModal({ showWhatsappModal, close }) {
               number="+91 74119 78909"
               message=""
             >
-              Send Message
+              <img
+                src={whatsapp}
+                alt=""
+                className="w-button-icon"
+                style={{ marginRight: "15px", backgroundColor: "#3cb371" }}
+              />
+              Let's Chat
             </ReactWhatsapp>
           </Box>
         </Box>

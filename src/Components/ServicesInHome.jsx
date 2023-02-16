@@ -24,7 +24,6 @@ function ServicesInHome() {
         }}
       >
         <Typography
-          className="headings"
           sx={{
             fontSize: { xs: "20px", sm: "35px", md: "40px" },
             fontWeight: "800",
@@ -35,7 +34,7 @@ function ServicesInHome() {
         </Typography>
         <Typography
           sx={{
-            fontSize: { xs: "20px", sm: "35px", md: "40px" },
+            fontSize: { xs: "12px", sm: "25px", md: "20px" },
             textAlign: "center",
           }}
         >

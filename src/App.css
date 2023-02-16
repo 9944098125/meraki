@@ -415,8 +415,13 @@ div.sticky {
   transition-property: opacity, transform;
 } */
 .whatsapp-icon {
-  height: 70px;
-  width: 70px;
+  height: 30px;
+  width: 30px;
+}
+
+.w-button-icon {
+  height: 20px;
+  width: 20px;
 }
 
 .logo-in-whatsappModal {
@@ -435,4 +440,11 @@ div.sticky {
   border: none;
   outline: none;
   border-radius: 9px;
+}
+
+.jkaHSM {
+  width: 16px;
+  height: 16px;
+  fill: rgb(255, 255, 255);
+  z-index: 1;
 }

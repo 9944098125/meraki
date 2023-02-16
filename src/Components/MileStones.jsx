@@ -10,9 +10,9 @@ import AnimatedNumbers from "react-animated-numbers";
 
 function MileStones({ title }) {
   const [num] = React.useState(5000);
-  const [num2] = React.useState(10000);
+  const [num2] = React.useState(100000);
   const [num3] = React.useState(97.3);
-  const [num4] = React.useState(7000);
+  const [num4] = React.useState(70);
   React.useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -26,6 +26,7 @@ function MileStones({ title }) {
           alignItems: "center",
           justifyContent: "center",
           p: 1,
+          mt: { xs: 2, sm: 4 },
         }}
       >
         <Typography
@@ -45,6 +46,7 @@ function MileStones({ title }) {
             alignItems: "center",
             justifyContent: "center",
             gap: { xs: 1, sm: 3, md: 5 },
+            mt: { xs: 2, sm: 4 },
           }}
         >
           <Box

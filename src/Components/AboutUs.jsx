@@ -19,6 +19,7 @@ function AboutUsComponent() {
             fontWeight: "700",
             color: "primary.dark",
             position: "relative",
+            mb: 3,
           }}
         >
           About Us

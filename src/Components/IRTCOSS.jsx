@@ -26,6 +26,7 @@ function IRTCOSS() {
             fontSize: { xs: "20px", sm: "35px", md: "40px" },
             width: "70%",
             textAlign: "center",
+            mb: { xs: 2, md: 3 },
           }}
         >
           Irresistible Reasons To Choose Our Staffing Services

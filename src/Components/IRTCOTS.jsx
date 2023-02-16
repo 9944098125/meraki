@@ -26,6 +26,7 @@ function IRTCOTS() {
             fontSize: { xs: "20px", sm: "35px", md: "40px" },
             width: "70%",
             textAlign: "center",
+            mb: { xs: 2, md: 4 },
           }}
         >
           Irresistible Reasons To Choose Our Training Services
@@ -44,9 +45,9 @@ function IRTCOTS() {
             borderBottomLeftRadius: "75px",
             p: 1,
             borderRight: {
-              xs: "15px solid orange",
-              sm: "20px solid orange",
-              md: "30px solid orange",
+              xs: "15px solid #BBF9A0",
+              sm: "20px solid #BBF9A0",
+              md: "30px solid #BBF9A0",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -57,14 +58,14 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid orange",
+                border: "10px solid #BBF9A0",
               }}
             />
           </Box>
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "orange",
+                color: "primary.main",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -73,7 +74,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#bbf9a6",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -97,9 +98,9 @@ function IRTCOTS() {
             borderBottomRightRadius: "75px",
             p: 1,
             borderLeft: {
-              xs: "15px solid blue",
-              sm: "20px solid blue",
-              md: "30px solid blue",
+              xs: "15px solid #A0F9E0",
+              sm: "20px solid #A0F9E0",
+              md: "30px solid #A0F9E0",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -107,7 +108,7 @@ function IRTCOTS() {
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "blue",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -116,7 +117,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#A0F9E0",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -132,7 +133,7 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid blue",
+                border: "10px solid #A0F9E0",
               }}
             />
           </Box>
@@ -150,9 +151,9 @@ function IRTCOTS() {
             borderBottomLeftRadius: "75px",
             p: 1,
             borderRight: {
-              xs: "15px solid pink",
-              sm: "20px solid pink",
-              md: "30px solid pink",
+              xs: "15px solid #A0E0F9",
+              sm: "20px solid #A0E0F9",
+              md: "30px solid #A0E0F9",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -163,14 +164,14 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid pink",
+                border: "10px solid #A0E0F9",
               }}
             />
           </Box>
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "pink",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -179,7 +180,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#A0E0F9",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -203,9 +204,9 @@ function IRTCOTS() {
             borderBottomRightRadius: "75px",
             p: 1,
             borderLeft: {
-              xs: "15px solid red",
-              sm: "20px solid red",
-              md: "30px solid red",
+              xs: "15px solid #CABCE7",
+              sm: "20px solid #CABCE7",
+              md: "30px solid #CABCE7",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -213,7 +214,7 @@ function IRTCOTS() {
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "orange",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -222,7 +223,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#CABCE7",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -238,7 +239,7 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid red",
+                border: "10px solid #CABCE7",
               }}
             />
           </Box>
@@ -256,9 +257,9 @@ function IRTCOTS() {
             borderBottomLeftRadius: "75px",
             p: 1,
             borderRight: {
-              xs: "15px solid green",
-              sm: "20px solid green",
-              md: "30px solid green",
+              xs: "15px solid #C2FB9E",
+              sm: "20px solid #C2FB9E",
+              md: "30px solid #C2FB9E",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -269,14 +270,14 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid green",
+                border: "10px solid #C2FB9E",
               }}
             />
           </Box>
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "orange",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -285,7 +286,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#C2FB9E",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -310,9 +311,9 @@ function IRTCOTS() {
             borderBottomRightRadius: "75px",
             p: 1,
             borderLeft: {
-              xs: "15px solid violet",
-              sm: "20px solid violet",
-              md: "30px solid violet",
+              xs: "15px solid #FBB1C8",
+              sm: "20px solid #FBB1C8",
+              md: "30px solid #FBB1C8",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -320,7 +321,7 @@ function IRTCOTS() {
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "orange",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -329,7 +330,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#FBB1C8",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >
@@ -346,7 +347,7 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid violet",
+                border: "10px solid #FBB1C8",
               }}
             />
           </Box>
@@ -364,9 +365,9 @@ function IRTCOTS() {
             borderBottomLeftRadius: "75px",
             p: 1,
             borderRight: {
-              xs: "15px solid purple",
-              sm: "20px solid purple",
-              md: "30px solid purple",
+              xs: "15px solid #90E9D6",
+              sm: "20px solid #90E9D6",
+              md: "30px solid #90E9D6",
             },
             mb: { xs: 2, sm: 3, md: 4 },
           }}
@@ -377,14 +378,14 @@ function IRTCOTS() {
               className="irtcots-images"
               alt=""
               style={{
-                border: "10px solid purple",
+                border: "10px solid #90E9D6",
               }}
             />
           </Box>
           <Box sx={{}}>
             <Typography
               sx={{
-                color: "orange",
+                color: "primary.dark",
                 fontWeight: "800",
                 fontSize: { xs: "12px", sm: "15px", md: "18px" },
               }}
@@ -393,7 +394,7 @@ function IRTCOTS() {
             </Typography>
             <Typography
               sx={{
-                color: "primary.dark",
+                color: "#90E9D6",
                 fontSize: { xs: "7px", sm: "10px", md: "12px" },
               }}
             >

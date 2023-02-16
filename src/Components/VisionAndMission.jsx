@@ -29,7 +29,7 @@ function VisionAndMission() {
             p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
-            height: { xs: "100%", md: "90%" },
+            height: { xs: "100%", md: "97%" },
             "&:hover": { backgroundColor: "white" },
           }}
         >
@@ -73,7 +73,7 @@ function VisionAndMission() {
             p: { xs: 0, sm: 1, md: 2 },
             borderRadius: "9px",
             cursor: "alias",
-            height: { xs: "100%", md: "90%" },
+            height: { xs: "100%", md: "97%" },
             "&:hover": { backgroundColor: "white" },
           }}
         >
