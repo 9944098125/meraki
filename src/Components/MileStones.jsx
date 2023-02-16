@@ -33,6 +33,7 @@ function MileStones({ title }) {
             fontSize: { xs: "20px", sm: "35px", md: "40px" },
             fontWeight: "700",
             color: "primary.dark",
+            textAlign: "center",
           }}
         >
           {title}

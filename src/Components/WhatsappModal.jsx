@@ -9,11 +9,11 @@ const style = {
   position: "absolute",
   bottom: "200px",
   right: "45px",
-  width: { xs: "200px", sm: "300px", md: "400px" },
+  width: { xs: "250px", sm: "300px", md: "400px" },
   height: { xs: "200px", sm: "300px", md: "200px" },
   backgroundColor: "white",
-  boxShadow: 24,
   borderRadius: "9px",
+  border: "none",
 };
 
 function WhatsappModal({ showWhatsappModal, close }) {
