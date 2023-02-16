@@ -96,7 +96,7 @@ function MileStones({ title }) {
             <Typography
               sx={{
                 color: "grey",
-                fontSize: { xs: "16px", sm: "18px", md: "21px" },
+                fontSize: { xs: "14px", sm: "18px", md: "21px" },
                 fontWeight: "700",
                 textAlign: "center",
               }}

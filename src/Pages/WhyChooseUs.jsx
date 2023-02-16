@@ -9,7 +9,7 @@ import { Box } from "@mui/material";
 function WhyChooseUs() {
   return (
     <Fragment>
-      <Box sx={{ width: "100%", height: "50vh", mb: 10 }}>
+      <Box id="header" sx={{ width: "100%", height: "50vh", mb: 10 }}>
         <img
           src="https://d-connect.net/wp-content/uploads/2019/10/why-choose-us-750x393.jpg"
           alt=""

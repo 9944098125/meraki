@@ -14,9 +14,19 @@ import { Typography } from "@mui/material";
 import OurServices from "../Pages/OurServices";
 import Footer from "./Footer";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import WhatsappModal from "./WhatsappModal";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
+  const [showWhatsappModal, setShowWhatsappModal] = React.useState(false);
+
+  function displayWhatsappModal() {
+    setShowWhatsappModal(!showWhatsappModal);
+  }
+
+  function closeModal() {
+    setShowWhatsappModal(false);
+  }
 
   return (
     <Fragment>
@@ -302,6 +312,30 @@ function Navbar() {
               </Typography>
             </Link>
           </Box>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "flex-end",
+            alignItems: "flex-end",
+            position: "fixed",
+            bottom: "10px",
+            right: "10px",
+            cursor: "pointer",
+          }}
+        >
+          <img
+            src="https://png.pngtree.com/png-clipart/20221019/original/pngtree-whatsapp-phone-icon-png-image_8704826.png"
+            alt=""
+            className="whatsapp-icon"
+            onClick={displayWhatsappModal}
+          />
+          {showWhatsappModal && (
+            <WhatsappModal
+              showWhatsappModal={showWhatsappModal}
+              close={closeModal}
+            />
+          )}
         </Box>
       </Box>
       <Box sx={{}}>

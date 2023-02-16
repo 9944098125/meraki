@@ -132,7 +132,7 @@ function Footer() {
 
           <Box sx={{}}>
             <HashLink
-              to="/about#header"
+              to="/why-choose-us#header"
               style={{
                 textDecoration: "none",
                 color: "inherit",
