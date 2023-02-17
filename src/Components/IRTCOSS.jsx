@@ -71,7 +71,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "9px", sm: "12px", md: "15px" },
                   fontWeight: "700",
-                  width: "90%",
+                  width: "70%",
                   textAlign: "center",
                 }}
               >
@@ -133,7 +133,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "9px", sm: "12px", md: "15px" },
                   fontWeight: "700",
-                  width: "90%",
+                  width: "80%",
                   textAlign: "center",
                 }}
               >
