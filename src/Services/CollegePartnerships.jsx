@@ -7,8 +7,13 @@ import careerPath from "../Assets/Images/careerPath.jpg";
 import collaborativeResearch from "../Assets/ServicesImages/collaborativeResearch.jpg";
 import internshipPrograms from "../Assets/ServicesImages/internshipPrograms.jpg";
 import collegePartnershipsHeader from "../Assets/ServicesImages/collegePartnershipsHeader.avif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function CollegePartnerships() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Fragment>
       <Box
@@ -49,6 +54,7 @@ function CollegePartnerships() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="industry-awareness"
           sx={{
             minHeight: "100vh",
@@ -188,6 +194,7 @@ function CollegePartnerships() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="interview-preparations"
           sx={{
             minHeight: "100vh",
@@ -337,6 +344,7 @@ function CollegePartnerships() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="technical-training"
           sx={{
             minHeight: "100vh",
@@ -648,6 +656,7 @@ function CollegePartnerships() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="career-path-guidance"
           sx={{
             minHeight: "100vh",
@@ -1001,6 +1010,7 @@ function CollegePartnerships() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="collaborative-research"
           sx={{
             minHeight: "100vh",
@@ -1338,6 +1348,7 @@ function CollegePartnerships() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="internship"
           sx={{
             minHeight: "100vh",

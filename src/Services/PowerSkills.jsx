@@ -12,8 +12,14 @@ import salesTechniques from "../Assets/ServicesImages/salesTechniques.jpg";
 import teamBuilding from "../Assets/ServicesImages/teamBuilding.jpg";
 import timeManagement from "../Assets/ServicesImages/timeManagement.jpg";
 import powerSkillsHeader from "../Assets/ServicesImages/powerSkillsHeader.avif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function PowerSkills() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <Box
@@ -50,6 +56,7 @@ function PowerSkills() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="leadership-skills"
           sx={{
             minHeight: "100vh",
@@ -391,6 +398,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="sales-techniques"
           sx={{
             minHeight: "100vh",
@@ -675,6 +683,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="pro-presentation"
           sx={{
             minHeight: "100vh",
@@ -951,6 +960,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="team-building"
           sx={{
             minHeight: "100vh",
@@ -1198,6 +1208,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="business-communication"
           sx={{
             minHeight: "100vh",
@@ -1361,6 +1372,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="negotiation"
           sx={{
             minHeight: "100vh",
@@ -1525,6 +1537,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="time-management"
           sx={{
             minHeight: "100vh",
@@ -1684,6 +1697,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="decision-making"
           sx={{
             minHeight: "100vh",
@@ -1844,6 +1858,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="interpersonal-skills"
           sx={{
             minHeight: "100vh",
@@ -2006,6 +2021,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="critical-thinking"
           sx={{
             minHeight: "100vh",
@@ -2169,6 +2185,7 @@ function PowerSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="experiential-learning"
           sx={{
             minHeight: "100vh",

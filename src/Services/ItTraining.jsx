@@ -15,8 +15,14 @@ import python from "../Assets/ServicesImages/python.jpg";
 import dotNet from "../Assets/ServicesImages/dotNet.jpg";
 import devops from "../Assets/ServicesImages/devops.jpg";
 import itTrainingHeader from "../Assets/ServicesImages/itTrainingHeader.avif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ItTraining() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <Fragment>
       <Box
@@ -54,6 +60,7 @@ function ItTraining() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="cloud-computing"
           sx={{
             minHeight: "100vh",
@@ -369,6 +376,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="cyber-security"
           sx={{
             minHeight: "100vh",
@@ -676,6 +684,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="network"
           sx={{
             minHeight: "100vh",
@@ -846,6 +855,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="data-science"
           sx={{
             minHeight: "100vh",
@@ -1019,6 +1029,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="artificial-intelligence"
           sx={{
             minHeight: "100vh",
@@ -1196,6 +1207,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="mobile-application-development"
           sx={{
             minHeight: "100vh",
@@ -1376,6 +1388,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="web-development"
           sx={{
             minHeight: "100vh",
@@ -1708,6 +1721,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="robotics"
           sx={{
             minHeight: "100vh",
@@ -1999,6 +2013,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="hadoop"
           sx={{
             minHeight: "100vh",
@@ -2319,6 +2334,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="c"
           sx={{
             minHeight: "100vh",
@@ -2641,6 +2657,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="java-full-stack"
           sx={{
             minHeight: "100vh",
@@ -2881,6 +2898,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="python"
           sx={{
             minHeight: "100vh",
@@ -3190,6 +3208,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="net-full-stack"
           sx={{
             minHeight: "100vh",
@@ -3447,6 +3466,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="devops"
           sx={{
             minHeight: "100vh",

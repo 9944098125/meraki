@@ -5,8 +5,13 @@ import rpo from "../Assets/ServicesImages/rpo.jpg";
 import contingency from "../Assets/ServicesImages/contingency.jpg";
 import htd from "../Assets/ServicesImages/htd.jpg";
 import staffingServicesHeader from "../Assets/ServicesImages/staffingServicesHeader.avif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function StaffingServices() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Fragment>
       <Box
@@ -43,6 +48,7 @@ function StaffingServices() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="talent-acquisition"
           sx={{
             minHeight: "100vh",
@@ -177,6 +183,7 @@ function StaffingServices() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="rpo"
           sx={{
             minHeight: "100vh",
@@ -314,6 +321,7 @@ function StaffingServices() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="contingency-recruitment"
           sx={{
             minHeight: "100vh",
@@ -479,6 +487,7 @@ function StaffingServices() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="hire-train-deploy"
           sx={{
             minHeight: "100vh",

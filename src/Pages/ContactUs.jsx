@@ -1,6 +1,6 @@
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import GetInTouch from "../Components/GetInTouch";
+import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 
 function ContactUs() {
   return (
@@ -15,7 +15,131 @@ function ContactUs() {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-        <GetInTouch />
+        <Box
+          sx={{
+            width: { xs: "90%", sm: "45%", md: "45%" },
+            mt: { xs: -55, sm: -55, md: -55 },
+            p: { xs: 2, sm: 3, md: 4 },
+            zIndex: "99",
+          }}
+        >
+          <form action="https://formspree.io/f/mqkoprjw" method="POST">
+            <div className="getInTouchColumns">
+              {/* <label htmlFor="name" className="getInTouchLabel">
+                Name
+              </label> */}
+              <input
+                id="name"
+                type="text"
+                className="getInTouchFields"
+                name="name"
+                placeholder="Please Enter Your Name"
+                required
+              />
+            </div>
+
+            <div className="getInTouchColumns">
+              {/* <label htmlFor="email" className="getInTouchLabel">
+                Email
+              </label> */}
+              <input
+                id="email"
+                type="email"
+                className="getInTouchFields"
+                name="email"
+                placeholder="Please Enter Your Email"
+                required
+              />
+            </div>
+
+            <div className="getInTouchColumns">
+              {/* <label htmlFor="phone" className="getInTouchLabel">
+                Phone Number
+              </label> */}
+              <input
+                id="phone"
+                type="text"
+                className="getInTouchFields"
+                name="phone"
+                placeholder="Please Enter Your Phone Number"
+                required
+              />
+            </div>
+
+            <div className="getInTouchColumns">
+              {/* <label htmlFor="message" className="getInTouchLabel">
+                Message
+              </label> */}
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                placeholder="Message"
+                style={{
+                  backgroundColor: "rgb(231, 226, 226)",
+                  border: "none",
+                  outline: "none",
+                }}
+              />
+            </div>
+
+            <div className="">
+              <button
+                style={{ width: "100%" }}
+                className="primaryBtn"
+                type="submit"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            px: { xs: 1, sm: 2, md: 3 },
+            py: 2,
+          }}
+        >
+          <Box sx={{ width: "50%" }}>
+            <Typography
+              sx={{
+                fontSize: { xs: "16px", sm: "18px", md: "20px" },
+                fontWeight: "700",
+                color: "primary.dark",
+              }}
+            >
+              Kasavanahalli, 743, 15th Cross Rd, KPC Layout, Bengaluru,
+              Karnataka 560035
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "13px", sm: "15px", md: "17px" },
+                color: "primary.dark",
+              }}
+            >
+              hr@merakitrainings.in
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "13px", sm: "15px", md: "17px" },
+                color: "primary.dark",
+              }}
+            >
+              +91 74119 78909
+            </Typography>
+          </Box>
+          <Box sx={{ height: "30vh", width: "40vw" }}>
+            <img
+              src={MlogoDesktop}
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+              alt=""
+            />
+          </Box>
+        </Box>
       </Box>
     </Fragment>
   );

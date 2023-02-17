@@ -11,8 +11,13 @@ import vaTraining from "../Assets/ServicesImages/vaTraining.jpg";
 import businessEnglish from "../Assets/ServicesImages/businessEnglish.jpg";
 import corporateTraining from "../Assets/ServicesImages/campusToCorporateTraining.jpg";
 import softSkillsHeader from "../Assets/ServicesImages/softSkillsHeader.avif";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function SoftSkills() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Fragment>
       <Box
@@ -49,6 +54,7 @@ function SoftSkills() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="corporate-training"
           sx={{
             minHeight: "100vh",
@@ -191,6 +197,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="business-english-skills"
           sx={{
             minHeight: "100vh",
@@ -335,6 +342,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="voice"
           sx={{
             minHeight: "100vh",
@@ -488,6 +496,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="email-etiquette"
           sx={{
             minHeight: "100vh",
@@ -630,6 +639,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="cross-cultural"
           sx={{
             minHeight: "100vh",
@@ -793,6 +803,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="corporate-etiquette"
           sx={{
             minHeight: "100vh",
@@ -958,6 +969,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="hr-training"
           sx={{
             minHeight: "100vh",
@@ -1121,6 +1133,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="bfsi-training"
           sx={{
             minHeight: "100vh",
@@ -1472,6 +1485,7 @@ function SoftSkills() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="logistics"
           sx={{
             minHeight: "100vh",
@@ -1657,6 +1671,7 @@ function SoftSkills() {
         </Box>
 
         <Box
+          data-aos="fade-up"
           id="digital-marketing"
           sx={{
             minHeight: "100vh",

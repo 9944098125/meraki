@@ -206,7 +206,7 @@ function Navbar() {
                   style={style2}
                   sx={{
                     position: "absolute",
-                    right: "60%",
+                    right: { xs: "40%", md: "60%" },
                   }}
                   id="child"
                 >

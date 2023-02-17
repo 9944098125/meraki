@@ -3,8 +3,13 @@ import { Box, Typography } from "@mui/material";
 import itSolutionsHeader from "../Assets/ServicesImages/itSolutionsHeader.avif";
 import mobileAppDevelopment from "../Assets/ServicesImages/mobileAppDevelopment.jpg";
 import webDevelopment from "../Assets/ServicesImages/webDevelopment.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function ItSolutions() {
+  React.useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <Fragment>
       <Box
@@ -41,6 +46,7 @@ function ItSolutions() {
           </Typography>
         </Box>
         <Box
+          data-aos="fade-up"
           id="application-development"
           sx={{
             minHeight: "100vh",
@@ -194,6 +200,7 @@ function ItSolutions() {
           </Box>
         </Box>
         <Box
+          data-aos="fade-up"
           id="website-development"
           sx={{
             minHeight: "100vh",
