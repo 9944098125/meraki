@@ -1,12 +1,6 @@
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import facebookLogo from "../Assets/Images/fb-logo.png";
-import twitterLogo from "../Assets/Images/twitter-logo.png";
-import linkedInLogo from "../Assets/Images/linkedIn-logo.png";
-import pintrestLogo from "../Assets/Images/pintrest-logo.png";
-import instagramLogo from "../Assets/Images/instagram-logo.png";
-import youtubeLogo from "../Assets/Images/youtube-logo.png";
 import email from "../Assets/Images/email.png";
 import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
@@ -15,9 +9,13 @@ import OurServices from "../Pages/OurServices";
 import Footer from "./Footer";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import WhatsappModal from "./WhatsappModal";
+import AboutUsHover from "./AboutUsHover";
+import WhyChooseUsHover from "./WhyChooseUsHover";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
+  const [style2, setStyle2] = React.useState({ display: "none" });
+  const [style3, setStyle3] = React.useState({ display: "none" });
   const [showWhatsappModal, setShowWhatsappModal] = React.useState(false);
 
   function displayWhatsappModal() {
@@ -35,11 +33,12 @@ function Navbar() {
           px: 5,
           py: 1,
           height: { xs: "100%", md: "6vh" },
+          width: "100%",
           borderBottom: "0.5px solid lightgrey",
-          margin: { xs: "0px 10px", sm: "0px 25px", md: "0px 50px" },
           display: { xs: "none", md: "flex" },
           alignItems: "center",
           justifyContent: "space-between",
+          backgroundColor: "primary.dark",
         }}
       >
         <Box
@@ -52,39 +51,34 @@ function Navbar() {
           }}
         >
           <img
-            style={{ width: "23px", height: "23px" }}
-            src={facebookLogo}
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9qEiGpqIVMx5ckJZo6FOysaOhRSGCmmztejXmVf0EkQC9YE-LsHSsIqoU0oNOiPiNME&usqp=CAU"
             alt="facebookLogo"
             className="header-icons"
           />
           <img
-            style={{ width: "22px", height: "22px" }}
-            src={twitterLogo}
+            src="https://www.kindpng.com/picc/m/276-2764036_social-media-icons-grey-twitter-clipart-png-download.png"
             alt="facebookLogo"
             className="header-icons"
           />
           <img
-            style={{ width: "21px", height: "21px" }}
-            src={linkedInLogo}
+            src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png"
+            alt="facebookLogo"
+            className="header-icons"
+            style={{ height: "25px", width: "25px" }}
+          />
+          <img
+            src="https://www.logologo.com/freelogos/Pinterest-P-white-rounded-square-grey.png"
             alt="facebookLogo"
             className="header-icons"
           />
           <img
-            style={{ width: "20px", height: "20px" }}
-            src={pintrestLogo}
+            src="https://simg.nicepng.com/png/small/88-884395_insta-instagram-icon-vector-green.png"
             alt="facebookLogo"
             className="header-icons"
           />
           <img
-            src={instagramLogo}
+            src="https://w7.pngwing.com/pngs/748/989/png-transparent-new-york-city-youtube-computer-icons-computer-software-grey-angle-text-logo-thumbnail.png"
             alt="facebookLogo"
-            style={{ width: "20px", height: "20px" }}
-            className="header-icons"
-          />
-          <img
-            src={youtubeLogo}
-            alt="facebookLogo"
-            style={{ width: "28px", height: "22px" }}
             className="header-icons"
           />
         </Box>
@@ -94,13 +88,13 @@ function Navbar() {
             flexDirection: { xs: "column", sm: "row" },
             flexWrap: "wrap",
             alignItems: "center",
-            gap: 1,
+            gap: 3,
           }}
         >
           <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <LocalPhoneIcon />
+            <LocalPhoneIcon sx={{ color: "lightgrey" }} />
             <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
+              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "white" }}
             >
               +91 74119 78909
             </Typography>
@@ -119,7 +113,7 @@ function Navbar() {
               style={{ height: "20px", width: "25px", borderRadius: "2px" }}
             />
             <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
+              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "white" }}
             >
               hr@merakitrainings.in
             </Typography>
@@ -188,39 +182,73 @@ function Navbar() {
               to="/about"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <Typography
-                className="headings"
-                sx={{
-                  color: "#080808",
-                  fontWeight: "600",
-                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                  cursor: "pointer",
-                  "&:hover": {
-                    borderBottom: "4px solid #1a237e",
-                  },
-                }}
+              <Box
+                onMouseEnter={() => setStyle2({ display: "block" })}
+                onMouseLeave={() => setStyle2({ display: "none" })}
+                sx={{}}
+                id="parent"
               >
-                About Us
-              </Typography>
+                <Typography
+                  className="headings"
+                  sx={{
+                    color: "#080808",
+                    fontWeight: "600",
+                    fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                    cursor: "pointer",
+                    "&:hover": {
+                      borderBottom: "4px solid #1a237e",
+                    },
+                  }}
+                >
+                  About Us
+                </Typography>
+                <Box
+                  style={style2}
+                  sx={{
+                    position: "absolute",
+                    right: "60%",
+                  }}
+                  id="child"
+                >
+                  <AboutUsHover />
+                </Box>
+              </Box>
             </Link>
             <Link
               to="/why-choose-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <Typography
-                className="headings"
-                sx={{
-                  color: "#080808",
-                  fontWeight: "600",
-                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                  cursor: "pointer",
-                  "&:hover": {
-                    borderBottom: "4px solid #1a237e",
-                  },
-                }}
+              <Box
+                onMouseEnter={() => setStyle3({ display: "block" })}
+                onMouseLeave={() => setStyle3({ display: "none" })}
+                sx={{}}
+                id="parent"
               >
-                Why Choose Us
-              </Typography>
+                <Typography
+                  className="headings"
+                  sx={{
+                    color: "#080808",
+                    fontWeight: "600",
+                    fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                    cursor: "pointer",
+                    "&:hover": {
+                      borderBottom: "4px solid #1a237e",
+                    },
+                  }}
+                >
+                  Why Choose Us
+                </Typography>
+                <Box
+                  style={style3}
+                  sx={{
+                    position: "absolute",
+                    right: "25%",
+                  }}
+                  id="child"
+                >
+                  <WhyChooseUsHover />
+                </Box>
+              </Box>
             </Link>
             <Link
               to="/clients"

@@ -20,6 +20,7 @@ function MileStones({ title }) {
   return (
     <Fragment>
       <Box
+        id="milestones-achievements"
         sx={{
           display: "flex",
           flexDirection: "column",

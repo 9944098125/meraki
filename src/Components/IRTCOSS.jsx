@@ -11,7 +11,7 @@ function IRTCOSS() {
   return (
     <Fragment>
       <Box
-        id="irtcohr"
+        id="irtcoss"
         sx={{
           p: 3,
           display: "flex",
