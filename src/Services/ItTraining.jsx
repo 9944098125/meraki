@@ -855,7 +855,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="data-science"
           sx={{
             minHeight: "100vh",
@@ -1029,7 +1029,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="artificial-intelligence"
           sx={{
             minHeight: "100vh",
@@ -1207,7 +1207,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="mobile-application-development"
           sx={{
             minHeight: "100vh",
@@ -1388,7 +1388,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="web-development"
           sx={{
             minHeight: "100vh",
@@ -1721,7 +1721,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="robotics"
           sx={{
             minHeight: "100vh",
@@ -2013,7 +2013,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="hadoop"
           sx={{
             minHeight: "100vh",
@@ -2334,7 +2334,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="c"
           sx={{
             minHeight: "100vh",
@@ -2657,7 +2657,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="java-full-stack"
           sx={{
             minHeight: "100vh",
@@ -2898,7 +2898,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="python"
           sx={{
             minHeight: "100vh",
@@ -3208,7 +3208,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="net-full-stack"
           sx={{
             minHeight: "100vh",
@@ -3466,7 +3466,7 @@ function ItTraining() {
           </Box>
         </Box>
         <Box
-          data-aos="fade-up"
+          data-aos="fade-down"
           id="devops"
           sx={{
             minHeight: "100vh",

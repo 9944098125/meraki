@@ -6,94 +6,127 @@ function ContactUs() {
   return (
     <Fragment>
       <Box sx={{ width: "100%" }}>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1023899.010284416!2d77.83153591768009!3d13.042398374422994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676451271991!5m2!1sen!2sin"
-          width="100%"
-          height="450"
-          style={{ border: 0, p: 2 }}
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
         <Box
           sx={{
-            width: { xs: "90%", sm: "45%", md: "45%" },
-            mt: { xs: -55, sm: -55, md: -55 },
-            p: { xs: 2, sm: 3, md: 4 },
-            zIndex: "99",
+            display: "flex",
+            flexDirection: { xs: "column", sm: "row" },
+            alignItems: "center",
+            justifyContent: "center",
+            mt: 4,
           }}
         >
-          <form action="https://formspree.io/f/mqkoprjw" method="POST">
-            <div className="getInTouchColumns">
-              {/* <label htmlFor="name" className="getInTouchLabel">
+          <Box
+            sx={{
+              backgroundColor: "white",
+              width: { xs: "90%", sm: "45%", md: "45%" },
+              // mt: { xs: -55, sm: -55, md: -55 },
+              p: { xs: 2, sm: 3, md: 4 },
+              zIndex: "99",
+            }}
+          >
+            <Box
+              sx={{
+                width: "100%",
+                height: { xs: "40px", sm: "50px", md: "60px" },
+                backgroundColor: "primary.dark",
+                mb: 2,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Typography
+                sx={{
+                  color: "white",
+                  fontSize: { xs: "18px", sm: "22px", md: "28px" },
+                  fontWeight: "800",
+                  textAlign: "center",
+                }}
+              >
+                Contact Us
+              </Typography>
+            </Box>
+            <form action="https://formspree.io/f/mqkoprjw" method="POST">
+              <div className="getInTouchColumns">
+                {/* <label htmlFor="name" className="getInTouchLabel">
                 Name
               </label> */}
-              <input
-                id="name"
-                type="text"
-                className="getInTouchFields"
-                name="name"
-                placeholder="Please Enter Your Name"
-                required
-              />
-            </div>
+                <input
+                  id="name"
+                  type="text"
+                  className="getInTouchFields"
+                  name="name"
+                  placeholder="Please Enter Your Name"
+                  required
+                />
+              </div>
 
-            <div className="getInTouchColumns">
-              {/* <label htmlFor="email" className="getInTouchLabel">
+              <div className="getInTouchColumns">
+                {/* <label htmlFor="email" className="getInTouchLabel">
                 Email
               </label> */}
-              <input
-                id="email"
-                type="email"
-                className="getInTouchFields"
-                name="email"
-                placeholder="Please Enter Your Email"
-                required
-              />
-            </div>
+                <input
+                  id="email"
+                  type="email"
+                  className="getInTouchFields"
+                  name="email"
+                  placeholder="Please Enter Your Email"
+                  required
+                />
+              </div>
 
-            <div className="getInTouchColumns">
-              {/* <label htmlFor="phone" className="getInTouchLabel">
+              <div className="getInTouchColumns">
+                {/* <label htmlFor="phone" className="getInTouchLabel">
                 Phone Number
               </label> */}
-              <input
-                id="phone"
-                type="text"
-                className="getInTouchFields"
-                name="phone"
-                placeholder="Please Enter Your Phone Number"
-                required
-              />
-            </div>
+                <input
+                  id="phone"
+                  type="text"
+                  className="getInTouchFields"
+                  name="phone"
+                  placeholder="Please Enter Your Phone Number"
+                  required
+                />
+              </div>
 
-            <div className="getInTouchColumns">
-              {/* <label htmlFor="message" className="getInTouchLabel">
+              <div className="getInTouchColumns">
+                {/* <label htmlFor="message" className="getInTouchLabel">
                 Message
               </label> */}
-              <textarea
-                id="message"
-                name="message"
-                rows="6"
-                required
-                placeholder="Message"
-                style={{
-                  backgroundColor: "rgb(231, 226, 226)",
-                  border: "none",
-                  outline: "none",
-                }}
-              />
-            </div>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  required
+                  placeholder="Message"
+                  style={{
+                    backgroundColor: "rgb(231, 226, 226)",
+                    border: "none",
+                    outline: "none",
+                  }}
+                />
+              </div>
 
-            <div className="">
-              <button
-                style={{ width: "100%" }}
-                className="primaryBtn"
-                type="submit"
-              >
-                Send
-              </button>
-            </div>
-          </form>
+              <div className="">
+                <button
+                  style={{ width: "100%" }}
+                  className="primaryBtn"
+                  type="submit"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </Box>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1023899.010284416!2d77.83153591768009!3d13.042398374422994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676451271991!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            style={{ border: 0, p: 2, width: "100%" }}
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </Box>
         <Box
           sx={{
@@ -104,10 +137,19 @@ function ContactUs() {
             py: 2,
           }}
         >
-          <Box sx={{ width: "50%" }}>
+          <Box sx={{ width: "40%" }}>
             <Typography
               sx={{
-                fontSize: { xs: "16px", sm: "18px", md: "20px" },
+                fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                color: "primary.dark",
+                fontWeight: "800",
+              }}
+            >
+              OFFICE ADDRESS
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "13px", sm: "15px", md: "17px" },
                 fontWeight: "700",
                 color: "primary.dark",
               }}
@@ -132,7 +174,7 @@ function ContactUs() {
               +91 74119 78909
             </Typography>
           </Box>
-          <Box sx={{ height: "30vh", width: "40vw" }}>
+          <Box sx={{ height: "30vh", width: "50vw" }}>
             <img
               src={MlogoDesktop}
               style={{ height: "100%", width: "100%", objectFit: "cover" }}

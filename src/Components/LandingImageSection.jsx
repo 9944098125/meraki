@@ -67,7 +67,7 @@ function LandingImageSection() {
                 "97.3% Client Satisfaction",
                 "70+ Courses to Choose from",
                 "5000+ Trainees Lives changed",
-                "10,000+ Training Hours",
+                "1,00,000+ Training Hours",
               ]}
               loop={5}
               cursor

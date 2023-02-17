@@ -276,20 +276,25 @@ function Navbar() {
               sx={{}}
               id="parent"
             >
-              <Typography
-                className="headings"
-                sx={{
-                  color: "#080808",
-                  fontWeight: "600",
-                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                  cursor: "pointer",
-                  "&:hover": {
-                    borderBottom: "4px solid #1a237e",
-                  },
-                }}
+              <Link
+                to="/services/it-training"
+                style={{ textDecoration: "none", color: "inherit" }}
               >
-                Our services
-              </Typography>
+                <Typography
+                  className="headings"
+                  sx={{
+                    color: "#080808",
+                    fontWeight: "600",
+                    fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                    cursor: "pointer",
+                    "&:hover": {
+                      borderBottom: "4px solid #1a237e",
+                    },
+                  }}
+                >
+                  Our services
+                </Typography>
+              </Link>
               <Box
                 style={style}
                 sx={{

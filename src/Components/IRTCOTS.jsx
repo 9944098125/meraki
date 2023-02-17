@@ -11,7 +11,7 @@ function IRTCOTS() {
   return (
     <Fragment>
       <Box
-        id="ircots"
+        id="irtcots"
         sx={{
           display: "flex",
           flexDirection: "column",
