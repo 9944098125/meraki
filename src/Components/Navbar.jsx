@@ -54,22 +54,24 @@ function Navbar() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9qEiGpqIVMx5ckJZo6FOysaOhRSGCmmztejXmVf0EkQC9YE-LsHSsIqoU0oNOiPiNME&usqp=CAU"
             alt="facebookLogo"
             className="header-icons"
+            style={{ border: "1px solid white" }}
           />
           <img
             src="https://www.kindpng.com/picc/m/276-2764036_social-media-icons-grey-twitter-clipart-png-download.png"
-            alt="facebookLogo"
+            alt="twitter"
             className="header-icons"
           />
           <img
             src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png"
-            alt="facebookLogo"
+            alt="linkedIn"
             className="header-icons"
-            style={{ height: "25px", width: "25px" }}
+            style={{ height: "26px", width: "26px", border: "1px solid white" }}
           />
           <img
             src="https://www.logologo.com/freelogos/Pinterest-P-white-rounded-square-grey.png"
-            alt="facebookLogo"
+            alt="pin"
             className="header-icons"
+            style={{ border: "1px solid white" }}
           />
           <img
             src="https://simg.nicepng.com/png/small/88-884395_insta-instagram-icon-vector-green.png"
@@ -80,6 +82,7 @@ function Navbar() {
             src="https://w7.pngwing.com/pngs/748/989/png-transparent-new-york-city-youtube-computer-icons-computer-software-grey-angle-text-logo-thumbnail.png"
             alt="facebookLogo"
             className="header-icons"
+            style={{ border: "1px solid white" }}
           />
         </Box>
         <Box

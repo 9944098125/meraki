@@ -58,6 +58,8 @@ function AboutUs() {
               boxShadow: "5px 5px 5px 5px black",
               borderRadius: "9px",
               p: 2,
+              display: "flex",
+              alignItems: "flex-end",
             }}
           >
             <Typography
@@ -102,6 +104,8 @@ function AboutUs() {
               boxShadow: "5px 5px 5px 5px black",
               borderRadius: "9px",
               p: 2,
+              display: "flex",
+              alignItems: "flex-end",
             }}
           >
             <Typography
