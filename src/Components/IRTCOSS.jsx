@@ -55,9 +55,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 1,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #9F2B68",
+                borderTop: "4px solid #9f2b68",
+                borderBottom: "4px solid #9F2B68",
               }}
             >
               {/* content */}
@@ -100,9 +103,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #9F2B68",
+                borderTop: "4px solid #9f2b68",
+                borderBottom: "4px solid #9F2B68",
               }}
             >
               {/* image */}
@@ -130,9 +136,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #DAF7A6",
+                borderTop: "4px solid #DAF7A6",
+                borderBottom: "4px solid #DAF7A6",
               }}
             >
               {/* image */}
@@ -166,9 +175,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 2.1,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #DAF7A6",
+                borderTop: "4px solid #DAF7A6",
+                borderBottom: "4px solid #DAF7A6",
               }}
             >
               {/* content */}
@@ -204,9 +216,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 2.1,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #E0B0FF",
+                borderTop: "4px solid #E0B0FF",
+                borderBottom: "4px solid #E0B0FF",
               }}
             >
               {/* content */}
@@ -249,9 +264,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #E0B0FF",
+                borderTop: "4px solid #E0B0FF",
+                borderBottom: "4px solid #E0B0FF",
               }}
             >
               {/* image */}
@@ -279,9 +297,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #CCCCFF",
+                borderTop: "4px solid #CCCCFF",
+                borderBottom: "4px solid #CCCCFF",
               }}
             >
               {/* image */}
@@ -315,9 +336,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 1,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #CCCCFF",
+                borderTop: "4px solid #CCCCFF",
+                borderBottom: "4px solid #CCCCFF",
               }}
             >
               {/* content */}
@@ -353,9 +377,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 1,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #7F00FF",
+                borderTop: "4px solid #7F00FF",
+                borderBottom: "4px solid #7F00FF",
               }}
             >
               {/* content */}
@@ -399,9 +426,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #7F00FF",
+                borderTop: "4px solid #7F00FF",
+                borderBottom: "4px solid #7F00FF",
               }}
             >
               {/* image */}
@@ -429,9 +459,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid #BDB5D5",
+                borderTop: "4px solid #BDB5D5",
+                borderBottom: "4px solid #BDB5D5",
               }}
             >
               {/* image */}
@@ -465,9 +498,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 1,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid #BDB5D5",
+                borderTop: "4px solid #BDB5D5",
+                borderBottom: "4px solid #BDB5D5",
               }}
             >
               {/* content */}
@@ -503,9 +539,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 1,
-                py: 0,
+                py: 1,
                 display: "flex",
                 justifyContent: "center",
+                borderLeft: "4px solid orange",
+                borderTop: "4px solid orange",
+                borderBottom: "4px solid orange",
               }}
             >
               {/* content */}
@@ -549,9 +588,12 @@ function IRTCOSS() {
               sx={{
                 width: "45%",
                 p: 2,
-                py: 0,
+                py: 2,
                 display: "flex",
                 justifyContent: "center",
+                borderRight: "4px solid orange",
+                borderTop: "4px solid orange",
+                borderBottom: "4px solid orange",
               }}
             >
               {/* image */}
