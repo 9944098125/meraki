@@ -431,7 +431,6 @@ function IRTCOSS() {
                 height: "100%",
                 borderRadius: "50%",
                 p: { xs: 2, sm: 1 },
-                gap: 2,
                 backgroundColor: "white",
                 display: "flex",
                 flexDirection: "column",
@@ -444,7 +443,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "9px", sm: "12px", md: "15px" },
                   fontWeight: "700",
-                  width: "70%",
+                  width: "80%",
                   textAlign: "center",
                 }}
               >
