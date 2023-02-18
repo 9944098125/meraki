@@ -273,36 +273,51 @@ function Footer() {
             borderRadius: "9px",
           }}
         >
-          <img
-            style={{ width: "23px", height: "23px" }}
-            src={facebookLogo}
-            alt="facebookLogo"
-            className="header-icons"
-          />
+          <a
+            href="https://www.facebook.com/MerakiTrainingSolutionsBangalore"
+            target="_blank"
+          >
+            <img
+              style={{ width: "23px", height: "23px" }}
+              src={facebookLogo}
+              alt="facebookLogo"
+              className="header-icons"
+            />
+          </a>
           <img
             style={{ width: "22px", height: "22px" }}
             src={twitterLogo}
             alt="facebookLogo"
             className="header-icons"
           />
-          <img
-            style={{ width: "21px", height: "21px" }}
-            src={linkedInLogo}
-            alt="facebookLogo"
-            className="header-icons"
-          />
+          <a
+            href="https://www.linkedin.com/company/meraki-training-consultants"
+            target="_blank"
+          >
+            <img
+              style={{ width: "21px", height: "21px" }}
+              src={linkedInLogo}
+              alt="facebookLogo"
+              className="header-icons"
+            />
+          </a>
           <img
             style={{ width: "20px", height: "20px" }}
             src={pintrestLogo}
             alt="facebookLogo"
             className="header-icons"
           />
-          <img
-            src={instagramLogo}
-            alt="facebookLogo"
-            style={{ width: "20px", height: "20px" }}
-            className="header-icons"
-          />
+          <a
+            href="https://www.instagram.com/merakitrainingsolutions/"
+            target="_blank"
+          >
+            <img
+              src={instagramLogo}
+              alt="facebookLogo"
+              style={{ width: "20px", height: "20px" }}
+              className="header-icons"
+            />
+          </a>
           <img
             src={youtubeLogo}
             alt="facebookLogo"

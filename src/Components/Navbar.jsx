@@ -50,40 +50,65 @@ function Navbar() {
             gap: 1.5,
           }}
         >
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9qEiGpqIVMx5ckJZo6FOysaOhRSGCmmztejXmVf0EkQC9YE-LsHSsIqoU0oNOiPiNME&usqp=CAU"
-            alt="facebookLogo"
-            className="header-icons"
-            style={{ border: "1px solid white" }}
-          />
-          <img
-            src="https://www.kindpng.com/picc/m/276-2764036_social-media-icons-grey-twitter-clipart-png-download.png"
-            alt="twitter"
-            className="header-icons"
-          />
-          <img
-            src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png"
-            alt="linkedIn"
-            className="header-icons"
-            style={{ height: "26px", width: "26px", border: "1px solid white" }}
-          />
-          <img
-            src="https://www.logologo.com/freelogos/Pinterest-P-white-rounded-square-grey.png"
-            alt="pin"
-            className="header-icons"
-            style={{ border: "1px solid white" }}
-          />
-          <img
-            src="https://simg.nicepng.com/png/small/88-884395_insta-instagram-icon-vector-green.png"
-            alt="facebookLogo"
-            className="header-icons"
-          />
-          <img
-            src="https://w7.pngwing.com/pngs/748/989/png-transparent-new-york-city-youtube-computer-icons-computer-software-grey-angle-text-logo-thumbnail.png"
-            alt="facebookLogo"
-            className="header-icons"
-            style={{ border: "1px solid white" }}
-          />
+          <a
+            href="https://www.facebook.com/MerakiTrainingSolutionsBangalore"
+            target="_blank"
+          >
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9qEiGpqIVMx5ckJZo6FOysaOhRSGCmmztejXmVf0EkQC9YE-LsHSsIqoU0oNOiPiNME&usqp=CAU"
+              alt="facebookLogo"
+              className="header-icons"
+              style={{ border: "1px solid white" }}
+            />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="https://www.kindpng.com/picc/m/276-2764036_social-media-icons-grey-twitter-clipart-png-download.png"
+              alt="twitter"
+              className="header-icons"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/meraki-training-consultants/"
+            target="_blank"
+          >
+            <img
+              src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png"
+              alt="linkedIn"
+              className="header-icons"
+              style={{
+                height: "26px",
+                width: "26px",
+                border: "1px solid white",
+              }}
+            />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="https://www.logologo.com/freelogos/Pinterest-P-white-rounded-square-grey.png"
+              alt="pin"
+              className="header-icons"
+              style={{ border: "1px solid white" }}
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/merakitrainingsolutions/"
+            target="_blank"
+          >
+            <img
+              src="https://simg.nicepng.com/png/small/88-884395_insta-instagram-icon-vector-green.png"
+              alt="instagram"
+              className="header-icons"
+            />
+          </a>
+          <a href="" target="_blank">
+            <img
+              src="https://w7.pngwing.com/pngs/748/989/png-transparent-new-york-city-youtube-computer-icons-computer-software-grey-angle-text-logo-thumbnail.png"
+              alt="facebookLogo"
+              className="header-icons"
+              style={{ border: "1px solid white" }}
+            />
+          </a>
         </Box>
         <Box
           sx={{
