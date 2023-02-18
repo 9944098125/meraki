@@ -49,12 +49,11 @@ function AboutUs() {
           }}
         >
           <Box
+            className="opacity"
             data-aos="fade-down"
             sx={{
-              backgroundImage: `url(${passion})`,
               height: { xs: "120px", md: "170px" },
               width: { xs: "200px", sm: "200px", md: "300px" },
-              backgroundSize: "cover",
               boxShadow: "5px 5px 5px 5px black",
               borderRadius: "9px",
               p: 2,
@@ -64,21 +63,21 @@ function AboutUs() {
           >
             <Typography
               sx={{
-                color: "white",
+                color: "primary.dark",
                 fontWeight: "700",
                 fontSize: { xs: "35px", sm: "40px", md: "50px" },
+                position: "relative",
               }}
             >
               Passion
             </Typography>
           </Box>
           <Box
+            className="opacity2"
             data-aos="fade-up"
             sx={{
-              backgroundImage: `url(${diligence})`,
               height: { xs: "120px", md: "170px" },
               width: { xs: "200px", sm: "200px", md: "300px" },
-              backgroundSize: "cover",
               boxShadow: "5px 5px 5px 5px black",
               borderRadius: "9px",
               p: 2,
@@ -86,21 +85,21 @@ function AboutUs() {
           >
             <Typography
               sx={{
-                color: "white",
+                color: "primary.dark",
                 fontWeight: "700",
                 fontSize: { xs: "35px", sm: "40px", md: "50px" },
+                position: "relative",
               }}
             >
               Diligence
             </Typography>
           </Box>
           <Box
+            className="opacity3"
             data-aos="fade-down"
             sx={{
-              backgroundImage: `url(${integrity})`,
               height: { xs: "120px", md: "170px" },
               width: { xs: "200px", sm: "200px", md: "300px" },
-              backgroundSize: "cover",
               boxShadow: "5px 5px 5px 5px black",
               borderRadius: "9px",
               p: 2,
@@ -110,9 +109,10 @@ function AboutUs() {
           >
             <Typography
               sx={{
-                color: "white",
+                color: "primary.dark",
                 fontWeight: "700",
                 fontSize: { xs: "35px", sm: "40px", md: "50px" },
+                position: "relative",
               }}
             >
               Integrity

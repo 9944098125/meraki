@@ -284,12 +284,12 @@ function Footer() {
               className="header-icons"
             />
           </a>
-          <img
+          {/* <img
             style={{ width: "22px", height: "22px" }}
             src={twitterLogo}
             alt="facebookLogo"
             className="header-icons"
-          />
+          /> */}
           <a
             href="https://www.linkedin.com/company/meraki-training-consultants"
             target="_blank"
@@ -301,12 +301,12 @@ function Footer() {
               className="header-icons"
             />
           </a>
-          <img
+          {/* <img
             style={{ width: "20px", height: "20px" }}
             src={pintrestLogo}
             alt="facebookLogo"
             className="header-icons"
-          />
+          /> */}
           <a
             href="https://www.instagram.com/merakitrainingsolutions/"
             target="_blank"
@@ -318,12 +318,12 @@ function Footer() {
               className="header-icons"
             />
           </a>
-          <img
+          {/* <img
             src={youtubeLogo}
             alt="facebookLogo"
             style={{ width: "28px", height: "22px" }}
             className="header-icons"
-          />
+          /> */}
 
           <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
             <LocalPhoneIcon />

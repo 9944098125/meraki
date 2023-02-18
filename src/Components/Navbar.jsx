@@ -11,6 +11,9 @@ import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import WhatsappModal from "./WhatsappModal";
 import AboutUsHover from "./AboutUsHover";
 import WhyChooseUsHover from "./WhyChooseUsHover";
+import insta from "../Assets/Images/instagram-logo.png";
+import linkedIn from "../Assets/Images/linkedIn-logo.png";
+import fb from "../Assets/Images/fb-logo.png";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
@@ -55,60 +58,61 @@ function Navbar() {
             target="_blank"
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG9qEiGpqIVMx5ckJZo6FOysaOhRSGCmmztejXmVf0EkQC9YE-LsHSsIqoU0oNOiPiNME&usqp=CAU"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBZFd_YkK7PH1wTqqpFXbuhAcaTqnszsh9Q&usqp=CAU"
               alt="facebookLogo"
               className="header-icons"
-              style={{ border: "1px solid white" }}
             />
           </a>
-          <a href="" target="_blank">
+          {/* <a href="" target="_blank">
             <img
               src="https://www.kindpng.com/picc/m/276-2764036_social-media-icons-grey-twitter-clipart-png-download.png"
               alt="twitter"
               className="header-icons"
             />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/company/meraki-training-consultants/"
             target="_blank"
           >
             <img
-              src="https://icones.pro/wp-content/uploads/2021/03/icone-linkedin-ronde-grise.png"
+              src={linkedIn}
               alt="linkedIn"
               className="header-icons"
               style={{
                 height: "26px",
                 width: "26px",
-                border: "1px solid white",
+                // backgroundColor: "grey",
+                // border: "1px solid white",
               }}
             />
           </a>
-          <a href="" target="_blank">
+          {/* <a href="" target="_blank">
             <img
               src="https://www.logologo.com/freelogos/Pinterest-P-white-rounded-square-grey.png"
               alt="pin"
               className="header-icons"
               style={{ border: "1px solid white" }}
             />
-          </a>
+          </a> */}
           <a
             href="https://www.instagram.com/merakitrainingsolutions/"
             target="_blank"
           >
             <img
-              src="https://simg.nicepng.com/png/small/88-884395_insta-instagram-icon-vector-green.png"
+              src={insta}
               alt="instagram"
               className="header-icons"
+              style={{ height: "26px", width: "26px" }}
             />
           </a>
-          <a href="" target="_blank">
+          {/* <a href="" target="_blank">
             <img
               src="https://w7.pngwing.com/pngs/748/989/png-transparent-new-york-city-youtube-computer-icons-computer-software-grey-angle-text-logo-thumbnail.png"
               alt="facebookLogo"
               className="header-icons"
               style={{ border: "1px solid white" }}
             />
-          </a>
+          </a> */}
         </Box>
         <Box
           sx={{
@@ -137,8 +141,13 @@ function Navbar() {
           >
             <img
               alt="flag1"
-              src={email}
-              style={{ height: "20px", width: "25px", borderRadius: "2px" }}
+              src="https://i.pinimg.com/originals/a7/a4/48/a7a448a629d022765af4a7cf6abc1d9f.jpg"
+              style={{
+                height: "20px",
+                width: "25px",
+                borderRadius: "2px",
+                backgroundColor: "#1a237e",
+              }}
             />
             <Typography
               sx={{ fontSize: { xs: "12px", md: "13px" }, color: "white" }}

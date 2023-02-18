@@ -4,17 +4,37 @@ import TrainingMethodology from "../Components/TrainingMethodology";
 import IRTCOSS from "../Components/IRTCOSS";
 import MileStones from "../Components/MileStones";
 import DownloadBrochure from "../Components/DownloadBrochure";
-import { Box } from "@mui/material";
+import whyChooseUs from "../Assets/Images/whyChooseUs.jpg";
+import { Box, Typography } from "@mui/material";
 
 function WhyChooseUs() {
   return (
     <Fragment>
-      <Box id="header" sx={{ width: "100%", height: "50vh", mb: 10 }}>
-        <img
-          src="https://d-connect.net/wp-content/uploads/2019/10/why-choose-us-750x393.jpg"
-          alt=""
-          className="why-choose-us-header-img"
-        />
+      <Box
+        id="header"
+        sx={{
+          width: "100%",
+          height: { xs: "50vh", sm: "60vh", md: "70vh" },
+          backgroundImage: `url(${whyChooseUs})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          display: "flex",
+          justifyContent: "flex-start",
+          alignItems: "flex-end",
+          py: 3,
+          px: 3,
+          mb: 10,
+        }}
+      >
+        <Typography
+          sx={{
+            fontSize: { xs: "35px", sm: "45px", md: "55px" },
+            color: "white",
+            fontWeight: "800",
+          }}
+        >
+          Why Choose Us ?
+        </Typography>
       </Box>
       <IRTCOTS />
       <TrainingMethodology />
