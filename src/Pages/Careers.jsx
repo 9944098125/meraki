@@ -33,7 +33,7 @@ function Careers() {
           <Box sx={{ width: { xs: "100%", sm: "50%" } }}>
             {/* form */}
             {/* https://formspree.io/f/mqkoqead */}
-            <form action="https://formspree.io/f/mdovgajk" method="POST">
+            <form action="https://formspree.io/f/mqkoqead" method="POST">
               <div className="getInTouchColumns">
                 {/* <label htmlFor="name" className="getInTouchLabel">
                 Name
