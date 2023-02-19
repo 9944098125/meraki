@@ -25,8 +25,8 @@ function SlickItem() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 2,
           initialSlide: 1,
         },
       },

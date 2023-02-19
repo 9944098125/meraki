@@ -174,7 +174,7 @@ function ContactUs() {
               +91 74119 78909
             </Typography>
           </Box>
-          <Box sx={{ height: "35vh", width: "40vw" }}>
+          <Box sx={{ height: "35vh", width: { xs: "100%", sm: "40vw" } }}>
             <img
               src={MlogoDesktop}
               style={{ height: "100%", width: "100%", objectFit: "cover" }}
