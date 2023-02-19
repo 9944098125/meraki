@@ -26,102 +26,20 @@ function Careers() {
         <Box
           sx={{
             display: "flex",
-            flexDirection: { xs: "column", sm: "row" },
+            flexDirection: "column",
             alignItems: "center",
           }}
         >
-          <Box sx={{ width: { xs: "100%", sm: "50%" } }}>
+          <Box sx={{ width: "100%" }}>
             {/* form */}
             {/* https://formspree.io/f/mqkoqead */}
-            <form action="https://formspree.io/f/mqkoqead" method="POST">
-              <div className="getInTouchColumns">
-                {/* <label htmlFor="name" className="getInTouchLabel">
-                Name
-              </label> */}
-                <input
-                  id="name"
-                  type="text"
-                  className="getInTouchFields"
-                  name="name"
-                  placeholder="Please Enter Your Name"
-                  required
-                />
-              </div>
-
-              <div className="getInTouchColumns">
-                {/* <label htmlFor="email" className="getInTouchLabel">
-                Email
-              </label> */}
-                <input
-                  id="email"
-                  type="email"
-                  className="getInTouchFields"
-                  name="email"
-                  placeholder="Please Enter Your Email"
-                  required
-                />
-              </div>
-
-              <div className="getInTouchColumns">
-                {/* <label htmlFor="phone" className="getInTouchLabel">
-                Phone Number
-              </label> */}
-                <select
-                  className="getInTouchFields"
-                  name="designation"
-                  // value={designation}
-                  type="text"
-                  // onChange={selectDesignation}
-                >
-                  <option value="">Select one designation</option>
-                  <option value="hr">HR</option>
-                  <option value="sub-vendor">Sub Vendor</option>
-                  <option value="technical-trainer">Technical Trainer</option>
-                  <option value="soft-skills-trainer">
-                    Soft Skills Trainer
-                  </option>
-                  <option value="vna-trainer">Voice and Accent Trainer</option>
-                  <option value="leadership-coach">Leadership Coach</option>
-                  <option value="sales-trainer">Sales Trainer</option>
-                </select>
-              </div>
-
-              <div className="getInTouchColumns">
-                {/* <label htmlFor="message" className="getInTouchLabel">
-                Message
-              </label> */}
-                <input
-                  name="resume"
-                  type="file"
-                  className="getInTouchFields"
-                  enctype="multipart/form-data"
-                  required
-                />{" "}
-              </div>
-
-              <div className="getInTouchColumns">
-                {/* <label htmlFor="message" className="getInTouchLabel">
-                Message
-              </label> */}
-                <input
-                  name="phone"
-                  type="text"
-                  className="getInTouchFields"
-                  placeholder="Enter your Phone Number"
-                  required
-                />{" "}
-              </div>
-
-              <div className="">
-                <button
-                  // style={{ width: "100%" }}
-                  className="primaryBtn"
-                  type="submit"
-                >
-                  Send
-                </button>
-              </div>
-            </form>
+            <div
+              id="googleForm"
+              dangerouslySetInnerHTML={{
+                __html:
+                  '<iframe src="https://formfacade.com/public/107103390700787080270/all/form/1FAIpQLSdCvhp3G3XYTmbjULhA8fTv7q23NnbVY1erYsRYUrv94Cjvuw"></iframe>',
+              }}
+            />
           </Box>
           <Box sx={{ height: "45vh", width: { xs: "100%", sm: "50vw" } }}>
             <img
@@ -137,3 +55,5 @@ function Careers() {
 }
 
 export default Careers;
+
+// https://formfacade.com/public/107103390700787080270/all/form/1FAIpQLSdCvhp3G3XYTmbjULhA8fTv7q23NnbVY1erYsRYUrv94Cjvuw
