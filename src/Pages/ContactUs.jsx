@@ -2,6 +2,20 @@ import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 
+class Map extends React.Component {
+  componentDidMount() {
+    const google = window.google;
+    new google.maps.Map(this.refs.map, {
+      center: { lat: 12.972442, lng: 77.580643 },
+      zoom: 12,
+    });
+  }
+
+  render() {
+    return <div ref="map" style={{ height: "500px", width: "100%" }}></div>;
+  }
+}
+
 function ContactUs() {
   return (
     <Fragment>
@@ -118,15 +132,8 @@ function ContactUs() {
               </div>
             </form>
           </Box>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1023899.010284416!2d77.83153591768009!3d13.042398374422994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1676451271991!5m2!1sen!2sin"
-            width="100%"
-            height="450"
-            style={{ border: 0, p: 2, width: "100%" }}
-            allowfullscreen
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          {/* google maps */}
+          <Map />
         </Box>
         <Box
           sx={{
@@ -188,3 +195,6 @@ function ContactUs() {
 }
 
 export default ContactUs;
+
+// google maps api key
+// AIzaSyAEwhhCSy5wLnVU1sgnGbDeDGZTKIe6n14
