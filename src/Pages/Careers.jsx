@@ -28,9 +28,10 @@ function Careers() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
+            gap: 3,
           }}
         >
-          <Box sx={{ width: "100%" }}>
+          <Box sx={{ width: "100%", height: "150vh" }}>
             {/* form */}
             {/* https://formspree.io/f/mqkoqead */}
             <div
@@ -41,7 +42,7 @@ function Careers() {
               }}
             />
           </Box>
-          <Box sx={{ height: "45vh", width: { xs: "100%", sm: "50vw" } }}>
+          <Box sx={{ height: "60vh", width: "100%" }}>
             <img
               src={MlogoDesktop}
               style={{ height: "100%", width: "100%", objectFit: "cover" }}

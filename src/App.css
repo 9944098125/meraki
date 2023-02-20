@@ -517,12 +517,14 @@ div.sticky {
 
 div #googleForm iframe {
   width: 100%;
-  height: 70vh;
+  height: 150vh;
 }
 
-div #googleForm div .hero-content {
-  display: none !important;
+
+div #googleForm iframe::-webkit-scrollbar {
+  display: none;
 }
+
 .carousel {
   padding: 25px;
   border-radius: 9px;
