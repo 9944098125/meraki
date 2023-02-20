@@ -1,11 +1,17 @@
 import { Box } from "@mui/material";
 import React, { Fragment } from "react";
-import clients from "./clientLogos.json";
+// import clients from "./clientLogos.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import symb from "../Assets/Images/symb.jpg";
+import iamneo from "../Assets/Images/iamneo.jpg";
+import rapido from "../Assets/Images/rapido.jpg";
+import sco from "../Assets/Images/sco.jpg";
+import clicks from "../Assets/Images/clicks.jpg";
 
 function SlickItem() {
+  const clients = [iamneo, symb, rapido, sco, clicks];
   const settings = {
     // dots: true,
     // infinite: true,
@@ -53,8 +59,8 @@ function SlickItem() {
           >
             <Box
               sx={{
-                width: { xs: "80px", sm: "150px", md: "200px" },
-                height: { xs: "80px", sm: "150px", md: "200px" },
+                width: { xs: "150px", sm: "170px", md: "250px" },
+                height: { xs: "70px", sm: "80px", md: "150px" },
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
