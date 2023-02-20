@@ -8,16 +8,20 @@ function OurClients() {
     <Fragment>
       <Box sx={{ p: { xs: 1, sm: 2, md: 3 }, mb: 4 }}>
         <Clients />
-        <Typography
-          sx={{
-            fontSize: { xs: "20px", sm: "35px", md: "40px" },
-            color: "primary.dark",
-            fontWeight: "900",
-            mb: { xs: 2, sm: 3, md: 5 },
-          }}
-        >
-          What Our Clients Say
-        </Typography>
+        <Box sx={{ mb: { xs: 2, sm: 3, md: 5 } }}>
+          <Typography
+            sx={{
+              fontSize: { xs: "20px", sm: "35px", md: "40px" },
+              color: "primary.dark",
+              fontWeight: "900",
+            }}
+          >
+            What Our Clients Say
+          </Typography>
+          <Typography sx={{ fontSize: { xs: "10px", sm: "12px", md: "13px" } }}>
+            Our Clients Commend Us For Great Achievements
+          </Typography>
+        </Box>
         <Box
           sx={{
             display: "flex",

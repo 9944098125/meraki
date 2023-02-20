@@ -42,10 +42,23 @@ function Careers() {
               }}
             />
           </Box>
-          <Box sx={{ height: "60vh", width: "100%" }}>
+          <Box
+            sx={{
+              height: "60vh",
+              width: "100%",
+              display: "flex",
+              justifyContent: "flex-end",
+            }}
+          >
             <img
               src={MlogoDesktop}
-              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+              style={{
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center",
+                right: "0",
+                width: "90%",
+              }}
               alt=""
             />
           </Box>
