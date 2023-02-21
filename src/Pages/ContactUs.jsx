@@ -19,7 +19,7 @@ class Map extends React.Component {
 function ContactUs() {
   return (
     <Fragment>
-      <Box sx={{ width: "100%" }}>
+      <Box id="header" sx={{ width: "100%" }}>
         <Box
           sx={{
             display: "flex",

@@ -1,355 +1,397 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
-import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
-import facebookLogo from "../Assets/Images/fb-logo.png";
-import twitterLogo from "../Assets/Images/twitter-logo.png";
-import linkedInLogo from "../Assets/Images/linkedIn-logo.png";
-import pintrestLogo from "../Assets/Images/pintrest-logo.png";
-import instagramLogo from "../Assets/Images/instagram-logo.png";
-import youtubeLogo from "../Assets/Images/youtube-logo.png";
 import { HashLink } from "react-router-hash-link";
-import email from "../Assets/Images/email.png";
+import MlogoDesktop from "../Assets/Images/merakiLogoHd.jpeg";
 
 function Footer() {
   return (
     <Fragment>
       <Box
         sx={{
-          backgroundColor: "#1a237e",
-          p: { xs: 2, sm: 3, md: 4 },
-          height: "100%",
+          display: "flex",
+          flexDirection: { xs: "column", sm: "row" },
+          backgroundColor: "#FAF9F6",
+          boxShadow: "0px -5px 0px 0px #1a237e",
+          width: "100%",
         }}
       >
         <Box
           sx={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: { xs: 2, sm: 3, md: 6 },
-          }}
-        >
-          <Box sx={{}}>
-            <HashLink
-              to="/services#header"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-                marginBottom: "15px",
-              }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontWeight: "700",
-                  fontSize: { xs: "22px", sm: "25px", md: "28px" },
-                  borderBottom: "3px solid white",
-                  display: "inline",
-                }}
-              >
-                Our Services
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/services/it-training#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Technical/IT Training
-              </Typography>
-            </HashLink>
-
-            <HashLink
-              to="/services/power-skills#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Power Skills For Leadership & Management
-              </Typography>
-            </HashLink>
-
-            <HashLink
-              to="/services/soft-skills#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Soft Skills
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/services/college-partnerships#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                College Partnerships
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/services/staffing-services#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Staffing Services
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/services/it-solutions#header"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                IT Solutions
-              </Typography>
-            </HashLink>
-          </Box>
-
-          <Box sx={{}}>
-            <HashLink
-              to="/why-choose-us#header"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-                marginBottom: "15px",
-              }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontWeight: "700",
-                  fontSize: { xs: "22px", sm: "25px", md: "28px" },
-                  borderBottom: "3px solid white",
-                  display: "inline",
-                }}
-              >
-                Why Choose Us
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/why-choose-us#ircots"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Irresistible Reasons to choose our Training Services
-              </Typography>
-            </HashLink>
-
-            <HashLink
-              to="/why-choose-us#training-methodology"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Our Training Methodology
-              </Typography>
-            </HashLink>
-
-            <HashLink
-              to="/why-choose-us#irtcohr"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Irresistible Reasons to choose our HR Services
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/why-choose-us#achievements"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                A Sneak Peak Into Our Achievements
-              </Typography>
-            </HashLink>
-          </Box>
-
-          <Box sx={{}}>
-            <HashLink
-              to="/about#header"
-              style={{
-                textDecoration: "none",
-                color: "inherit",
-                marginBottom: "15px",
-              }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontWeight: "700",
-                  fontSize: { xs: "22px", sm: "25px", md: "28px" },
-                  borderBottom: "3px solid white",
-                  display: "inline",
-                }}
-              >
-                About Us
-              </Typography>
-            </HashLink>
-            <HashLink
-              to="/about#vm"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Vision & Mission
-              </Typography>
-            </HashLink>
-
-            <HashLink
-              to="/about#values"
-              style={{ textDecoration: "none", color: "inherit" }}
-            >
-              <Typography
-                sx={{
-                  color: "white",
-                  fontSize: { xs: "15px", sm: "18px", md: "20px" },
-                }}
-              >
-                Values
-              </Typography>
-            </HashLink>
-          </Box>
-        </Box>
-        {/* navbar upper part for mobile */}
-        <Box
-          sx={{
-            display: { xs: "flex", md: "none" },
-            justifyContent: "center",
-            flexWrap: "wrap",
-            alignItems: "center",
-            p: { xs: 2, sm: 3, md: 5 },
-            boxShadow: "0 5px 5px 0 grey",
+            p: { xs: 2, sm: 3, md: 4 },
             height: "100%",
-            width: "100%",
-            gap: 3,
-            backgroundColor: "white",
-            borderRadius: "9px",
+            width: { xs: "100%", sm: "50%" },
           }}
         >
-          <a
-            href="https://www.facebook.com/MerakiTrainingSolutionsBangalore"
-            target="_blank"
-          >
-            <img
-              style={{ width: "23px", height: "23px" }}
-              src={facebookLogo}
-              alt="facebookLogo"
-              className="header-icons"
-            />
-          </a>
-          {/* <img
-            style={{ width: "22px", height: "22px" }}
-            src={twitterLogo}
-            alt="facebookLogo"
-            className="header-icons"
-          /> */}
-          <a
-            href="https://www.linkedin.com/company/meraki-training-consultants"
-            target="_blank"
-          >
-            <img
-              style={{ width: "21px", height: "21px" }}
-              src={linkedInLogo}
-              alt="facebookLogo"
-              className="header-icons"
-            />
-          </a>
-          {/* <img
-            style={{ width: "20px", height: "20px" }}
-            src={pintrestLogo}
-            alt="facebookLogo"
-            className="header-icons"
-          /> */}
-          <a
-            href="https://www.instagram.com/merakitrainingsolutions/"
-            target="_blank"
-          >
-            <img
-              src={instagramLogo}
-              alt="facebookLogo"
-              style={{ width: "20px", height: "20px" }}
-              className="header-icons"
-            />
-          </a>
-          {/* <img
-            src={youtubeLogo}
-            alt="facebookLogo"
-            style={{ width: "28px", height: "22px" }}
-            className="header-icons"
-          /> */}
-
-          <Box sx={{ display: "flex", alignItems: "center", gap: 0.3 }}>
-            <LocalPhoneIcon />
-            <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
-            >
-              +91 74119 78909
-            </Typography>
-          </Box>
           <Box
             sx={{
               display: "flex",
-              alignItems: "center",
-              gap: 0.3,
-              ml: { xs: -3, sm: 0 },
+              flexWrap: "wrap",
+              gap: { xs: 2, sm: 3, md: 6 },
             }}
           >
-            <img
-              alt="flag1"
-              src={email}
-              style={{ height: "20px", width: "25px", borderRadius: "2px" }}
-            />
+            <Box sx={{}}>
+              <HashLink
+                to="/services#header"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  Our Services
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/services/it-training#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Technical/IT Training
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/services/power-skills#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Power Skills For Leadership & Management
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/services/soft-skills#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Soft Skills
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/services/college-partnerships#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  College Partnerships
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/services/staffing-services#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Staffing Services
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/services/it-solutions#header"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  IT Solutions
+                </Typography>
+              </HashLink>
+            </Box>
+
+            <Box sx={{}}>
+              <HashLink
+                to="/why-choose-us#header"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  Why Choose Us
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/why-choose-us#ircots"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Irresistible Reasons to choose our Training Services
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/why-choose-us#training-methodology"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Our Training Methodology
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/why-choose-us#irtcohr"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Irresistible Reasons to choose our HR Services
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/why-choose-us#achievements"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  A Sneak Peak Into Our Achievements
+                </Typography>
+              </HashLink>
+            </Box>
+
+            <Box sx={{}}>
+              <HashLink
+                to="/about#header"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  About Us
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/about#vm"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Vision & Mission
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/about#values"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Values
+                </Typography>
+              </HashLink>
+            </Box>
+
+            <Box sx={{}}>
+              <HashLink
+                to="/clients#clients"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  Our Clients
+                </Typography>
+              </HashLink>
+              <HashLink
+                to="/clients#clients"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  Clients List
+                </Typography>
+              </HashLink>
+
+              <HashLink
+                to="/clients#wocs"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontSize: { xs: "15px", sm: "18px", md: "20px" },
+                  }}
+                >
+                  What Our Clients Say
+                </Typography>
+              </HashLink>
+            </Box>
+
+            <Box sx={{}}>
+              <HashLink
+                to="/careers#header"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  Careers
+                </Typography>
+              </HashLink>
+            </Box>
+
+            <Box sx={{}}>
+              <HashLink
+                to="/contact-us#header"
+                style={{
+                  textDecoration: "none",
+                  color: "inherit",
+                  marginBottom: "15px",
+                }}
+              >
+                <Typography
+                  sx={{
+                    color: "#1a237e",
+                    fontWeight: "700",
+                    fontSize: { xs: "22px", sm: "25px", md: "28px" },
+                    borderBottom: "3px solid #1a237e",
+                    display: "inline",
+                  }}
+                >
+                  Contact Us
+                </Typography>
+              </HashLink>
+            </Box>
+          </Box>
+        </Box>
+        {/* the other half */}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            height: { xs: "40vh", sm: "50vh", md: "60vh" },
+            width: { xs: "100%", sm: "50vw" },
+          }}
+        >
+          <img
+            src={MlogoDesktop}
+            alt=""
+            className="logo-in-footer"
+            style={{ objectFit: "cover", height: "100%", width: "100%" }}
+          />
+          <Box sx={{ mb: 3, width: "40%" }}>
             <Typography
-              sx={{ fontSize: { xs: "12px", md: "13px" }, color: "grey" }}
+              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
             >
-              hr@merakitrainings.in
+              {/* address */}
+              #743, 15th cross Rd, KPC Layout, Bengaluru, Karnataka, 560035.
+            </Typography>
+          </Box>
+          <Box sx={{ mb: 3 }}>
+            <Typography
+              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+            >
+              Mail Id: hr@merakitrainings.in
+            </Typography>
+          </Box>
+          <Box sx={{ mb: 3 }}>
+            <Typography
+              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+            >
+              Contact Number: +91 74119 78909
             </Typography>
           </Box>
         </Box>

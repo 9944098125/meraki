@@ -24,6 +24,7 @@ function Careers() {
           Careers
         </Typography>
         <Box
+          id="header"
           sx={{
             display: "flex",
             flexDirection: "column",

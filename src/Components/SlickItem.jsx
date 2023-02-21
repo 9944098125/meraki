@@ -15,6 +15,7 @@ import oxford from "../Assets/Images/oxford.png";
 import kosh from "../Assets/Images/kosh.png";
 import fincare from "../Assets/Images/fincare.png";
 import culti from "../Assets/Images/culticators.jpg";
+import als from "../Assets/Images/als.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -38,11 +39,11 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 3, sm: 6, md: 9 },
+            py: { xs: 0, sm: 4, md: 6 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -51,11 +52,11 @@ function SlickItem() {
         <Box
           data-aos="fade-down"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            objectFit: "cover",
+            py: { xs: 0, sm: 2 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -64,11 +65,11 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 2.5, sm: 7, md: 12 },
+            py: { xs: 0, sm: 5, md: 8.5 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -77,10 +78,11 @@ function SlickItem() {
         <Box
           data-aos="fade-down"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
+            py: 0,
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -89,10 +91,11 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
+            py: 0,
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -101,10 +104,11 @@ function SlickItem() {
         <Box
           data-aos="fade-down"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
+            py: 0,
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -113,10 +117,11 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
+            py: 0,
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -125,11 +130,11 @@ function SlickItem() {
         <Box
           data-aos="fade-down"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 3, sm: 8, md: 12 },
+            py: { xs: 0, sm: 5, md: 7 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -138,11 +143,11 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 3, sm: 7, md: 9 },
+            py: { xs: 0, sm: 4, md: 6 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -151,11 +156,11 @@ function SlickItem() {
         <Box
           data-aos="fade-down"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 3, sm: 8, md: 12 },
+            py: { xs: 0, sm: 4, md: 6 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
@@ -164,15 +169,28 @@ function SlickItem() {
         <Box
           data-aos="fade-up"
           sx={{
-            height: "60%",
-            width: "30%",
+            height: "40%",
+            width: "20%",
             borderRadius: "9px",
             p: 2,
-            py: { xs: 3, sm: 8, md: 12 },
+            py: { xs: 0, sm: 4, md: 6 },
             "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
           }}
         >
           <img src={fincare} alt="" className="client-logo" />
+        </Box>
+        <Box
+          data-aos="fade-up"
+          sx={{
+            height: "40%",
+            width: "20%",
+            borderRadius: "9px",
+            p: 2,
+            py: 0,
+            "&:hover": { boxShadow: "5px 5px 5px 5px #1a237e" },
+          }}
+        >
+          <img src={als} alt="" className="client-logo" />
         </Box>
       </Box>
     </Fragment>

@@ -4,6 +4,11 @@ import { Carousel } from "react-bootstrap";
 import { Typography, Box } from "@mui/material";
 
 function OurClients() {
+  const [index, setIndex] = React.useState(0);
+
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+  };
   return (
     <Fragment>
       <Box sx={{ p: { xs: 1, sm: 2, md: 3 }, mb: 4 }}>
@@ -18,9 +23,6 @@ function OurClients() {
           >
             What Our Clients Say
           </Typography>
-          <Typography sx={{ fontSize: { xs: "10px", sm: "12px", md: "13px" } }}>
-            Our Clients Commend Us For Great Achievements
-          </Typography>
         </Box>
         <Box
           id="wocs"
@@ -33,9 +35,14 @@ function OurClients() {
             height: "100%",
           }}
         >
-          <Carousel className="carousel">
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+          <Carousel
+            activeIndex={index}
+            onSelect={handleSelect}
+            className="carousel"
+            variant="dark"
+          >
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -47,21 +54,21 @@ function OurClients() {
                   }}
                 >
                   During training, the trainer was able to clarify us regarding
-                  the trends followedintheindustry and provide real life
-                  examples. Thanks to the training teamat Meraki.
+                  the trends followed in the industry and provide real life
+                  examples. Thanks to the training team at Meraki.
                 </Typography>
               </Box>
               <Box
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -70,8 +77,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -80,8 +87,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -90,8 +97,8 @@ function OurClients() {
                 </Typography>
               </Box>
             </Carousel.Item>
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -113,13 +120,13 @@ function OurClients() {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -128,8 +135,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -138,8 +145,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -148,8 +155,8 @@ function OurClients() {
                 </Typography>
               </Box>
             </Carousel.Item>
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -171,13 +178,13 @@ function OurClients() {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -186,8 +193,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -196,8 +203,8 @@ function OurClients() {
                 </Typography>
               </Box>
             </Carousel.Item>
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -221,13 +228,13 @@ function OurClients() {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -236,8 +243,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -246,8 +253,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -256,8 +263,8 @@ function OurClients() {
                 </Typography>
               </Box>
             </Carousel.Item>
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -279,13 +286,13 @@ function OurClients() {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -294,8 +301,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -304,8 +311,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -314,8 +321,8 @@ function OurClients() {
                 </Typography>
               </Box>
             </Carousel.Item>
-            <Carousel.Item>
-              <Box sx={{ pt: 2, pl: 2 }}>
+            <Carousel.Item className="carousel-item">
+              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
                 <Typography
                   sx={{
                     fontSize: {
@@ -340,13 +347,13 @@ function OurClients() {
                 sx={{
                   display: "flex",
                   flexDirection: "column",
-                  alignItems: "flex-end",
+                  alignItems: "center",
                 }}
               >
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -355,8 +362,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
@@ -365,8 +372,8 @@ function OurClients() {
                 </Typography>
                 <Typography
                   sx={{
-                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
-                    fontWeight: "800",
+                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
+                    fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
                   }}
