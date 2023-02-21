@@ -51,7 +51,13 @@ function OurClients() {
                   examples. Thanks to the training teamat Meraki.
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -60,7 +66,27 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  Rajeshwara Rao, Associate Director[HR], ALS Global.
+                  - Rajeshwara Rao.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Associate Director[HR].
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - ALS Global.
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -77,13 +103,19 @@ function OurClients() {
                   }}
                 >
                   We are happy with the overall experience dealing with Meraki
-                  for our trainingneeds. They were able to understand our exact
+                  for our training needs. They were able to understand our exact
                   expectations and help us identify the right Training plan.
                   They were very prompt in their response and service. We look
-                  forwardto their support going forward
+                  forward to their support going forward
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -92,7 +124,27 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Arasu MT , CEO, Clicks Campus
+                  - Arasu MT.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - CEO.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Clicks Campus.
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -110,12 +162,18 @@ function OurClients() {
                 >
                   We are extremely pleased with the services Meraki has
                   provided. All of the trainers were exceptional, extremely
-                  professional and knowledgeable and created positivelearning
+                  professional and knowledgeable and created positive learning
                   environments. They are professional, personable, resourceful,
                   and always willing to help meet our training needs.
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -124,7 +182,17 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  Ashok CP, Symbiosis (Pune)
+                  - Ashok CP.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Symbiosis (Pune).
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -141,15 +209,21 @@ function OurClients() {
                   }}
                 >
                   You all are definitely rocking. Thanks for providing and
-                  delivering well structuredcourses through competent mentoring
-                  and ef ective teaching methods. The trainingprovided is
+                  delivering well structured courses through competent mentoring
+                  and active teaching methods. The training provided is
                   completely based on real time applications and practical way
-                  of findingsolutions. The classes are very interactive and
+                  of finding solutions. The classes are very interactive and
                   expand our knowledge. Provisions provided for practicing real
                   time projects are very helpful
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -158,7 +232,27 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  Capt Vibha Sharma, General Manager (HR), CNP Pvt. Ltd.
+                  - Capt Vibha Sharma.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - General Manager (HR).
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - CNP Pvt. Ltd.
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -175,13 +269,19 @@ function OurClients() {
                   }}
                 >
                   All of the trainers were excellent, extremely professional and
-                  knowledgeable andcreated positive learning environments. As
-                  the Director of Training, I receivednothingbut positive
+                  knowledgeable and created positive learning environments. As
+                  the Director of Training, I received nothing but positive
                   feedback about all of the instructors who came to us via
                   meraki.
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -190,7 +290,27 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  Swaroopa, Talent Acquisition, Iamneo.ai
+                  - Swaroopa.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Talent Acquisition.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Iamneo.ai
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -211,12 +331,18 @@ function OurClients() {
                   with Indira and her company Meraki forTrainer sourcing and we
                   have had a very good success in our Trainer intakes. It is
                   always a pleasure to work with people like Indira who is a
-                  quick learner and is alwayson top of things and who is eager
-                  to grow and serve.. or in her own words, she is a'Meraki'
+                  quick learner and is always on top of things and who is eager
+                  to grow and serve.. or in her own words, she is a Meraki's
                   person. One who loves to put every thing in to her work!
                 </Typography>
               </Box>
-              <Box sx={{ display: "flex", justifyContent: "center" }}>
+              <Box
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "flex-end",
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: { xs: "12px", sm: "14px", md: "16px" },
@@ -225,7 +351,27 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Raghesh G Menon, CEO, Scooppin
+                  - Raghesh G Menon.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - CEO.
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "14px", md: "16px" },
+                    fontWeight: "800",
+                    color: "primary.dark",
+                    fontStyle: "italic",
+                  }}
+                >
+                  - Scooppin.
                 </Typography>
               </Box>
             </Carousel.Item>
