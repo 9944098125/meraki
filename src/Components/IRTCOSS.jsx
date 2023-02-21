@@ -66,6 +66,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #87fd9a",
                 borderTop: "4px solid #87fd9a",
                 borderBottom: "4px solid #87fd9a",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -114,6 +115,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #87fd9a",
                 borderTop: "4px solid #87fd9a",
                 borderBottom: "4px solid #87fd9a",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -143,6 +145,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #8798fd",
                 borderTop: "4px solid #8798fd",
                 borderBottom: "4px solid #8798fd",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -178,6 +181,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #8798fd",
                 borderTop: "4px solid #8798fd",
                 borderBottom: "4px solid #8798fd",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -219,6 +223,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #a17efd",
                 borderTop: "4px solid #a17efd",
                 borderBottom: "4px solid #a17efd",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -267,6 +272,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #a17efd",
                 borderTop: "4px solid #a17efd",
                 borderBottom: "4px solid #a17efd",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -296,6 +302,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #7efd8d",
                 borderTop: "4px solid #7efd8d",
                 borderBottom: "4px solid #7efd8d",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -331,6 +338,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #7efd8d",
                 borderTop: "4px solid #7efd8d",
                 borderBottom: "4px solid #7efd8d",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -373,6 +381,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #82a1e2",
                 borderTop: "4px solid #82a1e2",
                 borderBottom: "4px solid #82a1e2",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -422,6 +431,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #82a1e2",
                 borderTop: "4px solid #82a1e2",
                 borderBottom: "4px solid #82a1e2",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -451,6 +461,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid #a580cc",
                 borderTop: "4px solid #a580cc",
                 borderBottom: "4px solid #a580cc",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
@@ -486,6 +497,7 @@ function IRTCOSS() {
                 borderRight: "4px solid #a580cc",
                 borderTop: "4px solid #a580cc",
                 borderBottom: "4px solid #a580cc",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -527,6 +539,7 @@ function IRTCOSS() {
                 borderLeft: "4px solid orange",
                 borderTop: "4px solid orange",
                 borderBottom: "4px solid orange",
+                borderRadius: "9px",
               }}
             >
               {/* content */}
@@ -576,6 +589,7 @@ function IRTCOSS() {
                 borderRight: "4px solid orange",
                 borderTop: "4px solid orange",
                 borderBottom: "4px solid orange",
+                borderRadius: "9px",
               }}
             >
               {/* image */}
