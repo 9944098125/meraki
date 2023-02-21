@@ -23,6 +23,7 @@ function OurClients() {
           </Typography>
         </Box>
         <Box
+          id="wocs"
           sx={{
             display: "flex",
             flexDirection: "row",

@@ -14,11 +14,13 @@ import WhyChooseUsHover from "./WhyChooseUsHover";
 import insta from "../Assets/Images/instagram-logo.png";
 import linkedIn from "../Assets/Images/linkedIn-logo.png";
 import fb from "../Assets/Images/fb-logo.png";
+import ClientsHover from "./ClientsHover";
 
 function Navbar() {
   const [style, setStyle] = React.useState({ display: "none" });
   const [style2, setStyle2] = React.useState({ display: "none" });
   const [style3, setStyle3] = React.useState({ display: "none" });
+  const [style4, setStyle4] = React.useState({ display: "none" });
   const [showWhatsappModal, setShowWhatsappModal] = React.useState(false);
 
   function displayWhatsappModal() {
@@ -223,7 +225,6 @@ function Navbar() {
                 onMouseEnter={() => setStyle2({ display: "block" })}
                 onMouseLeave={() => setStyle2({ display: "none" })}
                 sx={{}}
-                id="parent"
               >
                 <Typography
                   className="headings"
@@ -259,7 +260,6 @@ function Navbar() {
                 onMouseEnter={() => setStyle3({ display: "block" })}
                 onMouseLeave={() => setStyle3({ display: "none" })}
                 sx={{}}
-                id="parent"
               >
                 <Typography
                   className="headings"
@@ -291,20 +291,35 @@ function Navbar() {
               to="/clients"
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <Typography
-                className="headings"
-                sx={{
-                  color: "#080808",
-                  fontWeight: "600",
-                  fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                  cursor: "pointer",
-                  "&:hover": {
-                    borderBottom: "4px solid #1a237e",
-                  },
-                }}
+              <Box
+                onMouseEnter={() => setStyle4({ display: "block" })}
+                onMouseLeave={() => setStyle4({ display: "none" })}
+                sx={{}}
               >
-                Clients
-              </Typography>
+                <Typography
+                  className="headings"
+                  sx={{
+                    color: "#080808",
+                    fontWeight: "600",
+                    fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                    cursor: "pointer",
+                    "&:hover": {
+                      borderBottom: "4px solid #1a237e",
+                    },
+                  }}
+                >
+                  Clients
+                </Typography>
+                <Box
+                  style={style4}
+                  sx={{
+                    position: "absolute",
+                    right: { xs: "5%", sm: "25%" },
+                  }}
+                >
+                  <ClientsHover />
+                </Box>
+              </Box>
             </Link>
 
             <Box

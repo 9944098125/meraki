@@ -6,6 +6,7 @@ function Clients() {
   return (
     <Fragment>
       <Box
+        id="clients"
         sx={{
           display: "flex",
           flexDirection: "column",

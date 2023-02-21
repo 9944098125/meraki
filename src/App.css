@@ -95,6 +95,8 @@ div.sticky {
 .client-logo {
   height: 60%;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .slick-dots {
