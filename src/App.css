@@ -536,12 +536,7 @@ div.sticky {
 
 div #googleForm iframe {
   width: 100%;
-  height: 150vh;
-}
-
-
-div #googleForm iframe::-webkit-scrollbar {
-  display: none;
+  height: 165vh;
 }
 
 .carousel {

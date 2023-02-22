@@ -32,7 +32,7 @@ function Careers() {
             gap: 3,
           }}
         >
-          <Box sx={{ width: "100%", height: "150vh" }}>
+          <Box sx={{ width: "100%", height: "150vh", mb: 4 }}>
             {/* form */}
             {/* https://formspree.io/f/mqkoqead */}
             <div
