@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
-import trainingServices from "../Assets/ServicesImages/trainingServices.jpg";
+import trainingServices from "../Assets/Images/trainingAlter.jpg";
 import staffingServices from "../Assets/ServicesImages/staffingServices.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
