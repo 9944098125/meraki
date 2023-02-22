@@ -362,8 +362,9 @@ function Footer() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            height: { xs: "40vh", sm: "50vh", md: "60vh" },
+            height: { xs: "46vh", sm: "50vh", md: "60vh" },
             width: { xs: "100%", sm: "50vw" },
+            pt: 3,
           }}
         >
           <img
@@ -372,9 +373,9 @@ function Footer() {
             className="logo-in-footer"
             style={{ objectFit: "cover", height: "100%", width: "100%" }}
           />
-          <Box sx={{ mb: 3, width: "40%" }}>
+          <Box sx={{ mb: 3, width: { xs: "70%", sm: "50%", md: "40%" }, p: 2 }}>
             <Typography
-              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+              sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
             >
               {/* address */}
               #743, 15th cross Rd, KPC Layout, Bengaluru, Karnataka, 560035.
@@ -382,14 +383,14 @@ function Footer() {
           </Box>
           <Box sx={{ mb: 3 }}>
             <Typography
-              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+              sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
             >
               Mail Id: hr@merakitrainings.in
             </Typography>
           </Box>
           <Box sx={{ mb: 3 }}>
             <Typography
-              sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+              sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
             >
               Contact Number: +91 74119 78909
             </Typography>
