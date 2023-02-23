@@ -185,6 +185,7 @@ function CollegePartnerships() {
           >
             {/* each item */}
             <Box
+              data-aos="fade-up"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -237,6 +238,7 @@ function CollegePartnerships() {
             </Box>
             {/* item two */}
             <Box
+              data-aos="fade-down"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -290,6 +292,7 @@ function CollegePartnerships() {
 
             {/* item three */}
             <Box
+              data-aos="fade-up"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -344,6 +347,7 @@ function CollegePartnerships() {
 
             {/* item four */}
             <Box
+              data-aos="fade-down"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -398,6 +402,7 @@ function CollegePartnerships() {
 
             {/* item five */}
             <Box
+              data-aos="fade-up"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -451,6 +456,7 @@ function CollegePartnerships() {
 
             {/* item six */}
             <Box
+              data-aos="fade-down"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -504,6 +510,7 @@ function CollegePartnerships() {
 
             {/* item seven */}
             <Box
+              data-aos="fade-up"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -557,6 +564,7 @@ function CollegePartnerships() {
 
             {/* item eight */}
             <Box
+              data-aos="fade-down"
               sx={{
                 boxShadow: "5px 5px 5px 5px #1a237e",
                 borderRadius: "9px",
@@ -660,6 +668,7 @@ function CollegePartnerships() {
               }}
             >
               <Box
+                data-aos="fade-up"
                 sx={{
                   display: "flex",
                   flexDirection: "column",
@@ -704,6 +713,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-down"
                 sx={{
                   display: "flex",
                   flexDirection: "column",
@@ -748,6 +758,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-up"
                 sx={{
                   display: "flex",
                   flexDirection: "column",
@@ -793,6 +804,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-down"
                 sx={{
                   display: "flex",
                   flexDirection: "column",
@@ -1035,6 +1047,7 @@ function CollegePartnerships() {
               }}
             >
               <Box
+                data-aos="fade-up"
                 sx={{
                   display: "flex",
                   alignItems: "center",
@@ -1099,6 +1112,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-down"
                 sx={{
                   display: "flex",
                   alignItems: "center",
@@ -1163,6 +1177,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-up"
                 sx={{
                   display: "flex",
                   alignItems: "center",
@@ -1227,6 +1242,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-down"
                 sx={{
                   display: "flex",
                   alignItems: "center",
@@ -1291,6 +1307,7 @@ function CollegePartnerships() {
               </Box>
 
               <Box
+                data-aos="fade-up"
                 sx={{
                   display: "flex",
                   alignItems: "center",
@@ -1366,6 +1383,311 @@ function CollegePartnerships() {
             >
               Cyber Security & Ethical Hacking Learning Path
             </Typography>
+            <Box
+              sx={{
+                display: "flex",
+                flexDirection: { xs: "column", sm: "row" },
+                gap: { xs: 1.5, sm: 2.5, md: 4 },
+                flexWrap: "wrap",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              {/* each sem/step */}
+              <Box
+                data-aos="fade-up"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: { xs: "75%", sm: "25%", md: "15%" },
+                  height: "100%",
+                  boxShadow: "5px 5px 5px 5px deeppink",
+                  borderRadius: "9px",
+                }}
+              >
+                <Box
+                  sx={{
+                    height: { xs: "80px", sm: "100px", md: "120px" },
+                    width: { xs: "80px", sm: "100px", md: "120px" },
+                    borderRadius: "50%",
+                    border: "15px solid deeppink",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "15px", sm: "20px", md: "25px" },
+                      color: "deeppink",
+                      fontWeight: "900",
+                    }}
+                  >
+                    SEM 1
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                      color: "deeppink",
+                      textAlign: "center",
+                    }}
+                  >
+                    Linux Fundamentals
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    25 Hours
+                  </Typography>
+                </Box>
+              </Box>
+
+              {/* each sem/step */}
+              <Box
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: { xs: "75%", sm: "25%", md: "15%" },
+                  height: "100%",
+                  boxShadow: "5px 5px 5px 5px violet",
+                  borderRadius: "9px",
+                }}
+              >
+                <Box
+                  sx={{
+                    height: { xs: "80px", sm: "100px", md: "120px" },
+                    width: { xs: "80px", sm: "100px", md: "120px" },
+                    borderRadius: "50%",
+                    border: "15px solid violet",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "15px", sm: "20px", md: "25px" },
+                      color: "violet",
+                      fontWeight: "900",
+                    }}
+                  >
+                    SEM 2
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                      color: "violet",
+                      textAlign: "center",
+                    }}
+                  >
+                    Fundamentals of Cryptography, Cloud & Network Security
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    25 Hours
+                  </Typography>
+                </Box>
+              </Box>
+
+              {/* each sem/step */}
+              <Box
+                data-aos="fade-up"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: { xs: "75%", sm: "25%", md: "15%" },
+                  height: "100%",
+                  boxShadow: "5px 5px 5px 5px darkblue",
+                  borderRadius: "9px",
+                }}
+              >
+                <Box
+                  sx={{
+                    height: { xs: "80px", sm: "100px", md: "120px" },
+                    width: { xs: "80px", sm: "100px", md: "120px" },
+                    borderRadius: "50%",
+                    border: "15px solid darkblue",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "15px", sm: "20px", md: "25px" },
+                      color: "darkblue",
+                      fontWeight: "900",
+                    }}
+                  >
+                    SEM 3
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                      color: "darkblue",
+                      textAlign: "center",
+                    }}
+                  >
+                    Cyber Security Essentials
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    25 Hours
+                  </Typography>
+                </Box>
+              </Box>
+
+              {/* each sem/step */}
+              <Box
+                data-aos="fade-down"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: { xs: "75%", sm: "25%", md: "15%" },
+                  height: "100%",
+                  boxShadow: "5px 5px 5px 5px orange",
+                  borderRadius: "9px",
+                }}
+              >
+                <Box
+                  sx={{
+                    height: { xs: "80px", sm: "100px", md: "120px" },
+                    width: { xs: "80px", sm: "100px", md: "120px" },
+                    borderRadius: "50%",
+                    border: "15px solid orange",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "15px", sm: "20px", md: "25px" },
+                      color: "orange",
+                      fontWeight: "900",
+                    }}
+                  >
+                    SEM 4
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                      color: "orange",
+                      textAlign: "center",
+                    }}
+                  >
+                    Ethical Hacking
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    25 Hours
+                  </Typography>
+                </Box>
+              </Box>
+
+              {/* each sem/step */}
+              <Box
+                data-aos="fade-up"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  width: { xs: "75%", sm: "25%", md: "15%" },
+                  height: "100%",
+                  boxShadow: "5px 5px 5px 5px darkgray",
+                  borderRadius: "9px",
+                }}
+              >
+                <Box
+                  sx={{
+                    height: { xs: "80px", sm: "100px", md: "120px" },
+                    width: { xs: "80px", sm: "100px", md: "120px" },
+                    borderRadius: "50%",
+                    border: "15px solid darkgray",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "15px", sm: "20px", md: "25px" },
+                      color: "darkgray",
+                      fontWeight: "900",
+                    }}
+                  >
+                    SEM 5
+                  </Typography>
+                </Box>
+                <Box
+                  sx={{
+                    width: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                  }}
+                >
+                  <Typography
+                    sx={{
+                      fontSize: { xs: "12px", sm: "17px", md: "20px" },
+                      color: "darkgray",
+                      textAlign: "center",
+                    }}
+                  >
+                    Real Time Projects
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    25 Hours
+                  </Typography>
+                </Box>
+              </Box>
+            </Box>
           </Box>
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             {/* ai/robotics learning path from finishing school */}
@@ -1376,7 +1698,7 @@ function CollegePartnerships() {
                 fontWeight: "800",
               }}
             >
-              Ai / ML & Robotics Learning Path
+              AI / ML & Robotics Learning Path
             </Typography>
           </Box>
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
