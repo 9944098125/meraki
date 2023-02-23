@@ -29,7 +29,6 @@ function AboutUsComponent() {
             fontSize: { xs: "14px", sm: "16px", md: "20px" },
             mb: 5,
             position: "relative",
-            position: "relative",
           }}
         >
           Since our inception in 2022, Meraki Training Solutions has carved a
@@ -55,8 +54,8 @@ function AboutUsComponent() {
           }}
         >
           We also partner with organizations to understand their staffing
-          requirements for their training departmentsand procure the candidates
-          with the desired profile
+          requirements for their training departments and procure the candidates
+          with the desired profile.
         </Typography>
         <Typography
           sx={{

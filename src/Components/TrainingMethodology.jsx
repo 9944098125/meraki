@@ -53,7 +53,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "100px", sm: "120px", md: "140px" },
               width: { xs: "100px", sm: "120px", md: "140px" },
-              border: "4px solid #6496e6",
+              border: "4px solid #20E162",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -112,7 +112,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "120px", sm: "150px", md: "170px" },
               width: { xs: "120px", sm: "150px", md: "170px" },
-              border: "4px solid #a688d2",
+              border: "4px solid #00B9F4",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -165,7 +165,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "130px", sm: "150px", md: "210px" },
               width: { xs: "130px", sm: "150px", md: "210px" },
-              border: "4px solid #75cad8",
+              border: "4px solid #D1DEE1",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -226,7 +226,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "150px", sm: "180px", md: "240px" },
               width: { xs: "150px", sm: "180px", md: "240px" },
-              border: "4px solid #7ee4c1",
+              border: "4px solid #004AAD",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",
@@ -279,7 +279,7 @@ function TrainingMethodology() {
             sx={{
               height: { xs: "190px", sm: "210px", md: "270px" },
               width: { xs: "190px", sm: "210px", md: "270px" },
-              border: "4px solid #7d63c0",
+              border: "4px solid #CFCEDB",
               borderRadius: "50%",
               display: "flex",
               justifyContent: "center",

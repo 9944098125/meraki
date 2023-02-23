@@ -1,7 +1,6 @@
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import email from "../Assets/Images/email.png";
 import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
 import { Typography } from "@mui/material";

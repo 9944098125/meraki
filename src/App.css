@@ -556,3 +556,133 @@ div #googleForm iframe {
     min-width: 100%;
   }
 }
+.circular-progress1 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 5px 5px 5px 5px #1a237e;
+  border-radius: 50%;
+}
+.progress-bg1 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.8;
+}
+.progress1 {
+  fill: none;
+  stroke: pink;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.percentage1 {
+  font-weight:900;
+  font-size: 0.5em;
+  text-anchor: middle;
+  fill: pink;
+}
+@keyframes progress1 {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circular-progress2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 5px 5px 5px 5px #1a237e;
+  border-radius: 50%;
+}
+.progress-bg2 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.8;
+}
+.progress2 {
+  fill: none;
+  stroke: purple;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.percentage2 {
+  font-weight:900;
+  font-size: 0.5em;
+  text-anchor: middle;
+  fill: purple;
+}
+@keyframes progress2 {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circular-progress3 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 5px 5px 5px 5px #1a237e;
+  border-radius: 50%;
+}
+.progress-bg3 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.8;
+}
+.progress3 {
+  fill: none;
+  stroke: grey;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.percentage3 {
+  font-weight:900;
+  font-size: 0.5em;
+  text-anchor: middle;
+  fill: grey;
+}
+@keyframes progress3 {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+.circular-progress4 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 5px 5px 5px 5px #1a237e;
+  border-radius: 50%;
+}
+.progress-bg4 {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 3.8;
+}
+.progress4 {
+  fill: none;
+  stroke: orange;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+.percentage4 {
+  font-weight:900;
+  font-size: 0.5em;
+  text-anchor: middle;
+  fill: orange;
+}
+@keyframes progress4 {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+
+
+
+
+

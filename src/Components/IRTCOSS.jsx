@@ -63,9 +63,9 @@ function IRTCOSS() {
                 py: 1,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #87fd9a",
-                borderTop: "4px solid #87fd9a",
-                borderBottom: "4px solid #87fd9a",
+                borderLeft: "4px solid #20E162",
+                borderTop: "4px solid #20E162",
+                borderBottom: "4px solid #20E162",
                 borderRadius: "9px",
               }}
             >
@@ -91,7 +91,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#87fd9a",
+                backgroundColor: "#20E162",
               }}
             >
               {/* number */}
@@ -112,9 +112,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #87fd9a",
-                borderTop: "4px solid #87fd9a",
-                borderBottom: "4px solid #87fd9a",
+                borderRight: "4px solid #20E162",
+                borderTop: "4px solid #20E162",
+                borderBottom: "4px solid #20E162",
                 borderRadius: "9px",
               }}
             >
@@ -142,9 +142,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #8798fd",
-                borderTop: "4px solid #8798fd",
-                borderBottom: "4px solid #8798fd",
+                borderLeft: "4px solid #00B9F4",
+                borderTop: "4px solid #00B9F4",
+                borderBottom: "4px solid #00B9F4",
                 borderRadius: "9px",
               }}
             >
@@ -158,7 +158,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#8798fd",
+                backgroundColor: "#00B9F4",
               }}
             >
               {/* number */}
@@ -166,6 +166,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "25px", sm: "30px", md: "40px" },
                   fontWeight: "900",
+                  color: "white",
                 }}
               >
                 2.
@@ -178,9 +179,9 @@ function IRTCOSS() {
                 py: 2.1,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #8798fd",
-                borderTop: "4px solid #8798fd",
-                borderBottom: "4px solid #8798fd",
+                borderRight: "4px solid #00B9F4",
+                borderTop: "4px solid #00B9F4",
+                borderBottom: "4px solid #00B9F4",
                 borderRadius: "9px",
               }}
             >
@@ -220,9 +221,9 @@ function IRTCOSS() {
                 py: 2.1,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #a17efd",
-                borderTop: "4px solid #a17efd",
-                borderBottom: "4px solid #a17efd",
+                borderLeft: "4px solid #D1DEE1",
+                borderTop: "4px solid #D1DEE1",
+                borderBottom: "4px solid #D1DEE1",
                 borderRadius: "9px",
               }}
             >
@@ -248,7 +249,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#a17efd",
+                backgroundColor: "#D1DEE1",
               }}
             >
               {/* number */}
@@ -269,9 +270,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #a17efd",
-                borderTop: "4px solid #a17efd",
-                borderBottom: "4px solid #a17efd",
+                borderRight: "4px solid #D1DEE1",
+                borderTop: "4px solid #D1DEE1",
+                borderBottom: "4px solid #D1DEE1",
                 borderRadius: "9px",
               }}
             >
@@ -299,9 +300,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #7efd8d",
-                borderTop: "4px solid #7efd8d",
-                borderBottom: "4px solid #7efd8d",
+                borderLeft: "4px solid #004AAD",
+                borderTop: "4px solid #004AAD",
+                borderBottom: "4px solid #004AAD",
                 borderRadius: "9px",
               }}
             >
@@ -315,7 +316,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#7efd8d",
+                backgroundColor: "#004AAD",
               }}
             >
               {/* number */}
@@ -323,6 +324,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "25px", sm: "30px", md: "40px" },
                   fontWeight: "900",
+                  color: "white",
                 }}
               >
                 4.
@@ -335,9 +337,9 @@ function IRTCOSS() {
                 py: 1,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #7efd8d",
-                borderTop: "4px solid #7efd8d",
-                borderBottom: "4px solid #7efd8d",
+                borderRight: "4px solid #004AAD",
+                borderTop: "4px solid #004AAD",
+                borderBottom: "4px solid #004AAD",
                 borderRadius: "9px",
               }}
             >
@@ -378,9 +380,9 @@ function IRTCOSS() {
                 py: 1,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #82a1e2",
-                borderTop: "4px solid #82a1e2",
-                borderBottom: "4px solid #82a1e2",
+                borderLeft: "4px solid #CFCEDB",
+                borderTop: "4px solid #CFCEDB",
+                borderBottom: "4px solid #CFCEDB",
                 borderRadius: "9px",
               }}
             >
@@ -407,7 +409,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#82a1e2",
+                backgroundColor: "#CFCEDB",
               }}
             >
               {/* number */}
@@ -428,9 +430,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #82a1e2",
-                borderTop: "4px solid #82a1e2",
-                borderBottom: "4px solid #82a1e2",
+                borderRight: "4px solid #CFCEDB",
+                borderTop: "4px solid #CFCEDB",
+                borderBottom: "4px solid #CFCEDB",
                 borderRadius: "9px",
               }}
             >
@@ -458,9 +460,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid #a580cc",
-                borderTop: "4px solid #a580cc",
-                borderBottom: "4px solid #a580cc",
+                borderLeft: "4px solid #1C1386",
+                borderTop: "4px solid #1C1386",
+                borderBottom: "4px solid #1C1386",
                 borderRadius: "9px",
               }}
             >
@@ -474,7 +476,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "#a580cc",
+                backgroundColor: "#1C1386",
               }}
             >
               {/* number */}
@@ -482,6 +484,7 @@ function IRTCOSS() {
                 sx={{
                   fontSize: { xs: "25px", sm: "30px", md: "40px" },
                   fontWeight: "900",
+                  color: "white",
                 }}
               >
                 6.
@@ -494,9 +497,9 @@ function IRTCOSS() {
                 py: 1,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid #a580cc",
-                borderTop: "4px solid #a580cc",
-                borderBottom: "4px solid #a580cc",
+                borderRight: "4px solid #1C1386",
+                borderTop: "4px solid #1C1386",
+                borderBottom: "4px solid #1C1386",
                 borderRadius: "9px",
               }}
             >
@@ -536,9 +539,9 @@ function IRTCOSS() {
                 py: 1,
                 display: "flex",
                 justifyContent: "center",
-                borderLeft: "4px solid orange",
-                borderTop: "4px solid orange",
-                borderBottom: "4px solid orange",
+                borderLeft: "4px solid #45F671",
+                borderTop: "4px solid #45F671",
+                borderBottom: "4px solid #45F671",
                 borderRadius: "9px",
               }}
             >
@@ -565,7 +568,7 @@ function IRTCOSS() {
                 py: 0,
                 display: "flex",
                 justifyContent: "center",
-                backgroundColor: "orange",
+                backgroundColor: "#45F671",
               }}
             >
               {/* number */}
@@ -586,9 +589,9 @@ function IRTCOSS() {
                 py: 2,
                 display: "flex",
                 justifyContent: "center",
-                borderRight: "4px solid orange",
-                borderTop: "4px solid orange",
-                borderBottom: "4px solid orange",
+                borderRight: "4px solid #45F671",
+                borderTop: "4px solid #45F671",
+                borderBottom: "4px solid #45F671",
                 borderRadius: "9px",
               }}
             >

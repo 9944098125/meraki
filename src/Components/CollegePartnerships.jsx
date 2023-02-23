@@ -42,6 +42,44 @@ function CollegePartnerships() {
         >
           <HashLink
             style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/college-partnerships#about-our-college-partnership-programs"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                About Our College Partnership Programs
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
+            to="/services/college-partnerships#comprehensive-learning"
+          >
+            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+              <LinkIcon
+                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
+              />
+              <Typography
+                sx={{
+                  color: "grey",
+                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
+                  "&:hover": { color: "primary.dark" },
+                }}
+              >
+                Comprehensive Learning Path
+              </Typography>
+            </Box>
+          </HashLink>
+          <HashLink
+            style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#industry-awareness"
           >
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
@@ -55,26 +93,7 @@ function CollegePartnerships() {
                   "&:hover": { color: "primary.dark" },
                 }}
               >
-                Industry Awarness Programs
-              </Typography>
-            </Box>
-          </HashLink>
-          <HashLink
-            style={{ textDecoration: "none", color: "inherit" }}
-            to="/services/college-partnerships#interview-preparations"
-          >
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <LinkIcon
-                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-              />
-              <Typography
-                sx={{
-                  color: "grey",
-                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                  "&:hover": { color: "primary.dark" },
-                }}
-              >
-                Interview Preparation Programs
+                Industry Awareness and Career Path Programs
               </Typography>
             </Box>
           </HashLink>
@@ -99,7 +118,7 @@ function CollegePartnerships() {
           </HashLink>
           <HashLink
             style={{ textDecoration: "none", color: "inherit" }}
-            to="/services/college-partnerships#career-path-guidance"
+            to="/services/college-partnerships#power-skills"
           >
             <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
               <LinkIcon
@@ -112,26 +131,7 @@ function CollegePartnerships() {
                   "&:hover": { color: "primary.dark" },
                 }}
               >
-                Career Path Guidance Workshops
-              </Typography>
-            </Box>
-          </HashLink>
-          <HashLink
-            style={{ textDecoration: "none", color: "inherit" }}
-            to="/services/college-partnerships#collaborative-research"
-          >
-            <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
-              <LinkIcon
-                sx={{ fontSize: { xs: "10px", sm: "11px", md: "12px" } }}
-              />
-              <Typography
-                sx={{
-                  color: "grey",
-                  fontSize: { xs: "8px", sm: "10px", md: "12px" },
-                  "&:hover": { color: "primary.dark" },
-                }}
-              >
-                Collaborative Research & Development
+                Power Skills and Interview Preparations
               </Typography>
             </Box>
           </HashLink>

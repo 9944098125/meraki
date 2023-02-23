@@ -73,7 +73,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Rajeshwara Rao.
+                  - Rajeshwara Rao, Associate Director (HR)
                 </Typography>
                 <Typography
                   sx={{
@@ -83,17 +83,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Associate Director[HR].
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - ALS Global.
+                  ALS Global
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -131,7 +121,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Arasu MT.
+                  - Arasu M T, CEO
                 </Typography>
                 <Typography
                   sx={{
@@ -141,17 +131,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - CEO.
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - Clicks Campus.
+                  Clicks Campus.
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -189,17 +169,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Ashok CP.
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - Symbiosis (Pune).
+                  - Ashok C P, Symbiosis (Pune)
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -239,7 +209,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Capt Vibha Sharma.
+                  - Capt Vibha Sharma, General Manager (HR).
                 </Typography>
                 <Typography
                   sx={{
@@ -249,17 +219,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - General Manager (HR).
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - CNP Pvt. Ltd.
+                  CNP Pvt. Ltd.
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -297,7 +257,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Swaroopa.
+                  - Swaroopa, Talent Acquisition
                 </Typography>
                 <Typography
                   sx={{
@@ -307,17 +267,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Talent Acquisition.
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - Iamneo.ai
+                  Iamneo.ai
                 </Typography>
               </Box>
             </Carousel.Item>
@@ -358,7 +308,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - Raghesh G Menon.
+                  - Raghesh G Menon, CEO
                 </Typography>
                 <Typography
                   sx={{
@@ -368,17 +318,7 @@ function OurClients() {
                     fontStyle: "italic",
                   }}
                 >
-                  - CEO.
-                </Typography>
-                <Typography
-                  sx={{
-                    fontSize: { xs: "15px", sm: "17px", md: "20px" },
-                    fontWeight: "900",
-                    color: "primary.dark",
-                    fontStyle: "italic",
-                  }}
-                >
-                  - Scooppin.
+                  Scooppin
                 </Typography>
               </Box>
             </Carousel.Item>
