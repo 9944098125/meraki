@@ -40,7 +40,9 @@ function CollegePartnerships() {
 </svg>`;
 
   React.useEffect(() => {
-    Aos.init({ duration: 2000 });
+    setTimeout(() => {
+      Aos.init({ duration: 2000 });
+    }, 3000);
   }, []);
 
   const technologyLogos = [
@@ -1058,6 +1060,7 @@ function CollegePartnerships() {
             >
               {technologyLogos.map((img, idx) => (
                 <Box
+                  data-aos={idx % 2 ? "fade-up" : "fade-down"}
                   sx={{
                     p: 0.7,
                     boxShadow: "5px 5px 5px 5px #1a237e",

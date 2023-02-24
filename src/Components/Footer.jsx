@@ -382,9 +382,10 @@ function Footer() {
             alt=""
             className="logo-in-footer"
             style={{
-              objectFit: "cover",
               height: "100%",
               width: "100%",
+              right: "0",
+              objectFit: "cover",
             }}
           />
           <Box
@@ -397,7 +398,14 @@ function Footer() {
             }}
           >
             <Typography
-              sx={{ fontSize: { xs: "15px", sm: "18px", md: "20px" } }}
+              sx={{
+                fontSize: {
+                  xs: "15px",
+                  sm: "18px",
+                  md: "20px",
+                  textAlign: "center",
+                },
+              }}
             >
               {/* address */}
               #743, 15th cross Rd, KPC Layout, Bengaluru, Karnataka, 560035.
