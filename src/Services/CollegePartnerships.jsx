@@ -42,7 +42,7 @@ function CollegePartnerships() {
   React.useEffect(() => {
     setTimeout(() => {
       Aos.init({ duration: 2000 });
-    }, 3000);
+    }, 1000);
   }, []);
 
   const technologyLogos = [
