@@ -571,7 +571,7 @@ div #googleForm iframe {
 }
 .progress1 {
   fill: none;
-  stroke: pink;
+  stroke: #20E162;
   stroke-width: 3.8;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
@@ -580,7 +580,7 @@ div #googleForm iframe {
   font-weight:900;
   font-size: 0.5em;
   text-anchor: middle;
-  fill: pink;
+  fill: #20E162;
 }
 @keyframes progress1 {
   0% {
@@ -602,7 +602,7 @@ div #googleForm iframe {
 }
 .progress2 {
   fill: none;
-  stroke: purple;
+  stroke: #00B9F4;
   stroke-width: 3.8;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
@@ -611,7 +611,7 @@ div #googleForm iframe {
   font-weight:900;
   font-size: 0.5em;
   text-anchor: middle;
-  fill: purple;
+  fill: #00B9F4;
 }
 @keyframes progress2 {
   0% {
@@ -633,7 +633,7 @@ div #googleForm iframe {
 }
 .progress3 {
   fill: none;
-  stroke: grey;
+  stroke: darkgray;
   stroke-width: 3.8;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
@@ -642,7 +642,7 @@ div #googleForm iframe {
   font-weight:900;
   font-size: 0.5em;
   text-anchor: middle;
-  fill: grey;
+  fill: darkgray;
 }
 @keyframes progress3 {
   0% {
@@ -664,7 +664,7 @@ div #googleForm iframe {
 }
 .progress4 {
   fill: none;
-  stroke: orange;
+  stroke: #004AAD;
   stroke-width: 3.8;
   stroke-linecap: round;
   animation: progress 1s ease-out forwards;
@@ -673,7 +673,7 @@ div #googleForm iframe {
   font-weight:900;
   font-size: 0.5em;
   text-anchor: middle;
-  fill: orange;
+  fill: #004AAD;
 }
 @keyframes progress4 {
   0% {
