@@ -16,7 +16,7 @@ function Footer() {
           boxShadow: "0px -5px 0px 0px #1a237e",
           width: "100%",
           height: "100%",
-          pb: { xs: 2, sm: 3, md: 5 },
+          pb: 0,
         }}
       >
         <Box
@@ -372,9 +372,8 @@ function Footer() {
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            height: { xs: "46vh", sm: "40vh", md: "50vh" },
+            height: { xs: "46vh", sm: "30vh", md: "40vh" },
             width: { xs: "100%", sm: "40%", md: "30%" },
-            pt: 3,
           }}
         >
           <img
@@ -383,15 +382,16 @@ function Footer() {
             className="logo-in-footer"
             style={{
               height: "100%",
-              width: "100%",
+              width: "80%",
               right: "0",
-              objectFit: "cover",
+              objectFit: "scale-down",
             }}
           />
           <Box
             sx={{
-              mb: 3,
+              mb: 1.5,
               p: 2,
+              pb: 0,
               display: "flex",
               flexDirection: "column",
               alignItems: "center",
@@ -400,9 +400,9 @@ function Footer() {
             <Typography
               sx={{
                 fontSize: {
-                  xs: "15px",
-                  sm: "18px",
-                  md: "20px",
+                  xs: "10px",
+                  sm: "12px",
+                  md: "14px",
                   textAlign: "center",
                 },
               }}
@@ -411,21 +411,21 @@ function Footer() {
               #743, 15th cross Rd, KPC Layout, Bengaluru, Karnataka, 560035.
             </Typography>
           </Box>
-          <Box sx={{ mb: 3 }}>
+          <Box sx={{ mb: 1.5 }}>
             <Typography
-              sx={{ fontSize: { xs: "15px", sm: "18px", md: "20px" } }}
+              sx={{ fontSize: { xs: "10px", sm: "12px", md: "14px" } }}
             >
               Mail Id: hr@merakitrainings.in
             </Typography>
           </Box>
-          <Box sx={{ mb: 3 }}>
+          <Box sx={{ mb: 1.5 }}>
             <Typography
-              sx={{ fontSize: { xs: "15px", sm: "18px", md: "20px" } }}
+              sx={{ fontSize: { xs: "10px", sm: "12px", md: "14px" } }}
             >
               Contact Number: +91 74119 78909
             </Typography>
           </Box>
-          <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, pb: 4 }}>
+          <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, pb: 2 }}>
             <a
               href="https://www.facebook.com/MerakiTrainingSolutionsBangalore"
               target="_blank"

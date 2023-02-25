@@ -38,7 +38,7 @@ function OurServices() {
           <SoftSkills />
           <CollegePartnerships />
           <StaffingServices />
-          <ItSolutions />
+          {/* <ItSolutions /> */}
         </Box>
       </Box>
     </Fragment>

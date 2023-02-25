@@ -1280,6 +1280,21 @@ function CollegePartnerships() {
               </Box>
             </Box>
           </Box>
+          <Box
+            sx={{
+              p: { xs: 2, sm: 3, md: 4 },
+              display: "flex",
+              flexDirection: "column",
+              gap: 3,
+            }}
+          >
+            <Typography
+              sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+            ></Typography>
+            <Typography
+              sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+            ></Typography>
+          </Box>
         </Box>
         <Box
           data-aos="fade-up"
@@ -1822,7 +1837,7 @@ function CollegePartnerships() {
                       textAlign: "center",
                     }}
                   >
-                    Fundamentals of Cryptography, Cloud & Network Security
+                    Cryptography & Network Security Fundamentals
                   </Typography>
                   <Typography
                     sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
