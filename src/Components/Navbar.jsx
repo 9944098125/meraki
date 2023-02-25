@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import React, { Fragment } from "react";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link, useLocation } from "react-router-dom";
 import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
 import MlogoMobile from "../Assets/Images/Mlogo_mobile.svg";
 import { Typography } from "@mui/material";
@@ -16,6 +16,7 @@ import fb from "../Assets/Images/fb-logo.png";
 import ClientsHover from "./ClientsHover";
 
 function Navbar() {
+  const location = useLocation();
   const [style, setStyle] = React.useState({ display: "none" });
   const [style2, setStyle2] = React.useState({ display: "none" });
   const [style3, setStyle3] = React.useState({ display: "none" });
@@ -200,11 +201,14 @@ function Navbar() {
               px: 0,
             }}
           >
-            <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            <Link
+              className={`${location.pathname === "/" ? "active" : "inactive"}`}
+              to="/"
+              style={{ textDecoration: "none", color: "inherit" }}
+            >
               <Typography
                 className="headings"
                 sx={{
-                  color: "#080808",
                   fontWeight: "600",
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
@@ -217,6 +221,9 @@ function Navbar() {
               </Typography>
             </Link>
             <Link
+              className={`${
+                location.pathname === "/about" ? "active" : "inactive"
+              }`}
               to="/about"
               style={{ textDecoration: "none", color: "inherit" }}
             >
@@ -228,7 +235,6 @@ function Navbar() {
                 <Typography
                   className="headings"
                   sx={{
-                    color: "#080808",
                     fontWeight: "600",
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
@@ -252,6 +258,9 @@ function Navbar() {
               </Box>
             </Link>
             <Link
+              className={`${
+                location.pathname === "/why-choose-us" ? "active" : "inactive"
+              }`}
               to="/why-choose-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >
@@ -263,7 +272,6 @@ function Navbar() {
                 <Typography
                   className="headings"
                   sx={{
-                    color: "#080808",
                     fontWeight: "600",
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
@@ -287,6 +295,9 @@ function Navbar() {
               </Box>
             </Link>
             <Link
+              className={`${
+                location.pathname === "/clients" ? "active" : "inactive"
+              }`}
               to="/clients"
               style={{ textDecoration: "none", color: "inherit" }}
             >
@@ -298,7 +309,6 @@ function Navbar() {
                 <Typography
                   className="headings"
                   sx={{
-                    color: "#080808",
                     fontWeight: "600",
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
@@ -321,20 +331,24 @@ function Navbar() {
               </Box>
             </Link>
 
-            <Box
-              onMouseEnter={() => setStyle({ display: "block" })}
-              onMouseLeave={() => setStyle({ display: "none" })}
-              sx={{}}
-              id="parent"
+            <Link
+              className={`${
+                location.pathname === "/services/it-training"
+                  ? "active"
+                  : "inactive"
+              }`}
+              to="/services/it-training"
+              style={{ textDecoration: "none", color: "inherit" }}
             >
-              <Link
-                to="/services/it-training"
-                style={{ textDecoration: "none", color: "inherit" }}
+              <Box
+                onMouseEnter={() => setStyle({ display: "block" })}
+                onMouseLeave={() => setStyle({ display: "none" })}
+                sx={{ position: "relative" }}
+                id="parent"
               >
                 <Typography
                   className="headings"
                   sx={{
-                    color: "#080808",
                     fontWeight: "600",
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
@@ -345,19 +359,22 @@ function Navbar() {
                 >
                   Our services
                 </Typography>
-              </Link>
-              <Box
-                style={style}
-                sx={{
-                  position: "absolute",
-                  right: "5%",
-                }}
-                id="child"
-              >
-                <OurServices />
+                <Box
+                  style={style}
+                  sx={{
+                    position: "absolute",
+                    right: "5%",
+                  }}
+                  id="child"
+                >
+                  <OurServices />
+                </Box>
               </Box>
-            </Box>
+            </Link>
             <Link
+              className={`${
+                location.pathname === "/careers" ? "active" : "inactive"
+              }`}
               to="/careers"
               style={{ textDecoration: "none", color: "inherit" }}
             >
@@ -377,6 +394,9 @@ function Navbar() {
               </Typography>
             </Link>
             <Link
+              className={`${
+                location.pathname === "/contact-us" ? "active" : "inactive"
+              }`}
               to="/contact-us"
               style={{ textDecoration: "none", color: "inherit" }}
             >

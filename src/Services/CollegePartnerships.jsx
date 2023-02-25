@@ -1543,7 +1543,7 @@ function CollegePartnerships() {
                   alignItems: "center",
                   width: { xs: "75%", sm: "25%", md: "15%" },
                   height: { xs: "100%", md: "270px" },
-                  boxShadow: "5px 5px 5px 5px #D1DEE1",
+                  boxShadow: "5px 5px 5px 5px #1C1386",
                   borderRadius: "9px",
                 }}
               >
@@ -1552,7 +1552,7 @@ function CollegePartnerships() {
                     height: { xs: "80px", sm: "100px", md: "120px" },
                     width: { xs: "80px", sm: "100px", md: "120px" },
                     borderRadius: "50%",
-                    border: "15px solid #D1DEE1",
+                    border: "15px solid #1C1386",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -1561,7 +1561,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "15px", sm: "20px", md: "25px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       fontWeight: "900",
                     }}
                   >
@@ -1579,7 +1579,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       textAlign: "center",
                     }}
                   >
@@ -1865,7 +1865,7 @@ function CollegePartnerships() {
                   alignItems: "center",
                   width: { xs: "75%", sm: "25%", md: "15%" },
                   height: { xs: "100%", md: "270px" },
-                  boxShadow: "5px 5px 5px 5px #D1DEE1",
+                  boxShadow: "5px 5px 5px 5px #1C1386",
                   borderRadius: "9px",
                 }}
               >
@@ -1874,7 +1874,7 @@ function CollegePartnerships() {
                     height: { xs: "80px", sm: "100px", md: "120px" },
                     width: { xs: "80px", sm: "100px", md: "120px" },
                     borderRadius: "50%",
-                    border: "15px solid #D1DEE1",
+                    border: "15px solid #1C1386",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -1883,7 +1883,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "15px", sm: "20px", md: "25px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       fontWeight: "900",
                     }}
                   >
@@ -1901,7 +1901,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       textAlign: "center",
                     }}
                   >
@@ -2187,7 +2187,7 @@ function CollegePartnerships() {
                   alignItems: "center",
                   width: { xs: "75%", sm: "25%", md: "15%" },
                   height: { xs: "100%", md: "270px" },
-                  boxShadow: "5px 5px 5px 5px #D1DEE1",
+                  boxShadow: "5px 5px 5px 5px #1C1386",
                   borderRadius: "9px",
                 }}
               >
@@ -2196,7 +2196,7 @@ function CollegePartnerships() {
                     height: { xs: "80px", sm: "100px", md: "120px" },
                     width: { xs: "80px", sm: "100px", md: "120px" },
                     borderRadius: "50%",
-                    border: "15px solid #D1DEE1",
+                    border: "15px solid #1C1386",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
@@ -2205,7 +2205,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "15px", sm: "20px", md: "25px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       fontWeight: "900",
                     }}
                   >
@@ -2223,7 +2223,7 @@ function CollegePartnerships() {
                   <Typography
                     sx={{
                       fontSize: { xs: "12px", sm: "17px", md: "20px" },
-                      color: "#D1DEE1",
+                      color: "#1C1386",
                       textAlign: "center",
                     }}
                   >
@@ -2960,23 +2960,23 @@ function CollegePartnerships() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1.Introduction: Overview of the internship program, Explanation
-                of the objectives and goals of the program and Introduction of
-                the facilitators and participants
+                {"=>"} Introduction: Overview of the internship program,
+                Explanation of the objectives and goals of the program and
+                Introduction of the facilitators and participants
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Industry Overview: Overview of the industry or field in which
-                the internship is focused, Discussion of trends, challenges, and
-                opportunities in the industry and Participants gain an
-                understanding of the industry and their role within it
+                {"=>"} Industry Overview: Overview of the industry or field in
+                which the internship is focused, Discussion of trends,
+                challenges, and opportunities in the industry and Participants
+                gain an understanding of the industry and their role within it
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Job Duties & Responsibilities: Overview of the specific job
-                duties and responsibilities of the internship position,
+                {"=>"} Job Duties & Responsibilities: Overview of the specific
+                job duties and responsibilities of the internship position,
                 Participants learn about the tasks they will be responsible for
                 during the internship and Discussion of how the job duties and
                 responsibilities fit into the larger context of the industry
@@ -2984,16 +2984,17 @@ function CollegePartnerships() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Skills Development: Overview of the skills and competencies
-                that will be developed during the internship, Participants learn
-                about the opportunities for skill development during the
-                internship, Discussion of the importance of continuing to
-                develop skills and competencies throughout their careers
+                {"=>"} Skills Development: Overview of the skills and
+                competencies that will be developed during the internship,
+                Participants learn about the opportunities for skill development
+                during the internship, Discussion of the importance of
+                continuing to develop skills and competencies throughout their
+                careers
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Workplace Culture: Overview of the workplace culture and
+                {"=>"} Workplace Culture: Overview of the workplace culture and
                 expectations, Participants learn about the norms, values, and
                 expectations of the workplace and Discussion of the importance
                 of adapting to different workplace cultures and expectations
@@ -3001,7 +3002,7 @@ function CollegePartnerships() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Mentorship & Feedback: Overview of the mentorship and
+                {"=>"} Mentorship & Feedback: Overview of the mentorship and
                 feedback opportunities available during the internship,
                 Participants learn about the support and guidance that will be
                 provided during the internship and Discussion of the importance
@@ -3011,7 +3012,7 @@ function CollegePartnerships() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Wrap-Up: Summary of the key takeaways from the internship
+                {"=>"} Wrap-Up: Summary of the key takeaways from the internship
                 program, Discussion of next steps and opportunities for further
                 professional development and Final thoughts and closing comments
                 from the facilitators.

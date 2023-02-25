@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import { HashLink } from "react-router-hash-link";
-import MLogo from "../Assets/Images/mLogo.svg";
+import MLogo from "../Assets/Images/alternateLogo.jpg";
 import insta from "../Assets/Images/instagram-logo.png";
 import linkedIn from "../Assets/Images/linkedIn-logo.png";
 
@@ -12,7 +12,7 @@ function Footer() {
         sx={{
           display: "flex",
           flexDirection: { xs: "column", sm: "row" },
-          backgroundColor: "#FAF9F6",
+          backgroundColor: "#f5f5f5",
           boxShadow: "0px -5px 0px 0px #1a237e",
           width: "100%",
           height: "100%",
@@ -374,6 +374,7 @@ function Footer() {
             alignItems: "center",
             height: { xs: "46vh", sm: "30vh", md: "40vh" },
             width: { xs: "100%", sm: "40%", md: "30%" },
+            pt: { xs: 2, sm: 10, md: 15 },
           }}
         >
           <img

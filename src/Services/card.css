@@ -140,7 +140,7 @@
   }
   .counterPink:before{
     content: '';
-    background-color: #D1DEE1;
+    background-color: #1C1386;
     height: 105px;
     width: 100%;
     border-radius: 30px 30px 0 0;
@@ -150,7 +150,7 @@
   }
   .counterPink .counterPink-icon{
     color: #fff;
-    background: #303739;
+    background: #06181e;
     font-size: 50px;
     line-height: 90px;
     width: 100px;
@@ -163,7 +163,7 @@
   }
   .counterPink .counterPink-icon:before{
     content: "";
-    background: #D1DEE1;
+    background: #1C1386;
     width: 100px;
     height: 90px;
     border-radius: 10px 10px 0 0;
@@ -183,7 +183,7 @@
     margin: 0 0 5px 0;
   }
   .counterPink .counterPink-value{
-    color: #D1DEE1;
+    color: #1C1386;
     font-size: 20px;
     font-weight: 600;
     display: block;

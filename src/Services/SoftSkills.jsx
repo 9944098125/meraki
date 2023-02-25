@@ -160,36 +160,37 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to the Corporate World: An overview of the key
-                characteristics and challenges of working in a corporate
+                {"=>"} Introduction to the Corporate World: An overview of the
+                key characteristics and challenges of working in a corporate
                 environment, including organizational structure, culture, and
                 business practices.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Career Development: Strategies for developing a successful
-                career, including goal setting, resume writing, and networking.
+                {"=>"} Career Development: Strategies for developing a
+                successful career, including goal setting, resume writing, and
+                networking.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Problem Solving and Critical Thinking: Techniques for solving
-                problems and making decisions in a professional setting,
+                {"=>"} Problem Solving and Critical Thinking: Techniques for
+                solving problems and making decisions in a professional setting,
                 including brainstorming, root cause analysis, and
                 decision-making frameworks.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Business Etiquette: An overview of the norms and customs of
-                business communication, including email etiquette, telephone
+                {"=>"} Business Etiquette: An overview of the norms and customs
+                of business communication, including email etiquette, telephone
                 etiquette, and cross-cultural communication.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Time Management and Organization: An understanding of the
+                {"=>"} Time Management and Organization: An understanding of the
                 importance of time management and organization, including
                 prioritization, goal setting, and productivity strategies.
               </Typography>
@@ -303,29 +304,29 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Grammar and Vocabulary: A review of English grammar and
+                {"=>"} Grammar and Vocabulary: A review of English grammar and
                 vocabulary, including commonly used phrases, expressions, and
                 idioms in a business context.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Business Writing: Techniques for effective business writing,
-                including writing emails, reports, and other professional
-                documents.
+                {"=>"} Business Writing: Techniques for effective business
+                writing, including writing emails, reports, and other
+                professional documents.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Presentation Skills: Strategies for delivering effective
+                {"=>"} Presentation Skills: Strategies for delivering effective
                 presentations in English, including the use of visual aids,
                 storytelling, and engaging the audience.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Interpersonal Communication: An understanding of the role of
-                language in interpersonal communication, including active
+                {"=>"} Interpersonal Communication: An understanding of the role
+                of language in interpersonal communication, including active
                 listening, assertiveness, and conflict resolution. Business
                 Etiquette: An overview of the norms and customs of business
                 communication, including email etiquette, telephone etiquette,
@@ -334,7 +335,7 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Listening and Speaking Skills: Techniques for improving
+                {"=>"} Listening and Speaking Skills: Techniques for improving
                 listening and speaking skills, including paying attention to
                 nonverbal cues and avoiding distractions.
               </Typography>
@@ -447,50 +448,50 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Speech Mechanics: An overview of the mechanics of speech,
+                {"=>"} Speech Mechanics: An overview of the mechanics of speech,
                 including pronunciation, intonation, stress, and rhythm.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Voice Projection: Techniques for improving voice projection,
-                including breathing exercises, vocal warm-ups, and strategies
-                for avoiding common voice problems.
+                {"=>"} Voice Projection: Techniques for improving voice
+                projection, including breathing exercises, vocal warm-ups, and
+                strategies for avoiding common voice problems.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Accent Reduction: Strategies for reducing a heavy accent,
+                {"=>"} Accent Reduction: Strategies for reducing a heavy accent,
                 including pronunciation exercises, practicing commonly used
                 words and phrases, and speaking slowly and clearly.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Public Speaking Skills: An exploration of the elements of
+                {"=>"} Public Speaking Skills: An exploration of the elements of
                 effective public speaking, including preparation, body language,
                 and audience engagement.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Presentation Skills: Techniques for delivering effective
+                {"=>"} Presentation Skills: Techniques for delivering effective
                 presentations, including the use of visual aids, storytelling,
                 and engaging the audience.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Cultural Sensitivity: Strategies for understanding and
+                {"=>"} Cultural Sensitivity: Strategies for understanding and
                 respecting the speech patterns and cultural norms of different
                 populations, including avoiding cultural misunderstandings.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Listening Skills: Techniques for improving listening skills,
-                including paying attention to nonverbal cues and avoiding
-                distractions.
+                {"=>"} Listening Skills: Techniques for improving listening
+                skills, including paying attention to nonverbal cues and
+                avoiding distractions.
               </Typography>
             </Box>
           </Box>
@@ -602,7 +603,7 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Email Etiquette: Strategies for effective email
+                {"=>"} Email Etiquette: Strategies for effective email
                 communication, including best practices for writing clear and
                 concise messages, avoiding common email mistakes, and responding
                 to emails in a timely manner.
@@ -610,14 +611,14 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Telephone Etiquette: Techniques for effective telephone
+                {"=>"} Telephone Etiquette: Techniques for effective telephone
                 communication, including proper phone manner, effective
                 listening skills, and handling difficult callers.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Professionalism in Email and Telephone Communication: An
+                {"=>"} Professionalism in Email and Telephone Communication: An
                 exploration of the importance of professionalism in electronic
                 communication and strategies for maintaining a professional
                 demeanor.
@@ -632,8 +633,9 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Business Writing: An overview of the elements of effective
-                business writing and strategies for improving writing skills.
+                {"=>"} Business Writing: An overview of the elements of
+                effective business writing and strategies for improving writing
+                skills.
               </Typography>
             </Box>
           </Box>
@@ -693,8 +695,8 @@ function SoftSkills() {
             >
               The objective of cross-cultural sensitivity training is to help
               individuals understand and respect the beliefs, values, and
-              customs of people from different cultural backgrounds. This type
-              of training is designed to promote diversity, inclusiveness, and
+              customs of people from different cultural background. This type of
+              training is designed to promote diversity, inclusiveness, and
               respect in the workplace and in other professional settings.
             </Typography>
           </Box>
@@ -743,34 +745,34 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Understanding Culture: An overview of the concept of culture
-                and its impact on communication and behavior.
+                {"=>"} Understanding Culture: An overview of the concept of
+                culture and its impact on communication and behavior.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Cultural Dimensions: An exploration of the different
+                {"=>"} Cultural Dimensions: An exploration of the different
                 dimensions of culture, including values, beliefs, attitudes, and
                 communication styles.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Stereotyping and Prejudice: An examination of the negative
-                effects of stereotyping and prejudice, and strategies for
-                overcoming them.
+                {"=>"} Stereotyping and Prejudice: An examination of the
+                negative effects of stereotyping and prejudice, and strategies
+                for overcoming them.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Cultural Awareness: Techniques for increasing awareness of
-                one's own cultural background and the cultural backgrounds of
+                {"=>"} Cultural Awareness: Techniques for increasing awareness
+                of one's own cultural background and the cultural backgrounds of
                 others.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Cross-Cultural Communication: Strategies for effective
+                {"=>"} Cross-Cultural Communication: Strategies for effective
                 communication in a cross-cultural setting, including active
                 listening, nonverbal communication, and avoiding cultural
                 misunderstandings.
@@ -778,24 +780,25 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Diversity and Inclusion: An exploration of the benefits of
-                diversity and inclusiveness in the workplace and strategies for
-                promoting it. Cultural Adjustment: Strategies for managing the
-                challenges of cultural adjustment, including dealing with
-                culture shock and building relationships across cultures.
+                {"=>"} Diversity and Inclusion: An exploration of the benefits
+                of diversity and inclusiveness in the workplace and strategies
+                for promoting i{"=>"} Cultural Adjustment: Strategies for
+                managing the challenges of cultural adjustment, including
+                dealing with culture shock and building relationships across
+                cultures.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Cultural Competence: An exploration of the concept of
+                {"=>"} Cultural Competence: An exploration of the concept of
                 cultural competence and techniques for developing it, including
                 self-reflection, continuous learning, and empathy.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Global Mindset: An understanding of the importance of having
-                a global mindset and the skills necessary to succeed in a
+                {"=>"} Global Mindset: An understanding of the importance of
+                having a global mindset and the skills necessary to succeed in a
                 globalized world, including adaptability, intercultural
                 understanding, and cultural intelligence.
               </Typography>
@@ -857,9 +860,10 @@ function SoftSkills() {
             >
               The objective of corporate etiquette training is to help
               individuals understand and demonstrate appropriate professional
-              behavior in the workplace. This type of training is designed to
-              help employees understand the norms and expectations of business
-              communication, networking, and other business interactions.
+              behavior in the workplac{"=>"} This type of training is designed
+              to help employees understand the norms and expectations of
+              business communication, networking, and other business
+              interactions.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -921,28 +925,28 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Business Dining Etiquette: Understanding of appropriate
+                {"=>"} Business Dining Etiquette: Understanding of appropriate
                 behavior at business meals and events, including table manners,
                 conversation topics, and gift-giving.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Business Dress Code: Guidelines for appropriate attire in the
-                workplace, including what to wear to business meetings and
+                {"=>"} Business Dress Code: Guidelines for appropriate attire in
+                the workplace, including what to wear to business meetings and
                 events, and how to dress for different levels of formality.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Business Meeting Etiquette: Best practices for conducting
+                {"=>"} Business Meeting Etiquette: Best practices for conducting
                 business meetings, including punctuality, agenda setting, and
                 active listening.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Intercultural Etiquette: Understanding of cultural
+                {"=>"} Intercultural Etiquette: Understanding of cultural
                 differences and the impact they may have on business
                 interactions, including gestures, customs, and communication
                 styles.
@@ -950,20 +954,20 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Professionalism: Strategies for maintaining a professional
-                demeanor in the workplace, including maintaining
+                {"=>"} Professionalism: Strategies for maintaining a
+                professional demeanor in the workplace, including maintaining
                 confidentiality, managing stress, and avoiding unethical
                 behavior.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Social Media Etiquette: Guidelines for using social media in
-                a professional setting, including what to post, how to interact
-                with others online, and how to maintain privacy. Office
-                Politics: Understanding of the role of politics in the workplace
-                and how to navigate political situations, including managing
-                power dynamics and building alliances.
+                {"=>"} Social Media Etiquette: Guidelines for using social media
+                in a professional setting, including what to post, how to
+                interact with others online, and how to maintain privac{"=>"}{" "}
+                Office Politics: Understanding of the role of politics in the
+                workplace and how to navigate political situations, including
+                managing power dynamics and building alliances.
               </Typography>
             </Box>
           </Box>
@@ -1023,11 +1027,11 @@ function SoftSkills() {
             >
               The objective of HR training can vary depending on the target
               audience, the organization's goals, and the HR function's
-              priorities. In general, the objective of HR training is to equip
-              HR professionals and managers with the knowledge and skills needed
-              to effectively carry out HR-related tasks, such as recruiting,
-              hiring, onboarding, performance management, employee relations,
-              and compliance with employment laws.
+              prioritie{"=>"} In general, the objective of HR training is to
+              equip HR professionals and managers with the knowledge and skills
+              needed to effectively carry out HR-related tasks, such as
+              recruiting, hiring, onboarding, performance management, employee
+              relations, and compliance with employment laws.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -1049,9 +1053,10 @@ function SoftSkills() {
               Prerequisites for HR training can vary, but generally,
               participants should have a basic understanding of HR concepts and
               practices, as well as experience working in a HR role or managing
-              people. In some cases, organizations may also require participants
-              to have a specific degree or certification in HR, such as the
-              Society for Human Resource Management (SHRM) certification.
+              peopl{"=>"} In some cases, organizations may also require
+              participants to have a specific degree or certification in HR,
+              such as the Society for Human Resource Management (SHRM)
+              certification.
             </Typography>
           </Box>
           {/* content-outline */}
@@ -1081,53 +1086,55 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Onboarding: The process of welcoming new employees and
+                {"=>"} Onboarding: The process of welcoming new employees and
                 integrating them into the organization, including orientation,
                 training, and acculturation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Recruitment and Selection: Techniques and best practices for
-                attracting and selecting the best candidates for open positions,
-                including job analysis, advertising, and interviewing.
+                {"=>"} Recruitment and Selection: Techniques and best practices
+                for attracting and selecting the best candidates for open
+                positions, including job analysis, advertising, and
+                interviewing.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Performance Management: Strategies for setting performance
-                expectations, providing feedback, and evaluating employee
-                performance, including performance appraisals and coaching.
+                {"=>"} Performance Management: Strategies for setting
+                performance expectations, providing feedback, and evaluating
+                employee performance, including performance appraisals and
+                coaching.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Talent Management: Best practices for developing and
+                {"=>"} Talent Management: Best practices for developing and
                 retaining employees, including career development, training, and
                 succession planning.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Compliance: Understanding of relevant employment laws and
+                {"=>"} Compliance: Understanding of relevant employment laws and
                 regulations, including equal opportunity laws, labor laws, and
                 health and safety regulations.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Employee Engagement: Strategies for fostering a positive work
-                environment and promoting employee engagement, including
+                {"=>"} Employee Engagement: Strategies for fostering a positive
+                work environment and promoting employee engagement, including
                 recognition and rewards programs, work-life balance initiatives,
                 and employee surveys.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Employee Benefits and Compensation: Understanding of employee
-                benefits, including health insurance, retirement plans, and paid
-                time off, as well as techniques for developing and administering
-                compensation programs.
+                {"=>"} Employee Benefits and Compensation: Understanding of
+                employee benefits, including health insurance, retirement plans,
+                and paid time off, as well as techniques for developing and
+                administering compensation programs.
               </Typography>
             </Box>
           </Box>
@@ -1189,9 +1196,9 @@ function SoftSkills() {
               with a comprehensive understanding of the banking, financial
               services, and insurance (BFSI) sector, including the various
               financial products and services offered by banks, insurance
-              companies, and other financial institutions. The course covers the
-              principles of finance, economics, and regulation, as well as the
-              various operational and managerial aspects of the BFSI sector.
+              companies, and other financial institution{"=>"} The course covers
+              the principles of finance, economics, and regulation, as well as
+              the various operational and managerial aspects of the BFSI sector.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -1426,7 +1433,7 @@ function SoftSkills() {
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
                   >
-                    {"=>"} b. Financial Markets Regulation
+                    {"=>"} {"=>"} Financial Markets Regulation
                   </Typography>
                   <Typography
                     sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
@@ -1540,10 +1547,10 @@ function SoftSkills() {
               The objective of a course in logistics and aviation is to provide
               students with a comprehensive understanding of the processes,
               systems, and technologies involved in the movement of goods and
-              people. The course covers the principles of transportation, supply
-              chain management, and aviation operations, as well as the various
-              operational and managerial aspects of logistics and aviation
-              businesses.
+              peopl{"=>"} The course covers the principles of transportation,
+              supply chain management, and aviation operations, as well as the
+              various operational and managerial aspects of logistics and
+              aviation businesses.
             </Typography>
           </Box>
           {/* pre-requisite */}
@@ -1608,42 +1615,42 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Overview of Logistics and Transportation: Definition of
+                {"=>"} Overview of Logistics and Transportation: Definition of
                 logistics, importance of transportation in the global economy,
                 and types of transportation systems (road, rail, sea, air).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Supply Chain Management: Overview of supply chain management,
-                procurement and sourcing, inventory management, and distribution
-                and logistics planning.
+                {"=>"} Supply Chain Management: Overview of supply chain
+                management, procurement and sourcing, inventory management, and
+                distribution and logistics planning.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Transportation Planning and Operations: Freight and vehicle
-                management, transport economics and operations, network design
-                and optimization.
+                {"=>"} Transportation Planning and Operations: Freight and
+                vehicle management, transport economics and operations, network
+                design and optimization.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Air Transportation Operations: Overview of air transportation
-                operations, airline operations and management, air cargo and
-                logistics, air traffic management and control.
+                {"=>"} Air Transportation Operations: Overview of air
+                transportation operations, airline operations and management,
+                air cargo and logistics, air traffic management and control.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Aviation Business and Regulation: Overview of aviation
+                {"=>"} Aviation Business and Regulation: Overview of aviation
                 business and regulation, airline business models, aviation law
                 and regulation, and airline economics and financial management.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Logistics and Transportation Technology: Overview of
+                {"=>"} Logistics and Transportation Technology: Overview of
                 logistics and transportation technology, transportation
                 information systems and technology, GPS and GIS applications in
                 transportation, transportation management systems and supply
@@ -1652,15 +1659,15 @@ function SoftSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Global Logistics and Trade: Overview of global logistics and
-                trade, international trade and logistics operations, customs and
-                border regulations, and global transportation network design and
-                optimization.
+                {"=>"} Global Logistics and Trade: Overview of global logistics
+                and trade, international trade and logistics operations, customs
+                and border regulations, and global transportation network design
+                and optimization.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Sustainable Logistics and Transportation: Overview of
+                {"=>"} Sustainable Logistics and Transportation: Overview of
                 sustainable logistics and transportation, sustainability in
                 supply chain management, reducing the environmental impact of
                 transportation, and promoting sustainable transportation

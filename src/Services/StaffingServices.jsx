@@ -81,11 +81,10 @@ function StaffingServices() {
                 fontWeight: "800",
               }}
             >
-              Talent Acquisition
+              Talent Acquisition for L&D department
             </Typography>
           </Box>
-          {/* objectives */}
-          <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
+          {/* <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
                 fontSize: { xs: "19px", sm: "23px", md: "28px" },
@@ -106,9 +105,8 @@ function StaffingServices() {
               is a critical function within human resources (HR) and plays a
               vital role in ensuring the success of the organization.
             </Typography>
-          </Box>
-          {/* pre-requisite */}
-          <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
+          </Box> */}
+          {/* <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
                 fontSize: { xs: "19px", sm: "23px", md: "28px" },
@@ -131,9 +129,15 @@ function StaffingServices() {
               experience with recruitment processes, such as sourcing and
               interviewing, can also be beneficial.
             </Typography>
-          </Box>
-          {/* content-outline */}
-          <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, pb: 0 }}>
+          </Box> */}
+          <Box
+            sx={{
+              p: { xs: 2, sm: 3, md: 4 },
+              // display: "flex",
+              // flexDirection: "column",
+              // gap: { xs: 2, sm: 3, md: 4 },
+            }}
+          >
             <Typography
               sx={{
                 fontSize: { xs: "19px", sm: "23px", md: "28px" },
@@ -143,7 +147,7 @@ function StaffingServices() {
                 display: "inline",
               }}
             >
-              Content Outline
+              About Content
             </Typography>
             <Box
               sx={{
@@ -153,36 +157,34 @@ function StaffingServices() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to talent acquisition and HR practices
+                {"=>"} Whether you’re recruiting a junior trainer for part time
+                roles, a master trainer for your experienced team or the head of
+                your entire training department– we have got your back!
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Workforce planning and analysis
+                {"=>"} Our pre-validated candidates & guaranteed TAT with
+                trustworthy & quality interview processes will get you the right
+                employees to grow your business.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Job analysis and job descriptions, Sourcing and recruitment
-                marketing and Screening and selection processes
+                {"=>"} Our comprehensive team of recruitment experts address the
+                complex workforce challenges in organizations and bring in the
+                right people to lead your L&D teams.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Interviewing and candidate assessment, Background checks and
-                reference checks and Offer management and onboarding
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                5. Compliance with employment laws and regulations, Diversity
-                and inclusion in talent acquisition and Emerging trends and
-                technologies in talent acquisition
+                {"=>"} Our focus is on building a strong L&D department in your
+                organization and not just filling the vacancy for your business.
               </Typography>
             </Box>
           </Box>
         </Box>
-        <Box
+        {/* <Box
           data-aos="fade-up"
           id="rpo"
           sx={{
@@ -219,7 +221,6 @@ function StaffingServices() {
               Recruitment Process Outsourcing
             </Typography>
           </Box>
-          {/* objectives */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
@@ -242,7 +243,6 @@ function StaffingServices() {
               reducing costs and time-to-hire.
             </Typography>
           </Box>
-          {/* pre-requisite */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
@@ -267,7 +267,6 @@ function StaffingServices() {
               screening, and interviewing candidates can also be beneficial.
             </Typography>
           </Box>
-          {/* content-outline */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, pb: 0 }}>
             <Typography
               sx={{
@@ -319,8 +318,8 @@ function StaffingServices() {
               </Typography>
             </Box>
           </Box>
-        </Box>
-        <Box
+        </Box> */}
+        {/* <Box
           data-aos="fade-up"
           id="contingency-recruitment"
           sx={{
@@ -357,7 +356,6 @@ function StaffingServices() {
             </Typography>
             <img src={contingency} alt="" className="services-img" />
           </Box>
-          {/* objectives */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
@@ -381,7 +379,6 @@ function StaffingServices() {
               in open positions, usually on a fee-for-service basis.
             </Typography>
           </Box>
-          {/* pre-requisite */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
@@ -406,7 +403,6 @@ function StaffingServices() {
               beneficial.
             </Typography>
           </Box>
-          {/* content-outline */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, pb: 0 }}>
             <Typography
               sx={{
@@ -485,7 +481,7 @@ function StaffingServices() {
               </Typography>
             </Box>
           </Box>
-        </Box>
+        </Box> */}
         <Box
           data-aos="fade-up"
           id="hire-train-deploy"
@@ -524,8 +520,357 @@ function StaffingServices() {
               Hire - Train - Deploy Service
             </Typography>
           </Box>
-          {/* objectives */}
-          <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
+
+          <Box
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <Box
+              data-aos="fade-down"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                mt: 3,
+                mr: { xs: -2, sm: -3, md: -25 },
+              }}
+            >
+              <Typography
+                sx={{
+                  fontSize: { xs: "12px", sm: "20px", md: "30px" },
+                  fontWeight: "700",
+                  color: "primary.dark",
+                }}
+              >
+                1
+              </Typography>
+              <Box
+                sx={{
+                  height: { xs: "100px", sm: "120px", md: "140px" },
+                  width: { xs: "100px", sm: "120px", md: "140px" },
+                  border: "4px solid #20E162",
+                  borderRadius: "50%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "15px", md: "18px" },
+                    fontWeight: "700",
+                    color: "primary.dark",
+                    textAlign: "center",
+                  }}
+                >
+                  Sourcing
+                </Typography>
+              </Box>
+              <Box sx={{ width: "30%" }}>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Understand the client requirements & analyze the JD
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Sourcing the right candidates by our industry hiring
+                  experts
+                </Typography>
+              </Box>
+            </Box>
+
+            <Box
+              data-aos="fade-up"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                ml: { xs: -2, sm: -3, md: -25 },
+                mt: { xs: -2, sm: -4, md: -5 },
+              }}
+            >
+              <Box sx={{ width: "30%" }}>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  Pre requisite based selection {"=>"}
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  Client interview and training selection {"=>"}
+                </Typography>
+              </Box>
+              <Box
+                sx={{
+                  height: { xs: "120px", sm: "150px", md: "170px" },
+                  width: { xs: "120px", sm: "150px", md: "170px" },
+                  border: "4px solid #00B9F4",
+                  borderRadius: "50%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "15px", md: "18px" },
+                    fontWeight: "700",
+                    color: "primary.dark",
+                    textAlign: "center",
+                  }}
+                >
+                  Pre-assessment and Interviews
+                </Typography>
+              </Box>
+              <Typography
+                sx={{
+                  fontSize: { xs: "12px", sm: "20px", md: "30px" },
+                  fontWeight: "700",
+                  color: "primary.dark",
+                }}
+              >
+                2
+              </Typography>
+            </Box>
+
+            <Box
+              data-aos="fade-down"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                mr: { xs: -2, sm: -3, md: -25 },
+                mt: { xs: -2, sm: -4, md: -7 },
+              }}
+            >
+              <Typography
+                sx={{
+                  fontSize: { xs: "12px", sm: "20px", md: "30px" },
+                  fontWeight: "700",
+                  color: "primary.dark",
+                }}
+              >
+                3
+              </Typography>
+              <Box
+                sx={{
+                  height: { xs: "130px", sm: "150px", md: "210px" },
+                  width: { xs: "130px", sm: "150px", md: "210px" },
+                  border: "4px solid #D1DEE1",
+                  borderRadius: "50%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "15px", md: "18px" },
+                    fontWeight: "700",
+                    color: "primary.dark",
+                    textAlign: "center",
+                  }}
+                >
+                  End-to-End comprehensive & Pragmatic Training
+                </Typography>
+              </Box>
+              <Box sx={{ width: "30%" }}>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Hands on learning via live projects
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Instructor led live training
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Module wise assessments
+                </Typography>
+              </Box>
+            </Box>
+
+            <Box
+              data-aos="fade-up"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                ml: { xs: -2, sm: -3, md: -25 },
+                mt: { xs: -2, sm: -4, md: -7 },
+              }}
+            >
+              <Box sx={{ width: "30%" }}>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Mock interviews
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Live use case project assessment
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Client interview & selectio
+                </Typography>
+              </Box>
+
+              <Box
+                sx={{
+                  height: { xs: "150px", sm: "180px", md: "240px" },
+                  width: { xs: "150px", sm: "180px", md: "240px" },
+                  border: "4px solid #004AAD",
+                  borderRadius: "50%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "15px", md: "18px" },
+                    fontWeight: "700",
+                    color: "primary.dark",
+                    textAlign: "center",
+                  }}
+                >
+                  Post Assessment & Client Interview
+                </Typography>
+              </Box>
+              <Typography
+                sx={{
+                  fontSize: { xs: "12px", sm: "20px", md: "30px" },
+                  fontWeight: "700",
+                  color: "primary.dark",
+                }}
+              >
+                4
+              </Typography>
+            </Box>
+
+            <Box
+              data-aos="fade-down"
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: 1,
+                mr: { xs: -2, sm: -3, md: -25 },
+                mt: { xs: -2, sm: -4, md: -7 },
+              }}
+            >
+              <Typography
+                sx={{
+                  fontSize: { xs: "12px", sm: "20px", md: "30px" },
+                  fontWeight: "700",
+                  color: "primary.dark",
+                }}
+              >
+                5
+              </Typography>
+              <Box
+                sx={{
+                  height: { xs: "190px", sm: "210px", md: "270px" },
+                  width: { xs: "190px", sm: "210px", md: "270px" },
+                  border: "4px solid #CFCEDB",
+                  borderRadius: "50%",
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <Typography
+                  sx={{
+                    fontSize: { xs: "12px", sm: "15px", md: "18px" },
+                    fontWeight: "700",
+                    color: "primary.dark",
+                    textAlign: "center",
+                  }}
+                >
+                  Deployment of resource & relationship management
+                </Typography>
+              </Box>
+              <Box sx={{ width: "30%" }}>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Support the journey between the candidate and client
+                  till the joining as employee
+                </Typography>
+                <Typography
+                  sx={{
+                    fontSize: { xs: "8px", sm: "10px", md: "13px" },
+                    fontWeight: "600",
+                    color: "primary.dark",
+                  }}
+                >
+                  {"=>"} Address employee issues and bridge the communication
+                  gap until the employee completes his probation.
+                </Typography>
+              </Box>
+            </Box>
+          </Box>
+          {/* <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
                 fontSize: { xs: "19px", sm: "23px", md: "28px" },
@@ -550,7 +895,6 @@ function StaffingServices() {
               basis.
             </Typography>
           </Box>
-          {/* pre-requisite */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 } }}>
             <Typography
               sx={{
@@ -575,7 +919,6 @@ function StaffingServices() {
               beneficial.
             </Typography>
           </Box>
-          {/* content-outline */}
           <Box sx={{ p: { xs: 2, sm: 3, md: 4 }, pb: 0 }}>
             <Typography
               sx={{
@@ -596,37 +939,37 @@ function StaffingServices() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to hire-train-deploy services, Understanding the
-                recruitment process and HR practices and Benefits and challenges
-                of hire-train-deploy services
+                {"=>"} Introduction to hire-train-deploy services, Understanding
+                the recruitment process and HR practices and Benefits and
+                challenges of hire-train-deploy services
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Sourcing and recruitment marketing, Screening and selection
-                processes and Interviewing and candidate assessment
+                {"=>"} Sourcing and recruitment marketing, Screening and
+                selection processes and Interviewing and candidate assessment
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Training and development programs and Offer management and
-                onboarding
+                {"=>"} Training and development programs and Offer management
+                and onboarding
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Compliance with employment laws and regulations, Metrics and
-                measurement of hire-train-deploy success
+                {"=>"} Compliance with employment laws and regulations, Metrics
+                and measurement of hire-train-deploy success
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Emerging trends and technologies in hire-train-deploy
+                {"=>"} Emerging trends and technologies in hire-train-deploy
                 services and Working effectively with hire-train-deploy service
                 providers
               </Typography>
             </Box>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </Fragment>

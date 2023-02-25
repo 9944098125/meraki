@@ -1,6 +1,6 @@
 import { Typography, Box } from "@mui/material";
 import React, { Fragment } from "react";
-import MlogoDesktop from "../Assets/Images/Mlogo_desktop.svg";
+import MlogoDesktop from "../Assets/Images/alternateLogo.jpg";
 
 function Careers() {
   // const [designation, setDesignation] = React.useState("");
@@ -19,17 +19,35 @@ function Careers() {
             fontWeight: "700",
             color: "primary.dark",
             mb: 3,
+            textAlign: "center",
           }}
         >
           Careers
         </Typography>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography
+            sx={{
+              fontSize: { xs: "15px", sm: "17px", md: "20px" },
+              fontWeight: "900",
+              color: "primary.dark",
+              fontStyle: "italic",
+            }}
+          >
+            Join Our Amazing Team
+          </Typography>
+        </Box>
         <Box
           id="header"
           sx={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
-            gap: 3,
           }}
         >
           <Box sx={{ width: "100%", height: "150vh", mb: 4 }}>
@@ -43,7 +61,7 @@ function Careers() {
               }}
             />
           </Box>
-          <Box
+          {/* <Box
             sx={{
               height: "60vh",
               width: "100%",
@@ -62,7 +80,7 @@ function Careers() {
               }}
               alt=""
             />
-          </Box>
+          </Box> */}
         </Box>
       </Box>
     </Fragment>

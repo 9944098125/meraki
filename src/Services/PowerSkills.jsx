@@ -1312,50 +1312,51 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Business Communication: An overview of the
-                purpose and importance of effective communication in the
+                {"=>"} Introduction to Business Communication: An overview of
+                the purpose and importance of effective communication in the
                 business world.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Writing for Business: Techniques for writing clear, concise,
-                and professional business documents, including emails, memos,
-                reports, and proposals.
+                {"=>"} Writing for Business: Techniques for writing clear,
+                concise, and professional business documents, including emails,
+                memos, reports, and proposals.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Oral Communication: Techniques for effective public speaking,
-                including preparation, delivery, and the use of visual aids.
+                {"=>"} Oral Communication: Techniques for effective public
+                speaking, including preparation, delivery, and the use of visual
+                aids.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Interpersonal Communication: Strategies for building strong
-                relationships and effective communication in a business setting,
-                including active listening, nonverbal communication, and
-                conflict resolution.
+                {"=>"} Interpersonal Communication: Strategies for building
+                strong relationships and effective communication in a business
+                setting, including active listening, nonverbal communication,
+                and conflict resolution.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Business Etiquette: An introduction to appropriate behavior
-                and protocol in various business situations, including
+                {"=>"} Business Etiquette: An introduction to appropriate
+                behavior and protocol in various business situations, including
                 networking events, meetings, and presentations.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Technology and Social Media: An exploration of the role of
-                technology and social media in modern business communication,
+                {"=>"} Technology and Social Media: An exploration of the role
+                of technology and social media in modern business communication,
                 including the use of email, video conferencing, and social media
                 platforms for professional purposes.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Cross-Cultural Communication: An examination of cultural
+                {"=>"} Cross-Cultural Communication: An examination of cultural
                 differences and their impact on business communication,
                 including strategies for communicating effectively across
                 cultural boundaries.
@@ -1363,8 +1364,8 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Ethics in Business Communication: An exploration of ethical
-                considerations in business communication, including the
+                {"=>"} Ethics in Business Communication: An exploration of
+                ethical considerations in business communication, including the
                 importance of maintaining confidentiality and avoiding
                 plagiarism.
               </Typography>
@@ -1475,36 +1476,36 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Negotiation and Conflict Management: An
+                {"=>"} Introduction to Negotiation and Conflict Management: An
                 overview of the importance of effective negotiation and conflict
                 resolution in the business world.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Negotiation Theory and Process: A comprehensive overview of
-                negotiation theory and the negotiation process, including
+                {"=>"} Negotiation Theory and Process: A comprehensive overview
+                of negotiation theory and the negotiation process, including
                 preparation, communication, and decision-making strategies.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Identifying and Overcoming Negotiation Barriers: Strategies
-                for overcoming common barriers to successful negotiation,
-                including cultural differences, communication breakdowns, and
-                emotional reactions.
+                {"=>"} Identifying and Overcoming Negotiation Barriers:
+                Strategies for overcoming common barriers to successful
+                negotiation, including cultural differences, communication
+                breakdowns, and emotional reactions.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Conflict Management: An examination of conflict theory and
-                the conflict management process, including strategies for
+                {"=>"} Conflict Management: An examination of conflict theory
+                and the conflict management process, including strategies for
                 identifying and resolving conflicts in a professional setting.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Interpersonal Communication in Negotiation and Conflict
+                {"=>"} Interpersonal Communication in Negotiation and Conflict
                 Management: An exploration of the role of effective
                 interpersonal communication in negotiation and conflict
                 resolution, including active listening, nonverbal communication,
@@ -1513,23 +1514,23 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Collaborative Problem-Solving: Strategies for effectively
+                {"=>"} Collaborative Problem-Solving: Strategies for effectively
                 working with others to find mutually beneficial solutions to
                 conflicts and negotiations.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Ethics in Negotiation and Conflict Management: An exploration
-                of ethical considerations in negotiation and conflict
-                resolution, including the importance of fairness, honesty, and
-                respect.
+                {"=>"} Ethics in Negotiation and Conflict Management: An
+                exploration of ethical considerations in negotiation and
+                conflict resolution, including the importance of fairness,
+                honesty, and respect.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Real-World Applications: An opportunity for students to apply
-                their learning to real-world negotiations and conflict
+                {"=>"} Real-World Applications: An opportunity for students to
+                apply their learning to real-world negotiations and conflict
                 resolution scenarios, through role-plays, case studies, and
                 group projects.
               </Typography>
@@ -1639,58 +1640,58 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Time Management: An overview of the
+                {"=>"} Introduction to Time Management: An overview of the
                 importance of effective time management in achieving personal
                 and professional goals.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Identifying Time-Wasters: Strategies for identifying and
+                {"=>"} Identifying Time-Wasters: Strategies for identifying and
                 overcoming common time-wasters, including procrastination,
                 multitasking, and interruptions.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Setting Priorities: Techniques for setting effective
+                {"=>"} Setting Priorities: Techniques for setting effective
                 priorities and determining which tasks are most important and
                 require immediate attention.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Developing a Time Management System: An introduction to
+                {"=>"} Developing a Time Management System: An introduction to
                 various time management systems and tools, including scheduling
                 software, calendars, and task lists.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Staying Organized: Strategies for staying organized and on
-                track, including filing systems, email management, and using
+                {"=>"} Staying Organized: Strategies for staying organized and
+                on track, including filing systems, email management, and using
                 technology to streamline tasks.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Delegation and Team Management: An exploration of the role of
-                delegation in effective time management, including how to
-                delegate tasks effectively and manage team members.
+                {"=>"} Delegation and Team Management: An exploration of the
+                role of delegation in effective time management, including how
+                to delegate tasks effectively and manage team members.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Stress Management and Self-Care: An examination of the impact
-                of stress on time management and strategies for reducing stress
-                and taking care of oneself, including mindfulness, exercise, and
-                self-reflection.
+                {"=>"} Stress Management and Self-Care: An examination of the
+                impact of stress on time management and strategies for reducing
+                stress and taking care of oneself, including mindfulness,
+                exercise, and self-reflection.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Real-World Applications: An opportunity for individuals to
-                apply their learning to real-world time management scenarios,
+                {"=>"} Real-World Applications: An opportunity for individuals
+                to apply their learning to real-world time management scenarios,
                 through practical exercises and case studies.
               </Typography>
             </Box>
@@ -1800,42 +1801,43 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Decision Making: An overview of the
+                {"=>"} Introduction to Decision Making: An overview of the
                 importance of effective decision making in achieving personal
                 and professional goals.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Understanding the Decision-Making Process: A comprehensive
-                overview of the decision-making process, including problem
-                identification, data gathering, and alternative evaluation.
+                {"=>"} Understanding the Decision-Making Process: A
+                comprehensive overview of the decision-making process, including
+                problem identification, data gathering, and alternative
+                evaluation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Overcoming Decision-Making Biases: An examination of common
-                decision-making biases, such as confirmation bias and
+                {"=>"} Overcoming Decision-Making Biases: An examination of
+                common decision-making biases, such as confirmation bias and
                 overconfidence, and strategies for overcoming them.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Gathering and Analyzing Data: Techniques for gathering and
-                analyzing data to inform decision making, including data
+                {"=>"} Gathering and Analyzing Data: Techniques for gathering
+                and analyzing data to inform decision making, including data
                 collection, statistical analysis, and visual representation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Risk Assessment and Management: An introduction to risk
+                {"=>"} Risk Assessment and Management: An introduction to risk
                 assessment and management, including probability theory,
                 expected value, and decision trees.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Group Decision Making: An exploration of group decision
+                {"=>"} Group Decision Making: An exploration of group decision
                 making, including the advantages and disadvantages of group
                 decision making and strategies for effectively working with
                 others to make informed choices.
@@ -1843,15 +1845,15 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Ethical Decision Making: An examination of ethical
+                {"=>"} Ethical Decision Making: An examination of ethical
                 considerations in decision making, including the importance of
                 fairness, transparency, and accountability.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Real-World Applications: An opportunity for individuals to
-                apply their learning to real-world decision-making scenarios,
+                {"=>"} Real-World Applications: An opportunity for individuals
+                to apply their learning to real-world decision-making scenarios,
                 through practical exercises and case studies.
               </Typography>
             </Box>
@@ -1961,28 +1963,28 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Interpersonal Skills: An overview of the
+                {"=>"} Introduction to Interpersonal Skills: An overview of the
                 importance of effective interpersonal skills in achieving
                 personal and professional goals.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Building Strong Relationships: Techniques for building
+                {"=>"} Building Strong Relationships: Techniques for building
                 strong, positive relationships with others, including active
                 listening, empathy, and communication.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Conflict Management: An examination of common conflicts in
-                personal and professional contexts and strategies for
+                {"=>"} Conflict Management: An examination of common conflicts
+                in personal and professional contexts and strategies for
                 effectively managing and resolving conflicts.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Nonverbal Communication: An exploration of nonverbal
+                {"=>"} Nonverbal Communication: An exploration of nonverbal
                 communication, including body language, tone of voice, and
                 facial expressions, and the role it plays in effective
                 interpersonal interaction.
@@ -1990,14 +1992,14 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Communication Styles: An exploration of different
+                {"=>"} Communication Styles: An exploration of different
                 communication styles and how to adapt one's communication style
                 to effectively interact with others.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Assertiveness and Self-Confidence: An examination of the
+                {"=>"} Assertiveness and Self-Confidence: An examination of the
                 importance of assertiveness and self-confidence in interpersonal
                 interaction and strategies for developing and maintaining these
                 qualities.
@@ -2005,16 +2007,16 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Cultural Awareness: An exploration of cultural differences
-                and how they impact interpersonal interaction, including
-                strategies for effectively communicating across cultural
-                boundaries.
+                {"=>"} Cultural Awareness: An exploration of cultural
+                differences and how they impact interpersonal interaction,
+                including strategies for effectively communicating across
+                cultural boundaries.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Real-World Applications: An opportunity for individuals to
-                apply their learning to real-world interpersonal scenarios,
+                {"=>"} Real-World Applications: An opportunity for individuals
+                to apply their learning to real-world interpersonal scenarios,
                 through practical exercises and case studies.
               </Typography>
             </Box>
@@ -2124,62 +2126,63 @@ function PowerSkills() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Critical Thinking: An overview of the
+                {"=>"} Introduction to Critical Thinking: An overview of the
                 importance of critical thinking in daily life, as well as in
                 professional and academic settings.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Evaluating Arguments: An exploration of the components of
+                {"=>"} Evaluating Arguments: An exploration of the components of
                 arguments, including premises, conclusions, and inference, and
                 strategies for evaluating the validity of arguments.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Problem Solving: An examination of the problem-solving
+                {"=>"} Problem Solving: An examination of the problem-solving
                 process, including problem identification, data gathering, and
-                alternative evaluation. This section may also include a
+                alternative evaluatio{"=>"} This section may also include a
                 discussion of common obstacles to effective problem solving,
                 such as premature closure and mental set.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Decision Making: An examination of the relationship between
-                critical thinking and decision making and strategies for using
-                critical thinking to inform decision making. This section may
-                also include a discussion of different decision-making models,
-                such as rational choice and bounded rationality.
+                {"=>"} Decision Making: An examination of the relationship
+                between critical thinking and decision making and strategies for
+                using critical thinking to inform decision makin{"=>"} This
+                section may also include a discussion of different
+                decision-making models, such as rational choice and bounded
+                rationality.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Challenging Assumptions: An exploration of the importance of
-                challenging assumptions in lateral thinking and strategies for
-                doing so.
+                {"=>"} Challenging Assumptions: An exploration of the importance
+                of challenging assumptions in lateral thinking and strategies
+                for doing so.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Generating Alternatives: Techniques for generating a large
-                number of alternatives, including brainstorming, reverse
+                {"=>"} Generating Alternatives: Techniques for generating a
+                large number of alternatives, including brainstorming, reverse
                 thinking, and random stimulation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Breaking Out of Mental Set: An examination of the concept of
-                mental set, and strategies for breaking out of established
+                {"=>"} Breaking Out of Mental Set: An examination of the concept
+                of mental set, and strategies for breaking out of established
                 patterns of thought to generate new and innovative solutions.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Challenging Assumptions: An exploration of the importance of
-                challenging assumptions in lateral thinking and strategies for
-                doing so.
+                {"=>"} Challenging Assumptions: An exploration of the importance
+                of challenging assumptions in lateral thinking and strategies
+                for doing so.
               </Typography>
             </Box>
           </Box>

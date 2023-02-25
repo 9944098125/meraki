@@ -789,66 +789,66 @@ function ItTraining() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Fundamentals of Networking: This covers the basics of
-                networking concepts, including the OSI model, IP addressing,
-                subnetting, and routing protocols.
+                {"=>"} Fundamentals of Networking: This covers the basics of
+                networking concepts, including the OSI model, IP addressing, sub
+                netting, and routing protocols.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Cisco Network Devices: This section covers the different
+                {"=>"} Cisco Network Devices: This section covers the different
                 types of Cisco network devices, such as routers, switches, and
                 firewalls, and their functions.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Cisco Internetwork Operating System (IOS): This section
+                {"=>"} Cisco Inter network Operating System (IOS): This section
                 covers the Cisco IOS software, its architecture, and how to
                 manage and configure Cisco network devices using the CLI.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. LAN Switching: This section covers the basics of Local Area
-                Network (LAN) switching, including VLANs, Spanning Tree Protocol
-                (STP), and Virtual Switching Systems (VSS).
+                {"=>"} LAN Switching: This section covers the basics of Local
+                Area Network (LAN) switching, including VLANs, Spanning Tree
+                Protocol (STP), and Virtual Switching Systems (VSS).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. WAN Technologies: This section covers the various Wide Area
-                Network (WAN) technologies and protocols, such as Point-to-Point
-                Protocol (PPP), Frame Relay, and MPLS.
+                {"=>"} WAN Technologies: This section covers the various Wide
+                Area Network (WAN) technologies and protocols, such as
+                Point-to-Point Protocol (PPP), Frame Relay, and MPLS.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Routing Protocols: This section covers the different routing
-                protocols used in networks, such as Routing Information Protocol
-                (RIP), Open Shortest Path First (OSPF), and Enhanced Interior
-                Gateway Routing Protocol (EIGRP).
+                {"=>"} Routing Protocols: This section covers the different
+                routing protocols used in networks, such as Routing Information
+                Protocol (RIP), Open Shortest Path First (OSPF), and Enhanced
+                Interior Gateway Routing Protocol (EIGRP).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Network Security: This section covers the basics of network
-                security, including firewalls, access control lists (ACLs),
-                Virtual Private Network (VPN) technologies, and security best
-                practices.
+                {"=>"} Network Security: This section covers the basics of
+                network security, including firewalls, access control lists
+                (ACLs), Virtual Private Network (VPN) technologies, and security
+                best practices.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Network Services: This section covers the various network
+                {"=>"} Network Services: This section covers the various network
                 services, such as Dynamic Host Configuration Protocol (DHCP),
                 Domain Name System (DNS), and Network Time Protocol (NTP).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                9. Cisco Certifications: This section covers the various Cisco
-                certifications, such as CCNA, CCNP, and CCIE, and the
+                {"=>"} Cisco Certifications: This section covers the various
+                Cisco certifications, such as CCNA, CCNP, and CCIE, and the
                 requirements and benefits of obtaining these certifications.
               </Typography>
             </Box>
@@ -958,71 +958,72 @@ function ItTraining() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Data Science: This covers the basics of data
-                science, including the history and evolution of the field, as
-                well as its application in various industries.
+                {"=>"} Introduction to Data Science: This covers the basics of
+                data science, including the history and evolution of the field,
+                as well as its application in various industries.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Data Collection and Preparation: This section covers the
+                {"=>"} Data Collection and Preparation: This section covers the
                 various methods for collecting and preparing data for analysis,
                 including data scraping, data cleaning, and data transformation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Descriptive Statistics: This section covers the basics of
+                {"=>"} Descriptive Statistics: This section covers the basics of
                 descriptive statistics, including measures of central tendency,
                 dispersion, and correlation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Data Visualization: This section covers the basics of data
-                visualization, including the use of various plots and graphs to
-                represent data.
+                {"=>"} Data Visualization: This section covers the basics of
+                data visualization, including the use of various plots and
+                graphs to represent data.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Probability and Statistics: This section covers the basics of
-                probability theory and statistical inference, including
-                hypothesis testing, regression analysis, and Bayesian inference.
+                {"=>"} Probability and Statistics: This section covers the
+                basics of probability theory and statistical inference,
+                including hypothesis testing, regression analysis, and Bayesian
+                inference.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Machine Learning: This section covers the basics of machine
-                learning, including supervised learning, unsupervised learning,
-                and reinforcement learning.
+                {"=>"} Machine Learning: This section covers the basics of
+                machine learning, including supervised learning, unsupervised
+                learning, and reinforcement learning.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Deep Learning: This section covers the basics of deep
+                {"=>"} Deep Learning: This section covers the basics of deep
                 learning, including artificial neural networks and Convolutional
                 Neural Networks (CNNs).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Natural Language Processing (NLP): This section covers the
-                basics of NLP, including text classification, sentiment
+                {"=>"} Natural Language Processing (NLP): This section covers
+                the basics of NLP, including text classification, sentiment
                 analysis, and text generation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                9. Big Data Technologies: This section covers the various big
-                data technologies, such as Hadoop, Spark, and NoSQL databases,
-                and their use in data science and analytics.
+                {"=>"} Big Data Technologies: This section covers the various
+                big data technologies, such as Hadoop, Spark, and NoSQL
+                databases, and their use in data science and analytics.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                10. Data Science in Practice: This section covers the practical
-                applications of data science and analytics in various
+                {"=>"} Data Science in Practice: This section covers the
+                practical applications of data science and analytics in various
                 industries, including finance, healthcare, and marketing.
               </Typography>
             </Box>
@@ -1136,70 +1137,70 @@ function ItTraining() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Machine Learning: This covers the basics of
-                machine learning, including the history and evolution of the
+                {"=>"} Introduction to Machine Learning: This covers the basics
+                of machine learning, including the history and evolution of the
                 field, as well as its application in various industries.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Supervised Learning: This section covers the basics of
+                {"=>"} Supervised Learning: This section covers the basics of
                 supervised learning, including linear regression, logistic
                 regression, and decision trees.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Unsupervised Learning: This section covers the basics of
+                {"=>"} Unsupervised Learning: This section covers the basics of
                 unsupervised learning, including clustering, dimensionality
                 reduction, and anomaly detection.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. Reinforcement Learning: This section covers the basics of
+                {"=>"} Reinforcement Learning: This section covers the basics of
                 reinforcement learning, including Markov Decision Processes
                 (MDPs) and Q-Learning.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Deep Learning: This section covers the basics of deep
+                {"=>"} Deep Learning: This section covers the basics of deep
                 learning, including artificial neural networks and Convolutional
                 Neural Networks (CNNs).
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. Natural Language Processing (NLP): This section covers the
-                basics of NLP, including text classification, sentiment
+                {"=>"} Natural Language Processing (NLP): This section covers
+                the basics of NLP, including text classification, sentiment
                 analysis, and text generation.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. Recommender Systems: This section covers the basics of
+                {"=>"} Recommender Systems: This section covers the basics of
                 recommender systems, including collaborative filtering and
                 matrix factorization.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Artificial Intelligence: This section covers the basics of
-                artificial intelligence, including expert systems, rule-based
+                {"=>"} Artificial Intelligence: This section covers the basics
+                of artificial intelligence, including expert systems, rule-based
                 systems, and fuzzy logic.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                9. Ethical Considerations: This section covers the ethical
+                {"=>"} Ethical Considerations: This section covers the ethical
                 considerations of machine learning and AI, including bias in
                 algorithms, privacy, and the impact of AI on society.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                10. Implementing Machine Learning and AI: This section covers
+                {"=>"} Implementing Machine Learning and AI: This section covers
                 the practical aspects of implementing machine learning and AI,
                 including model selection, evaluation, and deployment.
               </Typography>
@@ -1315,7 +1316,7 @@ function ItTraining() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                1. Introduction to Mobile App Development: This covers the
+                {"=>"} Introduction to Mobile App Development: This covers the
                 basics of mobile app development, including the history and
                 evolution of the field, as well as the different platforms and
                 app stores available.
@@ -1323,63 +1324,63 @@ function ItTraining() {
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                2. Mobile Development Frameworks: This section covers the
+                {"=>"} Mobile Development Frameworks: This section covers the
                 various mobile development frameworks, such as React Native and
                 Flutter, used in the development of cross-platform apps.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                3. Native App Development: This section covers the basics of
+                {"=>"} Native App Development: This section covers the basics of
                 native app development for iOS and Android, including the use of
                 Swift and Java, respectively.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                4. User Experience (UX) Design: This section covers the basics
-                of UX design, including user research, wireframing, prototyping,
-                and testing.
+                {"=>"} User Experience (UX) Design: This section covers the
+                basics of UX design, including user research, wireframing,
+                prototyping, and testing.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                5. Databases and APIs: This section covers the use of databases
-                and APIs in mobile app development, including the use of SQLite,
-                Firebase, and RESTful APIs.
+                {"=>"} Databases and APIs: This section covers the use of
+                databases and APIs in mobile app development, including the use
+                of SQLite, Firebase, and RESTful APIs.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                6. App Monetization: This section covers the various strategies
-                for app monetization, including advertising, in-app purchases,
-                and subscription models.
+                {"=>"} App Monetization: This section covers the various
+                strategies for app monetization, including advertising, in-app
+                purchases, and subscription models.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                7. App Deployment: This section covers the process of deploying
-                a mobile app to the app store, including the use of app store
-                optimization (ASO) techniques.
+                {"=>"} App Deployment: This section covers the process of
+                deploying a mobile app to the app store, including the use of
+                app store optimization (ASO) techniques.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                8. Mobile Security: This section covers the security
+                {"=>"} Mobile Security: This section covers the security
                 considerations for mobile app development, including the use of
                 encryption and secure coding practices.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                9. Mobile Testing and Debugging: This section covers the basics
-                of testing and debugging a mobile app, including the use of
-                various testing frameworks and debuggers.
+                {"=>"} Mobile Testing and Debugging: This section covers the
+                basics of testing and debugging a mobile app, including the use
+                of various testing frameworks and debuggers.
               </Typography>
               <Typography
                 sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
               >
-                10. Mobile App Trends and Future: This section covers the
+                {"=>"} Mobile App Trends and Future: This section covers the
                 current trends and future developments in the field of mobile
                 app development, including the use of emerging technologies such
                 as artificial intelligence and augmented reality.
