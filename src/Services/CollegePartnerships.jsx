@@ -1290,10 +1290,18 @@ function CollegePartnerships() {
           >
             <Typography
               sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-            ></Typography>
+            >
+              {"=>"} Lack of knowledge and incomplete bridges between the
+              industry trends and the students lead to most of the millennials
+              choosing a wrong career path.
+            </Typography>
             <Typography
               sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-            ></Typography>
+            >
+              {"=>"} Our Industry Awareness & Career Path Program will personate
+              as the guiding light to choose the right career path based on
+              their skill set and personality.
+            </Typography>
           </Box>
         </Box>
         <Box
