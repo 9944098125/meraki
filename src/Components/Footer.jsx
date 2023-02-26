@@ -87,7 +87,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
-                to="/services#header"
+                to="/services/it-training#header"
                 style={{
                   textDecoration: "none",
                   color: "inherit",
@@ -174,7 +174,7 @@ function Footer() {
                   Staffing Services
                 </Typography>
               </HashLink>
-              <HashLink
+              {/* <HashLink
                 to="/services/it-solutions#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -186,7 +186,7 @@ function Footer() {
                 >
                   IT Solutions
                 </Typography>
-              </HashLink>
+              </HashLink> */}
             </Box>
 
             <Box sx={{}}>
@@ -263,7 +263,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
-                to="/why-choose-us#irtcohr"
+                to="/why-choose-us#irtcoss"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 <Typography
@@ -273,7 +273,7 @@ function Footer() {
                     width: "50%",
                   }}
                 >
-                  Irresistible Reasons to choose our HR Services
+                  Irresistible Reasons to choose our Staffing Services
                 </Typography>
               </HashLink>
               <HashLink
