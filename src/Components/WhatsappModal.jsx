@@ -11,7 +11,7 @@ const style = {
   bottom: "200px",
   right: "45px",
   width: { xs: "250px", sm: "300px", md: "400px" },
-  height: { xs: "200px", sm: "300px", md: "200px" },
+  height: { xs: "150px", sm: "170px", md: "200px" },
   backgroundColor: "white",
   borderRadius: "9px",
   border: "none",

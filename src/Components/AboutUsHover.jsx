@@ -7,10 +7,8 @@ function AboutUsHover() {
     <Fragment>
       <Box
         sx={{
-          backgroundColor: "white",
           minHeight: { xs: "20vh", md: "25vh", lg: "30vh" },
           maxHeight: { xs: "60vh", md: "75vh" },
-          overflowX: "hidden",
           width: { xs: "40vw", sm: "40vw", md: "20vw" },
           borderRadius: "12px",
           boxShadow: "5px 5px 0px 0px grey",
@@ -19,6 +17,7 @@ function AboutUsHover() {
           gap: 3,
           pt: 3,
           pl: 2,
+          backgroundColor: "white",
         }}
       >
         <HashLink

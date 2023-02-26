@@ -230,7 +230,7 @@ function Navbar() {
               <Box
                 onMouseEnter={() => setStyle2({ display: "block" })}
                 onMouseLeave={() => setStyle2({ display: "none" })}
-                sx={{}}
+                sx={{ position: "relative" }}
               >
                 <Typography
                   className="headings"
@@ -249,7 +249,6 @@ function Navbar() {
                   style={style2}
                   sx={{
                     position: "absolute",
-                    right: { xs: "40%", md: "60%" },
                   }}
                   id="child"
                 >
@@ -286,7 +285,7 @@ function Navbar() {
                   style={style3}
                   sx={{
                     position: "absolute",
-                    right: "25%",
+                    left: { xs: "30%", sm: "none" },
                   }}
                   id="child"
                 >
@@ -323,7 +322,7 @@ function Navbar() {
                   style={style4}
                   sx={{
                     position: "absolute",
-                    right: { xs: "5%", sm: "25%" },
+                    left: { xs: "50%", sm: "none" },
                   }}
                 >
                   <ClientsHover />
@@ -335,6 +334,16 @@ function Navbar() {
               className={`${
                 location.pathname === "/services/it-training"
                   ? "active"
+                  : "inactive" && location.pathname === "/services/power-skills"
+                  ? "active"
+                  : "inactive" && location.pathname === "/services/soft-skills"
+                  ? "active"
+                  : "inactive" &&
+                    location.pathname === "/services/college-partnerships"
+                  ? "active"
+                  : "inactive" &&
+                    location.pathname === "/services/staffing-services"
+                  ? "active"
                   : "inactive"
               }`}
               to="/services/it-training"
@@ -343,7 +352,7 @@ function Navbar() {
               <Box
                 onMouseEnter={() => setStyle({ display: "block" })}
                 onMouseLeave={() => setStyle({ display: "none" })}
-                sx={{ position: "relative" }}
+                sx={{}}
                 id="parent"
               >
                 <Typography
@@ -363,7 +372,7 @@ function Navbar() {
                   style={style}
                   sx={{
                     position: "absolute",
-                    right: "5%",
+                    left: { xs: "15%", sm: "40%", md: "50%" },
                   }}
                   id="child"
                 >
