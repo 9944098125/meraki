@@ -375,6 +375,7 @@ function Footer() {
             height: { xs: "46vh", sm: "30vh", md: "40vh" },
             width: { xs: "100%", sm: "40%", md: "30%" },
             pt: { xs: 2, sm: 10, md: 15 },
+            mb: { xs: 0, sm: -10, md: -3 },
           }}
         >
           <img
