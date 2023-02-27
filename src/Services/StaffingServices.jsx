@@ -1,12 +1,15 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
 import talentAcquisition from "../Assets/ServicesImages/talentAcquisition.jpg";
-import rpo from "../Assets/ServicesImages/rpo.jpg";
-import contingency from "../Assets/ServicesImages/contingency.jpg";
 import htd from "../Assets/ServicesImages/htd.jpg";
 import staffingServicesHeader from "../Assets/ServicesImages/staffingServicesHeader.avif";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./card.css";
+import ForestIcon from "@mui/icons-material/Forest";
+import BookmarkAddedIcon from "@mui/icons-material/BookmarkAdded";
+import Diversity3Icon from "@mui/icons-material/Diversity3";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 function StaffingServices() {
   React.useEffect(() => {
@@ -66,6 +69,7 @@ function StaffingServices() {
               height: { xs: "15%", sm: "20%", md: "30%" },
               width: "100%",
               display: "flex",
+              gap: 2,
               flexDirection: { xs: "column", sm: "row" },
               alignItems: "center",
               justifyContent: { xs: "none", sm: "space-evenly" },
@@ -133,55 +137,114 @@ function StaffingServices() {
           <Box
             sx={{
               p: { xs: 2, sm: 3, md: 4 },
-              // display: "flex",
-              // flexDirection: "column",
-              // gap: { xs: 2, sm: 3, md: 4 },
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              flexWrap: "wrap",
+              gap: { xs: 2, sm: 3, md: 4 },
             }}
           >
-            <Typography
-              sx={{
-                fontSize: { xs: "19px", sm: "23px", md: "28px" },
-                fontWeight: "700",
-                color: "primary.dark",
-                borderBottom: "2px solid #1a237e",
-                display: "inline",
+            <div className="counter parent">
+              <div className="counter-icon">
+                <ForestIcon
+                  className="child"
+                  sx={{
+                    height: "40px",
+                    width: "50px",
+                    color: "white",
+                  }}
+                />
+              </div>
+              <div className="counter-content">
+                <div className="counter-value">
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    Whether you’re recruiting a junior trainer for part time
+                    roles, a master trainer for your experienced team or the
+                    head of your entire training department– we have got your
+                    back!
+                  </Typography>
+                </div>
+              </div>
+            </div>
+
+            <div className="counterP parent">
+              <div className="counterP-icon">
+                <BookmarkAddedIcon
+                  className="child"
+                  sx={{
+                    height: "40px",
+                    width: "50px",
+                    color: "white",
+                  }}
+                />
+              </div>
+              <div className="counterP-content">
+                <div className="counterP-value">
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    Our pre-validated candidates & guaranteed TAT with
+                    trustworthy & quality interview processes will get you the
+                    right employees to grow your business.
+                  </Typography>
+                </div>
+              </div>
+            </div>
+
+            <div className="counterPink parent">
+              <div className="counterPink-icon">
+                <Diversity3Icon
+                  className="child"
+                  sx={{
+                    height: "40px",
+                    width: "50px",
+                    color: "white",
+                  }}
+                />
+              </div>
+              <div className="counterPink-content">
+                <div className="counterPink-value">
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    Our comprehensive team of recruitment experts address the
+                    complex workforce challenges in organizations and bring in
+                    the right people to lead your L&D teams.
+                  </Typography>
+                </div>
+              </div>
+            </div>
+
+            <div
+              style={{
+                paddingBottom: "45px",
               }}
+              className="counterAmber parent"
             >
-              About Content
-            </Typography>
-            <Box
-              sx={{
-                pl: { xs: 1, sm: 2, md: 3 },
-              }}
-            >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Whether you’re recruiting a junior trainer for part time
-                roles, a master trainer for your experienced team or the head of
-                your entire training department– we have got your back!
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Our pre-validated candidates & guaranteed TAT with
-                trustworthy & quality interview processes will get you the right
-                employees to grow your business.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Our comprehensive team of recruitment experts address the
-                complex workforce challenges in organizations and bring in the
-                right people to lead your L&D teams.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Our focus is on building a strong L&D department in your
-                organization and not just filling the vacancy for your business.
-              </Typography>
-            </Box>
+              <div className="counterAmber-icon">
+                <AccountBalanceIcon
+                  className="child"
+                  sx={{
+                    height: "40px",
+                    width: "50px",
+                    color: "white",
+                  }}
+                />
+              </div>
+              <div className="counterAmber-content">
+                <div className="counterAmber-value">
+                  <Typography
+                    sx={{ fontSize: { xs: "8px", sm: "10px", md: "12px" } }}
+                  >
+                    Our focus is on building a strong L&D department in your
+                    organization and not just filling the vacancy for your
+                    business.
+                  </Typography>
+                </div>
+              </div>
+            </div>
           </Box>
         </Box>
         {/* <Box
@@ -612,7 +675,7 @@ function StaffingServices() {
                     color: "primary.dark",
                   }}
                 >
-                  Pre requisite based selection {"=>"}
+                  {"=>"} Pre requisite based selection
                 </Typography>
                 <Typography
                   sx={{
@@ -621,7 +684,7 @@ function StaffingServices() {
                     color: "primary.dark",
                   }}
                 >
-                  Client interview and training selection {"=>"}
+                  {"=>"} Client interview and training selection
                 </Typography>
               </Box>
               <Box

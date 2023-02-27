@@ -355,8 +355,8 @@ function IRTCOSS() {
                   width: "50%",
                 }}
               >
-                360° solutions with end to end services - sourcing to on
-                boarding
+                360° solutions that includes end to end services - sourcing to
+                on boarding
               </Typography>
             </Box>
           </Box>
@@ -557,8 +557,8 @@ function IRTCOSS() {
                   width: "50%",
                 }}
               >
-                Turnkey solutions deciphering to a significant saving in time
-                and expenses
+                Turnkey solutions that decipher to a significant saving in your
+                time and expenses
               </Typography>
             </Box>
             <Box

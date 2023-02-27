@@ -241,7 +241,7 @@ function TrainingMethodology() {
                 textAlign: "center",
               }}
             >
-              Check Point Evaluation
+              4 - Check Point Evaluation
             </Typography>
           </Box>
           <Typography
