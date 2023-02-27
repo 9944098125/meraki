@@ -599,7 +599,8 @@ function StaffingServices() {
                 alignItems: "center",
                 gap: 1,
                 mt: 3,
-                mr: { xs: -2, sm: -3, md: -25 },
+                mb: { xs: 2, sm: 4, md: 5 },
+                // mr: { xs: -2, sm: -3, md: -25 },
               }}
             >
               <Typography
@@ -663,7 +664,8 @@ function StaffingServices() {
                 justifyContent: "center",
                 alignItems: "center",
                 gap: 1,
-                ml: { xs: -2, sm: -3, md: -25 },
+                mb: { xs: 2, sm: 4, md: 5 },
+                // ml: { xs: -2, sm: -3, md: -25 },
                 mt: { xs: -2, sm: -4, md: -5 },
               }}
             >
@@ -727,7 +729,7 @@ function StaffingServices() {
                 justifyContent: "center",
                 alignItems: "center",
                 gap: 1,
-                mr: { xs: -2, sm: -3, md: -25 },
+                // mr: { xs: -2, sm: -3, md: -25 },
                 mt: { xs: -2, sm: -4, md: -7 },
               }}
             >
@@ -874,7 +876,7 @@ function StaffingServices() {
                 justifyContent: "center",
                 alignItems: "center",
                 gap: 1,
-                mr: { xs: -2, sm: -3, md: -25 },
+                // mr: { xs: -2, sm: -3, md: -25 },
                 mt: { xs: -2, sm: -4, md: -7 },
               }}
             >
