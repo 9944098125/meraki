@@ -50,7 +50,7 @@ function Careers() {
             alignItems: "center",
           }}
         >
-          <Box sx={{ width: "100%", height: "150vh", mb: 4 }}>
+          <Box sx={{ width: "100%", height: "150vh", mb: 10 }}>
             {/* form */}
             {/* https://formspree.io/f/mqkoqead */}
             <div
