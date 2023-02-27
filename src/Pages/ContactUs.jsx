@@ -40,19 +40,30 @@ function ContactUs() {
           >
             <Typography
               sx={{
-                fontSize: { xs: "20px", sm: "25px", md: "32px" },
+                fontSize: { xs: "16px", sm: "24px", md: "28px" },
                 color: "primary.dark",
                 fontWeight: "800",
                 borderBottom: "2px solid #1a237e",
+                mb: 4,
               }}
             >
-              OFFICE ADDRESS
+              Connect With Us
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "14px", sm: "22px", md: "25px" },
+                color: "primary.dark",
+                fontWeight: "800",
+              }}
+            >
+              Corporate Address:
             </Typography>
             <Typography
               sx={{
                 fontSize: { xs: "16px", sm: "23px", md: "25px" },
                 fontWeight: "700",
                 color: "primary.dark",
+                mb: 3,
               }}
             >
               Kasavanahalli, 743, 15th Cross Rd, KPC Layout, Bengaluru,
@@ -60,11 +71,30 @@ function ContactUs() {
             </Typography>
             <Typography
               sx={{
+                fontSize: { xs: "14px", sm: "22px", md: "25px" },
+                color: "primary.dark",
+                fontWeight: "800",
+              }}
+            >
+              Mail ID:
+            </Typography>
+            <Typography
+              sx={{
                 fontSize: { xs: "16px", sm: "23px", md: "25px" },
                 color: "primary.dark",
+                mb: 3,
               }}
             >
               hr@merakitrainings.in
+            </Typography>
+            <Typography
+              sx={{
+                fontSize: { xs: "14px", sm: "22px", md: "25px" },
+                color: "primary.dark",
+                fontWeight: "800",
+              }}
+            >
+              Contact Number:
             </Typography>
             <Typography
               sx={{

@@ -4,14 +4,14 @@ import React, { Fragment } from "react";
 function DownloadBrochure() {
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("merakiPortfolio.pdf").then((response) => {
+    fetch("MerakiPortfolio.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "merakiPortfolio.pdf";
+        alink.download = "MerakiPortfolio.pdf";
         alink.click();
       });
     });
@@ -24,6 +24,7 @@ function DownloadBrochure() {
           justifyContent: "center",
           alignItems: "center",
           p: 5,
+          pb: 0,
         }}
       >
         <button

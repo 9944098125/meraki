@@ -197,7 +197,7 @@ function IRTCOSS() {
                   width: "50%",
                 }}
               >
-                Multi Industry Delivery Expertise
+                Multi-Industry Delivery Expertise
               </Typography>
             </Box>
           </Box>
@@ -239,7 +239,7 @@ function IRTCOSS() {
                   },
                 }}
               >
-                Customized HIRE-TRAIN-DEPLOY Models
+                Customized Hire-Train-Deploy Models
               </Typography>
             </Box>
             <Box
@@ -355,8 +355,8 @@ function IRTCOSS() {
                   width: "50%",
                 }}
               >
-                360° solutions that includes end to end services - sourcing to
-                on boarding
+                360° solutions that includes end-to-end services - from sourcing
+                to on-boarding
               </Typography>
             </Box>
           </Box>

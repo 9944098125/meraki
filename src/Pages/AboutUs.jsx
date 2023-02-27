@@ -2,10 +2,6 @@ import { Box, Typography } from "@mui/material";
 import React, { Fragment } from "react";
 import AboutUsComponent from "../Components/AboutUs";
 import VisionAndMission from "../Components/VisionAndMission";
-import passion from "../Assets/ServicesImages/passion.jpg";
-import diligence from "../Assets/ServicesImages/diligence.jpg";
-import integrity from "../Assets/ServicesImages/integrity.jpg";
-import DownloadBrochure from "../Components/DownloadBrochure";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -120,7 +116,6 @@ function AboutUs() {
           </Box>
         </Box>
       </Box>
-      <DownloadBrochure />
     </Fragment>
   );
 }

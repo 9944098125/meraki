@@ -693,7 +693,7 @@ div #googleForm iframe {
   padding: 5px 15px;
   border-radius: 5px;
   /* background-color: rgb(224, 223, 223); */
-  background-image: linear-gradient(to right, rgb(214, 238, 253), rgb(165, 236, 244), rgb(162, 149, 234));
+  background-image: linear-gradient(to right, rgb(214, 238, 253), #9cdafe, rgb(232, 232, 232));
 }
 
 /* .carousel-dark .carousel-indicators [data-bs-target] {

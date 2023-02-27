@@ -31,7 +31,7 @@ function Careers() {
             alignItems: "center",
           }}
         >
-          <Typography
+          {/* <Typography
             sx={{
               fontSize: { xs: "15px", sm: "17px", md: "20px" },
               fontWeight: "900",
@@ -40,7 +40,7 @@ function Careers() {
             }}
           >
             Join Our Amazing Team
-          </Typography>
+          </Typography> */}
         </Box>
         <Box
           id="header"

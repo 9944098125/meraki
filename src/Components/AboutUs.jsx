@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Box, Typography } from "@mui/material";
+import DownloadBrochure from "./DownloadBrochure";
 
 function AboutUsComponent() {
   return (
@@ -72,6 +73,7 @@ function AboutUsComponent() {
           training partner by providing pragmatic learning solutions and through
           our innovative and strategy driven approach.
         </Typography>
+        <DownloadBrochure />
       </Box>
     </Fragment>
   );
