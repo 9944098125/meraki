@@ -6,7 +6,7 @@ import { Typography, Box } from "@mui/material";
 function OurClients() {
   const [index, setIndex] = React.useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
+  const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
   return (
@@ -42,7 +42,13 @@ function OurClients() {
             variant="dark"
           >
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
@@ -71,6 +77,7 @@ function OurClients() {
                     fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
+                    textAlign: "center",
                   }}
                 >
                   - Rajeshwara Rao, Associate Director (HR)
@@ -88,7 +95,13 @@ function OurClients() {
               </Box>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
@@ -136,7 +149,13 @@ function OurClients() {
               </Box>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
@@ -174,7 +193,13 @@ function OurClients() {
               </Box>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
@@ -207,6 +232,7 @@ function OurClients() {
                     fontWeight: "900",
                     color: "primary.dark",
                     fontStyle: "italic",
+                    textAlign: "center",
                   }}
                 >
                   - Capt Vibha Sharma, General Manager (HR).
@@ -224,7 +250,13 @@ function OurClients() {
               </Box>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
@@ -272,7 +304,13 @@ function OurClients() {
               </Box>
             </Carousel.Item>
             <Carousel.Item className="carousel-item">
-              <Box sx={{ pt: 2, mb: { xs: 2, sm: 3, md: 4 } }}>
+              <Box
+                sx={{
+                  pt: 2,
+                  mb: { xs: 2, sm: 3, md: 4 },
+                  px: { xs: 3, sm: 5, md: 10 },
+                }}
+              >
                 <Typography
                   sx={{
                     fontSize: {
