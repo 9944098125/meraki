@@ -688,12 +688,12 @@ div #googleForm iframe {
 }
 
 #navbar-items .active {
-  color: #0015ff !important;
+  color: #06107e !important;
   /* border-bottom: 4px solid #1a237e !important; */
   padding: 5px 15px;
   border-radius: 5px;
   /* background-color: rgb(224, 223, 223); */
-  background-image: linear-gradient(to right, rgb(184, 244, 245), rgb(221, 241, 245), rgb(235, 221, 221));
+  background-image: linear-gradient(to right, rgb(214, 238, 253), rgb(165, 236, 244), rgb(162, 149, 234));
 }
 
 /* .carousel-dark .carousel-indicators [data-bs-target] {
