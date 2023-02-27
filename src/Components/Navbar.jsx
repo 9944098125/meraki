@@ -214,7 +214,8 @@ function Navbar() {
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid #1a237e",
+                    borderBottom:
+                      location.pathname === "/" ? "none" : "4px solid #1a237e",
                   },
                 }}
               >
@@ -240,7 +241,10 @@ function Navbar() {
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
                     "&:hover": {
-                      borderBottom: "4px solid #1a237e",
+                      borderBottom:
+                        location.pathname === "/about"
+                          ? "none"
+                          : "4px solid #1a237e",
                     },
                   }}
                 >
@@ -276,7 +280,10 @@ function Navbar() {
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
                     "&:hover": {
-                      borderBottom: "4px solid #1a237e",
+                      borderBottom:
+                        location.pathname === "/why-choose-us"
+                          ? "none"
+                          : "4px solid #1a237e",
                     },
                   }}
                 >
@@ -313,7 +320,10 @@ function Navbar() {
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
                     "&:hover": {
-                      borderBottom: "4px solid #1a237e",
+                      borderBottom:
+                        location.pathname === "/clients"
+                          ? "none"
+                          : "4px solid #1a237e",
                     },
                   }}
                 >
@@ -363,7 +373,10 @@ function Navbar() {
                     fontSize: { xs: "12px", sm: "17px", md: "20px" },
                     cursor: "pointer",
                     "&:hover": {
-                      borderBottom: "4px solid #1a237e",
+                      borderBottom:
+                        location.pathname === "/services/it-training"
+                          ? "none"
+                          : "4px solid #1a237e",
                     },
                   }}
                 >
@@ -396,7 +409,10 @@ function Navbar() {
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid #1a237e",
+                    borderBottom:
+                      location.pathname === "/careers"
+                        ? "none"
+                        : "4px solid #1a237e",
                   },
                 }}
               >
@@ -418,7 +434,10 @@ function Navbar() {
                   fontSize: { xs: "12px", sm: "17px", md: "20px" },
                   cursor: "pointer",
                   "&:hover": {
-                    borderBottom: "4px solid #1a237e",
+                    borderBottom:
+                      location.pathname === "/contact-us"
+                        ? "none"
+                        : "4px solid #1a237e",
                   },
                 }}
               >
