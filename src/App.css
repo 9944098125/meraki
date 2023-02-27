@@ -683,8 +683,8 @@ div #googleForm iframe {
   }
 }
 
-.inactive {
-  color: rgb(66, 64, 64);
+#navbar-items .inactive {
+  color: rgb(142, 124, 124);
 }
 
 #navbar-items .active {
