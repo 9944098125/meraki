@@ -436,6 +436,7 @@ function Footer() {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBZFd_YkK7PH1wTqqpFXbuhAcaTqnszsh9Q&usqp=CAU"
                 alt="facebookLogo"
                 className="header-icons"
+                style={{ height: "26px", width: "26px", marginBottom: "5px" }}
               />
             </a>
             {/* <a href="" target="_blank">

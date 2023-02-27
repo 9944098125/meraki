@@ -188,8 +188,6 @@ div.sticky {
   border-radius: 50%;
 }
 
-
-
 @media screen and (min-width:1100px) and (max-width:1450px) {
  .services-img {
   height: 100%;
@@ -215,7 +213,7 @@ div.sticky {
   width: 130px;
  }
  .carousel-item {
-   padding: 35px 85px;
+   padding: 35px 855px;
  }
 }
 
