@@ -213,7 +213,7 @@ div.sticky {
   width: 130px;
  }
  .carousel-item {
-   padding: 35px 855px;
+   padding: 35px 85px;
  }
 }
 
@@ -687,7 +687,7 @@ div #googleForm iframe {
   color: rgb(66, 64, 64);
 }
 
-.active {
+#navbar-items .active {
   color: #0015ff !important;
   /* border-bottom: 4px solid #1a237e !important; */
   padding: 5px 15px;
@@ -696,6 +696,6 @@ div #googleForm iframe {
   background-image: linear-gradient(to right, rgb(184, 244, 245), rgb(221, 241, 245), rgb(235, 221, 221));
 }
 
-.carousel-dark .carousel-indicators [data-bs-target] {
+/* .carousel-dark .carousel-indicators [data-bs-target] {
   margin-bottom: -15px !important;
-}
+} */

@@ -191,6 +191,7 @@ function Navbar() {
             </Box>
           </Link>
           <Box
+            id="navbar-items"
             sx={{
               display: "flex",
               flexWrap: "wrap",
