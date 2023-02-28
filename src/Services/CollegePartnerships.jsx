@@ -2957,66 +2957,115 @@ function CollegePartnerships() {
                 p: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Introduction: Overview of the internship program,
-                Explanation of the objectives and goals of the program and
-                Introduction of the facilitators and participants
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Industry Overview: Overview of the industry or field in
-                which the internship is focused, Discussion of trends,
-                challenges, and opportunities in the industry and Participants
-                gain an understanding of the industry and their role within it
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Job Duties & Responsibilities: Overview of the specific
-                job duties and responsibilities of the internship position,
-                Participants learn about the tasks they will be responsible for
-                during the internship and Discussion of how the job duties and
-                responsibilities fit into the larger context of the industry
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Skills Development: Overview of the skills and
-                competencies that will be developed during the internship,
-                Participants learn about the opportunities for skill development
-                during the internship, Discussion of the importance of
-                continuing to develop skills and competencies throughout their
-                careers
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Workplace Culture: Overview of the workplace culture and
-                expectations, Participants learn about the norms, values, and
-                expectations of the workplace and Discussion of the importance
-                of adapting to different workplace cultures and expectations
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Mentorship & Feedback: Overview of the mentorship and
-                feedback opportunities available during the internship,
-                Participants learn about the support and guidance that will be
-                provided during the internship and Discussion of the importance
-                of seeking feedback and guidance to continue personal and
-                professional growth
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Wrap-Up: Summary of the key takeaways from the internship
-                program, Discussion of next steps and opportunities for further
-                professional development and Final thoughts and closing comments
-                from the facilitators.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction: Overview of the internship program, Explanation
+                  of the objectives and goals of the program and Introduction of
+                  the facilitators and participants.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Industry Overview: Overview of the industry or field in which
+                  the internship is focused, Discussion of trends, challenges,
+                  and opportunities in the industry and Participants gain an
+                  understanding of the industry and their role within it.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Job Duties & Responsibilities: Overview of the specific job
+                  duties and responsibilities of the internship position,
+                  Participants learn about the tasks they will be responsible
+                  for during the internship and Discussion of how the job duties
+                  and responsibilities fit into the larger context of the
+                  industry.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Skills Development: Overview of the skills and competencies
+                  that will be developed during the internship, Participants
+                  learn about the opportunities for skill development during the
+                  internship, Discussion of the importance of continuing to
+                  develop skills and competencies throughout their careers.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Workplace Culture: Overview of the workplace culture and
+                  expectations, Participants learn about the norms, values, and
+                  expectations of the workplace and Discussion of the importance
+                  of adapting to different workplace cultures and expectations.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Mentorship & Feedback: Overview of the mentorship and feedback
+                  opportunities available during the internship, Participants
+                  learn about the support and guidance that will be provided
+                  during the internship and Discussion of the importance of
+                  seeking feedback and guidance to continue personal and
+                  professional growth
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Wrap-Up: Summary of the key takeaways from the internship
+                  program, Discussion of next steps and opportunities for
+                  further professional development and Final thoughts and
+                  closing comments from the facilitators.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>

@@ -786,71 +786,134 @@ function ItTraining() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Fundamentals of Networking: This covers the basics of
-                networking concepts, including the OSI model, IP addressing, sub
-                netting, and routing protocols.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cisco Network Devices: This section covers the different
-                types of Cisco network devices, such as routers, switches, and
-                firewalls, and their functions.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cisco Inter network Operating System (IOS): This section
-                covers the Cisco IOS software, its architecture, and how to
-                manage and configure Cisco network devices using the CLI.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} LAN Switching: This section covers the basics of Local
-                Area Network (LAN) switching, including VLANs, Spanning Tree
-                Protocol (STP), and Virtual Switching Systems (VSS).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} WAN Technologies: This section covers the various Wide
-                Area Network (WAN) technologies and protocols, such as
-                Point-to-Point Protocol (PPP), Frame Relay, and MPLS.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Routing Protocols: This section covers the different
-                routing protocols used in networks, such as Routing Information
-                Protocol (RIP), Open Shortest Path First (OSPF), and Enhanced
-                Interior Gateway Routing Protocol (EIGRP).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Network Security: This section covers the basics of
-                network security, including firewalls, access control lists
-                (ACLs), Virtual Private Network (VPN) technologies, and security
-                best practices.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Network Services: This section covers the various network
-                services, such as Dynamic Host Configuration Protocol (DHCP),
-                Domain Name System (DNS), and Network Time Protocol (NTP).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cisco Certifications: This section covers the various
-                Cisco certifications, such as CCNA, CCNP, and CCIE, and the
-                requirements and benefits of obtaining these certifications.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Fundamentals of Networking: This covers the basics of
+                  networking concepts, including the OSI model, IP addressing,
+                  sub netting, and routing protocols.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cisco Network Devices: This section covers the different types
+                  of Cisco network devices, such as routers, switches, and
+                  firewalls, and their functions.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cisco Inter network Operating System (IOS): This section
+                  covers the Cisco IOS software, its architecture, and how to
+                  manage and configure Cisco network devices using the CLI.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  LAN Switching: This section covers the basics of Local Area
+                  Network (LAN) switching, including VLANs, Spanning Tree
+                  Protocol (STP), and Virtual Switching Systems (VSS).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  WAN Technologies: This section covers the various Wide Area
+                  Network (WAN) technologies and protocols, such as
+                  Point-to-Point Protocol (PPP), Frame Relay, and MPLS.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Routing Protocols: This section covers the different routing
+                  protocols used in networks, such as Routing Information
+                  Protocol (RIP), Open Shortest Path First (OSPF), and Enhanced
+                  Interior Gateway Routing Protocol (EIGRP).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Network Security: This section covers the basics of network
+                  security, including firewalls, access control lists (ACLs),
+                  Virtual Private Network (VPN) technologies, and security best
+                  practices.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Network Services: This section covers the various network
+                  services, such as Dynamic Host Configuration Protocol (DHCP),
+                  Domain Name System (DNS), and Network Time Protocol (NTP).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cisco Certifications: This section covers the various Cisco
+                  certifications, such as CCNA, CCNP, and CCIE, and the
+                  requirements and benefits of obtaining these certifications.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -955,77 +1018,164 @@ function ItTraining() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Introduction to Data Science: This covers the basics of
-                data science, including the history and evolution of the field,
-                as well as its application in various industries.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Data Collection and Preparation: This section covers the
-                various methods for collecting and preparing data for analysis,
-                including data scraping, data cleaning, and data transformation.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Descriptive Statistics: This section covers the basics of
-                descriptive statistics, including measures of central tendency,
-                dispersion, and correlation.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Data Visualization: This section covers the basics of
-                data visualization, including the use of various plots and
-                graphs to represent data.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Probability and Statistics: This section covers the
-                basics of probability theory and statistical inference,
-                including hypothesis testing, regression analysis, and Bayesian
-                inference.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Machine Learning: This section covers the basics of
-                machine learning, including supervised learning, unsupervised
-                learning, and reinforcement learning.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Deep Learning: This section covers the basics of deep
-                learning, including artificial neural networks and Convolutional
-                Neural Networks (CNNs).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Natural Language Processing (NLP): This section covers
-                the basics of NLP, including text classification, sentiment
-                analysis, and text generation.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Big Data Technologies: This section covers the various
-                big data technologies, such as Hadoop, Spark, and NoSQL
-                databases, and their use in data science and analytics.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Data Science in Practice: This section covers the
-                practical applications of data science and analytics in various
-                industries, including finance, healthcare, and marketing.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction to Data Science: This covers the basics of data
+                  science, including the history and evolution of the field, as
+                  well as its application in various industries.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Data Collection and Preparation: This section covers the
+                  various methods for collecting and preparing data for
+                  analysis, including data scraping, data cleaning, and data
+                  transformation.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                  <Typography
+                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                  >
+                    {"=>"}
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                  >
+                    Descriptive Statistics: This section covers the basics of
+                    descriptive statistics, including measures of central
+                    tendency, dispersion, and correlation.
+                  </Typography>
+                </Box>
+                <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                  <Typography
+                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                  >
+                    {"=>"}
+                  </Typography>
+                  <Typography
+                    sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                  >
+                    Descriptive Statistics: This section covers the basics of
+                    descriptive statistics, including measures of central
+                    tendency, dispersion, and correlation.
+                  </Typography>
+                </Box>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Data Visualization: This section covers the basics of data
+                  visualization, including the use of various plots and graphs
+                  to represent data.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Probability and Statistics: This section covers the basics of
+                  probability theory and statistical inference, including
+                  hypothesis testing, regression analysis, and Bayesian
+                  inference.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Machine Learning: This section covers the basics of machine
+                  learning, including supervised learning, unsupervised
+                  learning, and reinforcement learning.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Deep Learning: This section covers the basics of deep
+                  learning, including artificial neural networks and
+                  Convolutional Neural Networks (CNNs).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Natural Language Processing (NLP): This section covers the
+                  basics of NLP, including text classification, sentiment
+                  analysis, and text generation.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Big Data Technologies: This section covers the various big
+                  data technologies, such as Hadoop, Spark, and NoSQL databases,
+                  and their use in data science and analytics.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Data Science in Practice: This section covers the practical
+                  applications of data science and analytics in various
+                  industries, including finance, healthcare, and marketing.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -1134,76 +1284,146 @@ function ItTraining() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Introduction to Machine Learning: This covers the basics
-                of machine learning, including the history and evolution of the
-                field, as well as its application in various industries.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Supervised Learning: This section covers the basics of
-                supervised learning, including linear regression, logistic
-                regression, and decision trees.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Unsupervised Learning: This section covers the basics of
-                unsupervised learning, including clustering, dimensionality
-                reduction, and anomaly detection.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Reinforcement Learning: This section covers the basics of
-                reinforcement learning, including Markov Decision Processes
-                (MDPs) and Q-Learning.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Deep Learning: This section covers the basics of deep
-                learning, including artificial neural networks and Convolutional
-                Neural Networks (CNNs).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Natural Language Processing (NLP): This section covers
-                the basics of NLP, including text classification, sentiment
-                analysis, and text generation.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Recommender Systems: This section covers the basics of
-                recommender systems, including collaborative filtering and
-                matrix factorization.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Artificial Intelligence: This section covers the basics
-                of artificial intelligence, including expert systems, rule-based
-                systems, and fuzzy logic.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Ethical Considerations: This section covers the ethical
-                considerations of machine learning and AI, including bias in
-                algorithms, privacy, and the impact of AI on society.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Implementing Machine Learning and AI: This section covers
-                the practical aspects of implementing machine learning and AI,
-                including model selection, evaluation, and deployment.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction to Machine Learning: This covers the basics of
+                  machine learning, including the history and evolution of the
+                  field, as well as its application in various industries.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Supervised Learning: This section covers the basics of
+                  supervised learning, including linear regression, logistic
+                  regression, and decision trees.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Unsupervised Learning: This section covers the basics of
+                  unsupervised learning, including clustering, dimensionality
+                  reduction, and anomaly detection.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Reinforcement Learning: This section covers the basics of
+                  reinforcement learning, including Markov Decision Processes
+                  (MDPs) and Q-Learning.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Deep Learning: This section covers the basics of deep
+                  learning, including artificial neural networks and
+                  Convolutional Neural Networks (CNNs).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Natural Language Processing (NLP): This section covers the
+                  basics of NLP, including text classification, sentiment
+                  analysis, and text generation.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Recommender Systems: This section covers the basics of
+                  recommender systems, including collaborative filtering and
+                  matrix factorization.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Artificial Intelligence: This section covers the basics of
+                  artificial intelligence, including expert systems, rule-based
+                  systems, and fuzzy logic.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Ethical Considerations: This section covers the ethical
+                  considerations of machine learning and AI, including bias in
+                  algorithms, privacy, and the impact of AI on society.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Implementing Machine Learning and AI: This section covers the
+                  practical aspects of implementing machine learning and AI,
+                  including model selection, evaluation, and deployment.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -1313,78 +1533,148 @@ function ItTraining() {
                 alignItems: "center",
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Introduction to Mobile App Development: This covers the
-                basics of mobile app development, including the history and
-                evolution of the field, as well as the different platforms and
-                app stores available.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Mobile Development Frameworks: This section covers the
-                various mobile development frameworks, such as React Native and
-                Flutter, used in the development of cross-platform apps.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Native App Development: This section covers the basics of
-                native app development for iOS and Android, including the use of
-                Swift and Java, respectively.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} User Experience (UX) Design: This section covers the
-                basics of UX design, including user research, wireframing,
-                prototyping, and testing.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Databases and APIs: This section covers the use of
-                databases and APIs in mobile app development, including the use
-                of SQLite, Firebase, and RESTful APIs.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} App Monetization: This section covers the various
-                strategies for app monetization, including advertising, in-app
-                purchases, and subscription models.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} App Deployment: This section covers the process of
-                deploying a mobile app to the app store, including the use of
-                app store optimization (ASO) techniques.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Mobile Security: This section covers the security
-                considerations for mobile app development, including the use of
-                encryption and secure coding practices.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Mobile Testing and Debugging: This section covers the
-                basics of testing and debugging a mobile app, including the use
-                of various testing frameworks and debuggers.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Mobile App Trends and Future: This section covers the
-                current trends and future developments in the field of mobile
-                app development, including the use of emerging technologies such
-                as artificial intelligence and augmented reality.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction to Mobile App Development: This covers the basics
+                  of mobile app development, including the history and evolution
+                  of the field, as well as the different platforms and app
+                  stores available.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Mobile Development Frameworks: This section covers the various
+                  mobile development frameworks, such as React Native and
+                  Flutter, used in the development of cross-platform apps.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Native App Development: This section covers the basics of
+                  native app development for iOS and Android, including the use
+                  of Swift and Java, respectively.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  User Experience (UX) Design: This section covers the basics of
+                  UX design, including user research, wireframing, prototyping,
+                  and testing.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Databases and APIs: This section covers the use of databases
+                  and APIs in mobile app development, including the use of
+                  SQLite, Firebase, and RESTful APIs.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  App Monetization: This section covers the various strategies
+                  for app monetization, including advertising, in-app purchases,
+                  and subscription models.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  App Deployment: This section covers the process of deploying a
+                  mobile app to the app store, including the use of app store
+                  optimization (ASO) techniques.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Mobile Security: This section covers the security
+                  considerations for mobile app development, including the use
+                  of encryption and secure coding practices.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Mobile Testing and Debugging: This section covers the basics
+                  of testing and debugging a mobile app, including the use of
+                  various testing frameworks and debuggers.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Mobile App Trends and Future: This section covers the current
+                  trends and future developments in the field of mobile app
+                  development, including the use of emerging technologies such
+                  as artificial intelligence and augmented reality.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>

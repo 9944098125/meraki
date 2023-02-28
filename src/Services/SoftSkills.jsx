@@ -157,43 +157,78 @@ function SoftSkills() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Introduction to the Corporate World: An overview of the
-                key characteristics and challenges of working in a corporate
-                environment, including organizational structure, culture, and
-                business practices.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Career Development: Strategies for developing a
-                successful career, including goal setting, resume writing, and
-                networking.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Problem Solving and Critical Thinking: Techniques for
-                solving problems and making decisions in a professional setting,
-                including brainstorming, root cause analysis, and
-                decision-making frameworks.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Etiquette: An overview of the norms and customs
-                of business communication, including email etiquette, telephone
-                etiquette, and cross-cultural communication.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Time Management and Organization: An understanding of the
-                importance of time management and organization, including
-                prioritization, goal setting, and productivity strategies.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction to the Corporate World: An overview of the key
+                  characteristics and challenges of working in a corporate
+                  environment, including organizational structure, culture, and
+                  business practices.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Career Development: Strategies for developing a successful
+                  career, including goal setting, resume writing, and
+                  networking.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Problem Solving and Critical Thinking: Techniques for solving
+                  problems and making decisions in a professional setting,
+                  including brainstorming, root cause analysis, and
+                  decision-making frameworks.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Etiquette: An overview of the norms and customs of
+                  business communication, including email etiquette, telephone
+                  etiquette, and cross-cultural communication.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Time Management and Organization: An understanding of the
+                  importance of time management and organization, including
+                  prioritization, goal setting, and productivity strategies.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -301,44 +336,79 @@ function SoftSkills() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Grammar and Vocabulary: A review of English grammar and
-                vocabulary, including commonly used phrases, expressions, and
-                idioms in a business context.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Writing: Techniques for effective business
-                writing, including writing emails, reports, and other
-                professional documents.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Presentation Skills: Strategies for delivering effective
-                presentations in English, including the use of visual aids,
-                storytelling, and engaging the audience.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Interpersonal Communication: An understanding of the role
-                of language in interpersonal communication, including active
-                listening, assertiveness, and conflict resolution. Business
-                Etiquette: An overview of the norms and customs of business
-                communication, including email etiquette, telephone etiquette,
-                and cross-cultural communication.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Listening and Speaking Skills: Techniques for improving
-                listening and speaking skills, including paying attention to
-                nonverbal cues and avoiding distractions.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Grammar and Vocabulary: A review of English grammar and
+                  vocabulary, including commonly used phrases, expressions, and
+                  idioms in a business context.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Writing: Techniques for effective business writing,
+                  including writing emails, reports, and other professional
+                  documents.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Presentation Skills: Strategies for delivering effective
+                  presentations in English, including the use of visual aids,
+                  storytelling, and engaging the audience.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Interpersonal Communication: An understanding of the role of
+                  language in interpersonal communication, including active
+                  listening, assertiveness, and conflict resolution. Business
+                  Etiquette: An overview of the norms and customs of business
+                  communication, including email etiquette, telephone etiquette,
+                  and cross-cultural communication.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Listening and Speaking Skills: Techniques for improving
+                  listening and speaking skills, including paying attention to
+                  nonverbal cues and avoiding distractions.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -445,54 +515,103 @@ function SoftSkills() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Speech Mechanics: An overview of the mechanics of speech,
-                including pronunciation, intonation, stress, and rhythm.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Voice Projection: Techniques for improving voice
-                projection, including breathing exercises, vocal warm-ups, and
-                strategies for avoiding common voice problems.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Accent Reduction: Strategies for reducing a heavy accent,
-                including pronunciation exercises, practicing commonly used
-                words and phrases, and speaking slowly and clearly.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Public Speaking Skills: An exploration of the elements of
-                effective public speaking, including preparation, body language,
-                and audience engagement.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Presentation Skills: Techniques for delivering effective
-                presentations, including the use of visual aids, storytelling,
-                and engaging the audience.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cultural Sensitivity: Strategies for understanding and
-                respecting the speech patterns and cultural norms of different
-                populations, including avoiding cultural misunderstandings.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Listening Skills: Techniques for improving listening
-                skills, including paying attention to nonverbal cues and
-                avoiding distractions.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Speech Mechanics: An overview of the mechanics of speech,
+                  including pronunciation, intonation, stress, and rhythm.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Voice Projection: Techniques for improving voice projection,
+                  including breathing exercises, vocal warm-ups, and strategies
+                  for avoiding common voice problems.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Accent Reduction: Strategies for reducing a heavy accent,
+                  including pronunciation exercises, practicing commonly used
+                  words and phrases, and speaking slowly and clearly.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Public Speaking Skills: An exploration of the elements of
+                  effective public speaking, including preparation, body
+                  language, and audience engagement.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Presentation Skills: Techniques for delivering effective
+                  presentations, including the use of visual aids, storytelling,
+                  and engaging the audience.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cultural Sensitivity: Strategies for understanding and
+                  respecting the speech patterns and cultural norms of different
+                  populations, including avoiding cultural misunderstandings.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Listening Skills: Techniques for improving listening skills,
+                  including paying attention to nonverbal cues and avoiding
+                  distractions.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -600,43 +719,77 @@ function SoftSkills() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Email Etiquette: Strategies for effective email
-                communication, including best practices for writing clear and
-                concise messages, avoiding common email mistakes, and responding
-                to emails in a timely manner.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Telephone Etiquette: Techniques for effective telephone
-                communication, including proper phone manner, effective
-                listening skills, and handling difficult callers.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Professionalism in Email and Telephone Communication: An
-                exploration of the importance of professionalism in electronic
-                communication and strategies for maintaining a professional
-                demeanor.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                4.Time Management: Techniques for managing time effectively when
-                communicating through email and over the phone, including
-                prioritizing tasks and avoiding distractions.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Writing: An overview of the elements of
-                effective business writing and strategies for improving writing
-                skills.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Email Etiquette: Strategies for effective email communication,
+                  including best practices for writing clear and concise
+                  messages, avoiding common email mistakes, and responding to
+                  emails in a timely manner.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Telephone Etiquette: Techniques for effective telephone
+                  communication, including proper phone manner, effective
+                  listening skills, and handling difficult callers.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Professionalism in Email and Telephone Communication: An
+                  exploration of the importance of professionalism in electronic
+                  communication and strategies for maintaining a professional
+                  demeanor.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Time Management: Techniques for managing time effectively when
+                  communicating through email and over the phone, including
+                  prioritizing tasks and avoiding distractions.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Writing: An overview of the elements of effective
+                  business writing and strategies for improving writing skills.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -742,66 +895,122 @@ function SoftSkills() {
                 pl: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Understanding Culture: An overview of the concept of
-                culture and its impact on communication and behavior.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cultural Dimensions: An exploration of the different
-                dimensions of culture, including values, beliefs, attitudes, and
-                communication styles.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Stereotyping and Prejudice: An examination of the
-                negative effects of stereotyping and prejudice, and strategies
-                for overcoming them.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cultural Awareness: Techniques for increasing awareness
-                of one's own cultural background and the cultural backgrounds of
-                others.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cross-Cultural Communication: Strategies for effective
-                communication in a cross-cultural setting, including active
-                listening, nonverbal communication, and avoiding cultural
-                misunderstandings.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Diversity and Inclusion: An exploration of the benefits
-                of diversity and inclusiveness in the workplace and strategies
-                for promoting i{"=>"} Cultural Adjustment: Strategies for
-                managing the challenges of cultural adjustment, including
-                dealing with culture shock and building relationships across
-                cultures.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Cultural Competence: An exploration of the concept of
-                cultural competence and techniques for developing it, including
-                self-reflection, continuous learning, and empathy.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Global Mindset: An understanding of the importance of
-                having a global mindset and the skills necessary to succeed in a
-                globalized world, including adaptability, intercultural
-                understanding, and cultural intelligence.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Understanding Culture: An overview of the concept of culture
+                  and its impact on communication and behavior.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cultural Dimensions: An exploration of the different
+                  dimensions of culture, including values, beliefs, attitudes,
+                  and communication styles.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Stereotyping and Prejudice: An examination of the negative
+                  effects of stereotyping and prejudice, and strategies for
+                  overcoming them.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cultural Awareness: Techniques for increasing awareness of
+                  one's own cultural background and the cultural backgrounds of
+                  others.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cross-Cultural Communication: Strategies for effective
+                  communication in a cross-cultural setting, including active
+                  listening, nonverbal communication, and avoiding cultural
+                  misunderstandings.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Diversity and Inclusion: An exploration of the benefits of
+                  diversity and inclusiveness in the workplace and strategies
+                  for promoting i{"=>"} Cultural Adjustment: Strategies for
+                  managing the challenges of cultural adjustment, including
+                  dealing with culture shock and building relationships across
+                  cultures.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Cultural Competence: An exploration of the concept of cultural
+                  competence and techniques for developing it, including
+                  self-reflection, continuous learning, and empathy.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Global Mindset: An understanding of the importance of having a
+                  global mindset and the skills necessary to succeed in a
+                  globalized world, including adaptability, intercultural
+                  understanding, and cultural intelligence.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -908,67 +1117,122 @@ function SoftSkills() {
                 p: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                1.Professional Communication: Strategies for effective
-                communication in the workplace, including email etiquette,
-                telephone etiquette, and in-person communication.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                2.Networking: Techniques for building professional
-                relationships, including making introductions, small talk, and
-                follow-up.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Dining Etiquette: Understanding of appropriate
-                behavior at business meals and events, including table manners,
-                conversation topics, and gift-giving.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Dress Code: Guidelines for appropriate attire in
-                the workplace, including what to wear to business meetings and
-                events, and how to dress for different levels of formality.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Business Meeting Etiquette: Best practices for conducting
-                business meetings, including punctuality, agenda setting, and
-                active listening.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Intercultural Etiquette: Understanding of cultural
-                differences and the impact they may have on business
-                interactions, including gestures, customs, and communication
-                styles.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Professionalism: Strategies for maintaining a
-                professional demeanor in the workplace, including maintaining
-                confidentiality, managing stress, and avoiding unethical
-                behavior.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Social Media Etiquette: Guidelines for using social media
-                in a professional setting, including what to post, how to
-                interact with others online, and how to maintain privac{"=>"}{" "}
-                Office Politics: Understanding of the role of politics in the
-                workplace and how to navigate political situations, including
-                managing power dynamics and building alliances.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Professional Communication: Strategies for effective
+                  communication in the workplace, including email etiquette,
+                  telephone etiquette, and in-person communication.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Networking: Techniques for building professional
+                  relationships, including making introductions, small talk, and
+                  follow-up.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Dining Etiquette: Understanding of appropriate
+                  behavior at business meals and events, including table
+                  manners, conversation topics, and gift-giving.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Dress Code: Guidelines for appropriate attire in the
+                  workplace, including what to wear to business meetings and
+                  events, and how to dress for different levels of formality.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Business Meeting Etiquette: Best practices for conducting
+                  business meetings, including punctuality, agenda setting, and
+                  active listening.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Intercultural Etiquette: Understanding of cultural differences
+                  and the impact they may have on business interactions,
+                  including gestures, customs, and communication styles.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Professionalism: Strategies for maintaining a professional
+                  demeanor in the workplace, including maintaining
+                  confidentiality, managing stress, and avoiding unethical
+                  behavior.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Social Media Etiquette: Guidelines for using social media in a
+                  professional setting, including what to post, how to interact
+                  with others online, and how to maintain privac{"=>"} Office
+                  Politics: Understanding of the role of politics in the
+                  workplace and how to navigate political situations, including
+                  managing power dynamics and building alliances.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -1077,65 +1341,121 @@ function SoftSkills() {
                 p: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                1.Introduction to HR: An overview of the role of HR in
-                organizations and the HR function's responsibilities and tasks.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Onboarding: The process of welcoming new employees and
-                integrating them into the organization, including orientation,
-                training, and acculturation.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Recruitment and Selection: Techniques and best practices
-                for attracting and selecting the best candidates for open
-                positions, including job analysis, advertising, and
-                interviewing.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Performance Management: Strategies for setting
-                performance expectations, providing feedback, and evaluating
-                employee performance, including performance appraisals and
-                coaching.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Talent Management: Best practices for developing and
-                retaining employees, including career development, training, and
-                succession planning.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Compliance: Understanding of relevant employment laws and
-                regulations, including equal opportunity laws, labor laws, and
-                health and safety regulations.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Employee Engagement: Strategies for fostering a positive
-                work environment and promoting employee engagement, including
-                recognition and rewards programs, work-life balance initiatives,
-                and employee surveys.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Employee Benefits and Compensation: Understanding of
-                employee benefits, including health insurance, retirement plans,
-                and paid time off, as well as techniques for developing and
-                administering compensation programs.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Introduction to HR: An overview of the role of HR in
+                  organizations and the HR function's responsibilities and
+                  tasks.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Onboarding: The process of welcoming new employees and
+                  integrating them into the organization, including orientation,
+                  training, and acculturation.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Recruitment and Selection: Techniques and best practices for
+                  attracting and selecting the best candidates for open
+                  positions, including job analysis, advertising, and
+                  interviewing.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Performance Management: Strategies for setting performance
+                  expectations, providing feedback, and evaluating employee
+                  performance, including performance appraisals and coaching.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Talent Management: Best practices for developing and retaining
+                  employees, including career development, training, and
+                  succession planning.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Compliance: Understanding of relevant employment laws and
+                  regulations, including equal opportunity laws, labor laws, and
+                  health and safety regulations.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Employee Engagement: Strategies for fostering a positive work
+                  environment and promoting employee engagement, including
+                  recognition and rewards programs, work-life balance
+                  initiatives, and employee surveys.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Employee Benefits and Compensation: Understanding of employee
+                  benefits, including health insurance, retirement plans, and
+                  paid time off, as well as techniques for developing and
+                  administering compensation programs.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
@@ -1612,67 +1932,124 @@ function SoftSkills() {
                 p: { xs: 1, sm: 2, md: 3 },
               }}
             >
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Overview of Logistics and Transportation: Definition of
-                logistics, importance of transportation in the global economy,
-                and types of transportation systems (road, rail, sea, air).
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Supply Chain Management: Overview of supply chain
-                management, procurement and sourcing, inventory management, and
-                distribution and logistics planning.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Transportation Planning and Operations: Freight and
-                vehicle management, transport economics and operations, network
-                design and optimization.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Air Transportation Operations: Overview of air
-                transportation operations, airline operations and management,
-                air cargo and logistics, air traffic management and control.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Aviation Business and Regulation: Overview of aviation
-                business and regulation, airline business models, aviation law
-                and regulation, and airline economics and financial management.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Logistics and Transportation Technology: Overview of
-                logistics and transportation technology, transportation
-                information systems and technology, GPS and GIS applications in
-                transportation, transportation management systems and supply
-                chain integration.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Global Logistics and Trade: Overview of global logistics
-                and trade, international trade and logistics operations, customs
-                and border regulations, and global transportation network design
-                and optimization.
-              </Typography>
-              <Typography
-                sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
-              >
-                {"=>"} Sustainable Logistics and Transportation: Overview of
-                sustainable logistics and transportation, sustainability in
-                supply chain management, reducing the environmental impact of
-                transportation, and promoting sustainable transportation
-                practices.
-              </Typography>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Overview of Logistics and Transportation: Definition of
+                  logistics, importance of transportation in the global economy,
+                  and types of transportation systems (road, rail, sea, air).
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Supply Chain Management: Overview of supply chain management,
+                  procurement and sourcing, inventory management, and
+                  distribution and logistics planning.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Transportation Planning and Operations: Freight and vehicle
+                  management, transport economics and operations, network design
+                  and optimization.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Air Transportation Operations: Overview of air transportation
+                  operations, airline operations and management, air cargo and
+                  logistics, air traffic management and control.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Aviation Business and Regulation: Overview of aviation
+                  business and regulation, airline business models, aviation law
+                  and regulation, and airline economics and financial
+                  management.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Logistics and Transportation Technology: Overview of logistics
+                  and transportation technology, transportation information
+                  systems and technology, GPS and GIS applications in
+                  transportation, transportation management systems and supply
+                  chain integration.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Global Logistics and Trade: Overview of global logistics and
+                  trade, international trade and logistics operations, customs
+                  and border regulations, and global transportation network
+                  design and optimization.
+                </Typography>
+              </Box>
+              <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1 }}>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  {"=>"}
+                </Typography>
+                <Typography
+                  sx={{ fontSize: { xs: "12px", sm: "14px", md: "16px" } }}
+                >
+                  Sustainable Logistics and Transportation: Overview of
+                  sustainable logistics and transportation, sustainability in
+                  supply chain management, reducing the environmental impact of
+                  transportation, and promoting sustainable transportation
+                  practices.
+                </Typography>
+              </Box>
             </Box>
           </Box>
         </Box>
