@@ -6,6 +6,12 @@ import LinkIcon from "@mui/icons-material/Link";
 function CollegePartnerships() {
   const [style, setStyle] = React.useState({ display: "none" });
 
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <Fragment>
       <Box
@@ -14,6 +20,7 @@ function CollegePartnerships() {
         sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
           to="/services/college-partnerships#header"
         >
@@ -41,6 +48,7 @@ function CollegePartnerships() {
           }}
         >
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#about-our-college-partnership-programs"
           >
@@ -60,6 +68,7 @@ function CollegePartnerships() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#comprehensive-learning"
           >
@@ -79,6 +88,7 @@ function CollegePartnerships() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#industry-awareness"
           >
@@ -98,6 +108,7 @@ function CollegePartnerships() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#technical-training"
           >
@@ -117,6 +128,7 @@ function CollegePartnerships() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#power-skills"
           >
@@ -136,6 +148,7 @@ function CollegePartnerships() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/college-partnerships#internship"
           >

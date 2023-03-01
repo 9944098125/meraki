@@ -3,6 +3,11 @@ import { Box, Typography } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
 
 function WhyChooseUsHover() {
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
   return (
     <Fragment>
       <Box
@@ -24,6 +29,7 @@ function WhyChooseUsHover() {
       >
         <HashLink
           to="/why-choose-us#irtcots"
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Typography
@@ -38,6 +44,7 @@ function WhyChooseUsHover() {
         </HashLink>
         <HashLink
           to="/why-choose-us#training-methodology"
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Typography
@@ -51,6 +58,7 @@ function WhyChooseUsHover() {
           </Typography>
         </HashLink>
         <HashLink
+          scroll={scrollToTop}
           to="/why-choose-us#irtcoss"
           style={{ textDecoration: "none", color: "inherit" }}
         >
@@ -67,6 +75,7 @@ function WhyChooseUsHover() {
 
         <HashLink
           to="/why-choose-us#milestones-achievements"
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
         >
           <Typography

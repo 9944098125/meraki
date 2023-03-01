@@ -5,6 +5,11 @@ import LinkIcon from "@mui/icons-material/Link";
 
 function ItTraining() {
   const [style, setStyle] = React.useState({ display: "none" });
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
 
   return (
     <Fragment>
@@ -14,6 +19,7 @@ function ItTraining() {
         sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
+          scroll={scrollToTop}
           to="/services/it-training#header"
           style={{ textDecoration: "none", color: "inherit" }}
         >
@@ -41,6 +47,7 @@ function ItTraining() {
           }}
         >
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#cloud-computing"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -60,6 +67,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#cyber-security"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -79,6 +87,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#network"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -98,6 +107,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#data-science"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -117,6 +127,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#artificial-intelligence"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -136,6 +147,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#mobile-application-development"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -155,6 +167,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#web-development"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -174,6 +187,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#robotics"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -193,6 +207,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#hadoop"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -212,6 +227,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#c"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -231,6 +247,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#java-full-stack"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -250,6 +267,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#python"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -269,6 +287,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#net-full-stack"
             style={{ textDecoration: "none", color: "inherit" }}
           >
@@ -288,6 +307,7 @@ function ItTraining() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             to="/services/it-training#devops"
             style={{ textDecoration: "none", color: "inherit" }}
           >

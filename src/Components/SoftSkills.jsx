@@ -5,6 +5,12 @@ import LinkIcon from "@mui/icons-material/Link";
 
 function SoftSkills() {
   const [style, setStyle] = React.useState({ display: "none" });
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <Fragment>
       <Box
@@ -13,6 +19,7 @@ function SoftSkills() {
         sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
           to="/services/soft-skills#header"
         >
@@ -40,6 +47,7 @@ function SoftSkills() {
           }}
         >
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#corporate-training"
           >
@@ -59,6 +67,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#business-english-skills"
           >
@@ -78,6 +87,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#voice"
           >
@@ -97,6 +107,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#email-etiquette"
           >
@@ -116,6 +127,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#cross-cultural"
           >
@@ -135,6 +147,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#corporate-etiquette"
           >
@@ -154,6 +167,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#hr-training"
           >
@@ -173,6 +187,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#bfsi-training"
           >
@@ -192,6 +207,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#logistics"
           >
@@ -211,6 +227,7 @@ function SoftSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/soft-skills#digital-marketing"
           >

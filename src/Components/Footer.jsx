@@ -6,6 +6,11 @@ import insta from "../Assets/Images/instagram-logo.png";
 import linkedIn from "../Assets/Images/linkedIn-logo.png";
 
 function Footer() {
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
   return (
     <Fragment>
       <Box
@@ -37,6 +42,7 @@ function Footer() {
           >
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/about#header"
                 style={{
                   textDecoration: "none",
@@ -57,6 +63,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/about#vm"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -71,6 +78,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/about#values"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -87,6 +95,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/services/it-training#header"
                 style={{
                   textDecoration: "none",
@@ -107,6 +116,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/services/it-training#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -121,6 +131,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/services/power-skills#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -136,6 +147,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/services/soft-skills#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -149,6 +161,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/services/college-partnerships#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -162,6 +175,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/services/staffing-services#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -175,6 +189,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               {/* <HashLink
+              scroll={scrollToTop}
                 to="/services/it-solutions#header"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -191,6 +206,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/contact-us#header"
                 style={{
                   textDecoration: "none",
@@ -214,6 +230,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/why-choose-us#header"
                 style={{
                   textDecoration: "none",
@@ -234,7 +251,8 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
-                to="/why-choose-us#ircots"
+                scroll={scrollToTop}
+                to="/why-choose-us#irtcots"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
                 <Typography
@@ -249,6 +267,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/why-choose-us#training-methodology"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -263,6 +282,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/why-choose-us#irtcoss"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -277,6 +297,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/why-choose-us#achievements"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -294,6 +315,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/clients#clients"
                 style={{
                   textDecoration: "none",
@@ -314,6 +336,7 @@ function Footer() {
                 </Typography>
               </HashLink>
               <HashLink
+                scroll={scrollToTop}
                 to="/clients#clients"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -328,6 +351,7 @@ function Footer() {
               </HashLink>
 
               <HashLink
+                scroll={scrollToTop}
                 to="/clients#wocs"
                 style={{ textDecoration: "none", color: "inherit" }}
               >
@@ -344,6 +368,7 @@ function Footer() {
 
             <Box sx={{}}>
               <HashLink
+                scroll={scrollToTop}
                 to="/careers#header"
                 style={{
                   textDecoration: "none",

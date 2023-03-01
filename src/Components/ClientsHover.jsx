@@ -3,6 +3,11 @@ import { Box, Typography } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
 
 function ClientsHover() {
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
   return (
     <Fragment>
       <Box
@@ -22,6 +27,7 @@ function ClientsHover() {
         }}
       >
         <HashLink
+          scroll={scrollToTop}
           to="/clients#clients"
           style={{ textDecoration: "none", color: "inherit" }}
         >
@@ -36,6 +42,7 @@ function ClientsHover() {
           </Typography>
         </HashLink>
         <HashLink
+          scroll={scrollToTop}
           to="/clients#wocs"
           style={{ textDecoration: "none", color: "inherit" }}
         >

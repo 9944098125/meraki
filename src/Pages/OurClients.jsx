@@ -13,7 +13,7 @@ function OurClients() {
     <Fragment>
       <Box sx={{ p: { xs: 1, sm: 2, md: 3 }, mb: 4 }}>
         <Clients />
-        <Box sx={{ mb: { xs: 2, sm: 3, md: 5 } }}>
+        <Box id="wocs" sx={{ mb: { xs: 2, sm: 3, md: 5 } }}>
           <Typography
             sx={{
               fontSize: { xs: "20px", sm: "35px", md: "40px" },
@@ -25,7 +25,6 @@ function OurClients() {
           </Typography>
         </Box>
         <Box
-          id="wocs"
           sx={{
             display: "flex",
             flexDirection: "row",

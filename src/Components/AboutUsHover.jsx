@@ -3,6 +3,11 @@ import { Box, Typography } from "@mui/material";
 import { HashLink } from "react-router-hash-link";
 
 function AboutUsHover() {
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
   return (
     <Fragment>
       <Box
@@ -21,6 +26,7 @@ function AboutUsHover() {
         }}
       >
         <HashLink
+          scroll={scrollToTop}
           to="/about#header"
           style={{ textDecoration: "none", color: "inherit" }}
         >
@@ -35,6 +41,7 @@ function AboutUsHover() {
           </Typography>
         </HashLink>
         <HashLink
+          scroll={scrollToTop}
           to="/about#vm"
           style={{ textDecoration: "none", color: "inherit" }}
         >
@@ -49,6 +56,7 @@ function AboutUsHover() {
           </Typography>
         </HashLink>
         <HashLink
+          scroll={scrollToTop}
           to="/about#values"
           style={{ textDecoration: "none", color: "inherit" }}
         >

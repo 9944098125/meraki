@@ -5,6 +5,13 @@ import LinkIcon from "@mui/icons-material/Link";
 
 function PowerSkills() {
   const [style, setStyle] = React.useState({ display: "none" });
+
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <Fragment>
       <Box
@@ -13,6 +20,7 @@ function PowerSkills() {
         sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
           to="/services/power-skills#header"
         >
@@ -40,6 +48,7 @@ function PowerSkills() {
           }}
         >
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#leadership-skills"
           >
@@ -59,6 +68,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#sales-techniques"
           >
@@ -78,6 +88,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#pro-presentation"
           >
@@ -97,6 +108,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#team-building"
           >
@@ -116,6 +128,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#business-communication"
           >
@@ -135,6 +148,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#negotiation"
           >
@@ -154,6 +168,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#time-management"
           >
@@ -173,6 +188,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#decision-making"
           >
@@ -192,6 +208,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#interpersonal-skills"
           >
@@ -211,6 +228,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#critical-thinking"
           >
@@ -230,6 +248,7 @@ function PowerSkills() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/power-skills#experiential-learning"
           >

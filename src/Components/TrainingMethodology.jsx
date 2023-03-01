@@ -11,7 +11,6 @@ function TrainingMethodology() {
   return (
     <Fragment>
       <Box
-        id="training-methodology"
         sx={{
           p: 3,
           display: "flex",
@@ -20,6 +19,7 @@ function TrainingMethodology() {
         }}
       >
         <Typography
+          id="training-methodology"
           sx={{
             color: "primary.dark",
             fontWeight: "800",

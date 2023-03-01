@@ -5,6 +5,12 @@ import LinkIcon from "@mui/icons-material/Link";
 
 function StaffingServices() {
   const [style, setStyle] = React.useState({ display: "none" });
+  const scrollToTop = (el) => {
+    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+    const yOffset = -100;
+    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
+  };
+
   return (
     <Fragment>
       <Box
@@ -13,6 +19,7 @@ function StaffingServices() {
         sx={{ position: "relative", mb: 3 }}
       >
         <HashLink
+          scroll={scrollToTop}
           style={{ textDecoration: "none", color: "inherit" }}
           to="/services/staffing-services#header"
         >
@@ -40,6 +47,7 @@ function StaffingServices() {
           }}
         >
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/staffing-services#talent-acquisition"
           >
@@ -58,7 +66,8 @@ function StaffingServices() {
               </Typography>
             </Box>
           </HashLink>
-          <HashLink
+          {/* <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/staffing-services#rpo"
           >
@@ -78,6 +87,7 @@ function StaffingServices() {
             </Box>
           </HashLink>
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/staffing-services#contingency-recruitment"
           >
@@ -95,8 +105,9 @@ function StaffingServices() {
                 Contingency Recruitment
               </Typography>
             </Box>
-          </HashLink>
+          </HashLink> */}
           <HashLink
+            scroll={scrollToTop}
             style={{ textDecoration: "none", color: "inherit" }}
             to="/services/staffing-services#hire-train-deploy"
           >
