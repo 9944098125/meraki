@@ -73,8 +73,8 @@ function AboutUsComponent() {
           training partner by providing pragmatic learning solutions and through
           our innovative and strategy driven approach.
         </Typography>
-        <DownloadBrochure />
       </Box>
+      <DownloadBrochure />
     </Fragment>
   );
 }

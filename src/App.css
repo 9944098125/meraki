@@ -70,7 +70,14 @@ div.sticky {
 
 @media screen and (max-width:768px) {
   .servicesImage {
+    height: 40vh;
     width: 100%;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .servicesImage {
+    height: 25vh;
   }
 }
 

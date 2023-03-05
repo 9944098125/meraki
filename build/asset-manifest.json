@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.56406fbd.css",
-    "main.js": "/static/js/main.99ea0182.js",
+    "main.css": "/static/css/main.923be8ae.css",
+    "main.js": "/static/js/main.4fc618f1.js",
     "static/media/Calibri Bold.TTF": "/static/media/Calibri Bold.d2362af0b37d31196c7c.TTF",
     "static/media/360.jpg": "/static/media/360.d3911481875ba9c545e3.jpg",
     "static/media/experientialLearning.jpg": "/static/media/experientialLearning.8f4cf1517839ab963ada.jpg",
@@ -94,11 +94,11 @@
     "static/media/whatsappIcon.svg": "/static/media/whatsappIcon.4d655290a8ed61448d9d1e3e88806e50.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.56406fbd.css.map": "/static/css/main.56406fbd.css.map",
-    "main.99ea0182.js.map": "/static/js/main.99ea0182.js.map"
+    "main.923be8ae.css.map": "/static/css/main.923be8ae.css.map",
+    "main.4fc618f1.js.map": "/static/js/main.4fc618f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.56406fbd.css",
-    "static/js/main.99ea0182.js"
+    "static/css/main.923be8ae.css",
+    "static/js/main.4fc618f1.js"
   ]
 }
