@@ -435,7 +435,7 @@ function Footer() {
               }}
             >
               {/* address */}
-              #743, 15th cross Rd, KPC Layout, Bengaluru, Karnataka, 560035.
+              #8, Chowdappa Layout, Kaikondrahalli, Bengaluru - 560035.
             </Typography>
           </Box>
           <Box sx={{ mb: 1.5 }}>
